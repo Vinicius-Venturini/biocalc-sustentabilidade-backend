@@ -1,0 +1,98 @@
+[
+  {
+    "cell": "C1",
+    "row": 1,
+    "col": 3,
+    "value": "BioCalc \n\nCalculadora para contabilização de Eficiência Energético-Ambiental para biocombustíveis sólidos (Pellets ou Briquetes)",
+    "type": "s",
+    "fill_color": "Values must be of type <class 'str'>"
+  },
+  {
+    "cell": "M1",
+    "row": 1,
+    "col": 13,
+    "value": "referencrefe",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "B2",
+    "row": 2,
+    "col": 2,
+    "value": "Instruções ",
+    "type": "s",
+    "fill_color": "FFB2B2B2"
+  },
+  {
+    "cell": "B4",
+    "row": 4,
+    "col": 2,
+    "value": "Bem-vindo à ferramenta de cálculo de intensidade de carbono para biocombustíveis sólidos (pellets e briquetes) e geração de nota de Eficiência Energético-Ambiental. Esta calculadora foi desenvolvida de acordo com o referencial metodológico estabelecido no RenovaBio e na Renovacalc, fundamentado na Avaliação do Ciclo de Vida (ACV) conforme as normas ISO 14040/14044. O delineamento dos sistemas de produção e transporte dos biocombustíveis sólidos foi baseado nas publicações de Silva et al. (2022), Farrapo Jr et al. (2023), Matheus et al. (2024). \n\nAssim, caso existam insumos (fontes de biomassa ou eletricidade, matérias-primas adicionais nos biocombustíveis, etc.) que não estão disponíveis nesta versão da calculadora, favor entrar em contato para inclusão: engs@ufscar.br\n\n",
+    "type": "s",
+    "fill_color": "Values must be of type <class 'str'>"
+  },
+  {
+    "cell": "B5",
+    "row": 5,
+    "col": 2,
+    "value": "Orientações Gerais para o preenchimento:\n\n\n\n",
+    "type": "s",
+    "fill_color": "Values must be of type <class 'str'>"
+  },
+  {
+    "cell": "B6",
+    "row": 6,
+    "col": 2,
+    "value": "- A entrada de dados deve ser feita na EngS_BioCalc;",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "B7",
+    "row": 7,
+    "col": 2,
+    "value": "- As células a serem preenchidas são as células em verde claro, e elas serão automaticamente alteradas para cinza após o preenchimento dos dados solicitados;",
+    "type": "s",
+    "fill_color": "FF93C47D"
+  },
+  {
+    "cell": "B8",
+    "row": 8,
+    "col": 2,
+    "value": "- As células em azul claro são células de preenchimento automático;",
+    "type": "s",
+    "fill_color": "FFCFE2F3"
+  },
+  {
+    "cell": "B9",
+    "row": 9,
+    "col": 2,
+    "value": "- As células em azul escuro apresentam os resultados das etapas do ciclo de vida do sistema;",
+    "type": "s",
+    "fill_color": "FF3D85C6"
+  },
+  {
+    "cell": "B10",
+    "row": 10,
+    "col": 2,
+    "value": "- Os desenvolvedores não se responsabilizam por modificações na planilha e nas equações por parte dos usuarios;\n- Certifique-se de preencher todos os campos com precisão e veracidade, prestando atenção as unidades pré-definidas na planilha;\n- Utilize fontes confiáveis para obter os dados requisitados;\n- Verifique e valide todas as informações antes de submeter os dados na calculadora.\n",
+    "type": "s",
+    "fill_color": "Values must be of type <class 'str'>"
+  },
+  {
+    "cell": "B11",
+    "row": 11,
+    "col": 2,
+    "value": "Para garantir a precisão e a conformidade dos dados, o preenchimento deve ser realizado com base nas etapas do processo de produção do biocombustível. Abaixo estão as instruções detalhadas para cada fase:\n\n1. Fase Agrícola e Transporte da Biomassa\nNesta etapa são calculados os impactos relacionados a produção da biomassa, a Mudança de Uso da Terra (MUT) e ao transporte da biomassa da área de produção até a fabrica. As informações requisitadas incluem:\n\n- Tipo de biomassa (selecionar da lista suspensa);\n- Aproveitamento da biomassa (em kg de biomassa / kg de biocombustível);\n- Entrada de amido de milho como insumo adicional na produção da biomassa (em kg / kg de biomassa);\n- Origem da biomassa (local de cultivo);\n- Estado de produção da biomassa (selecionar da lista suspensa);\n- Detalhes do transporte da produção de biomassa até a fabrica (tipo de veículo, distância percorrida em km).\n\n2. Fase Industrial\nPara a fase industrial, deve-se incluir os dados referentes à manufatura do biocombustível. As informações solicitadas abrangem:\n\n- Fontes de energia e seu respectivo consumo em kWh/ano (eletricidade e combustíveis);\n- Insumos utilizados no processo de fabricação em kg/ano;\n- Consumo de água em L/ano;\n- Outros recursos e materiais empregados.\n\n3. Fase de Distribuição\nNa fase de distribuição, são necessários os dados sobre o transporte do biocombustível até o mercado consumidor. Nesse contexto, o impacto pode ser calculado para o mercado doméstico (Brasil) e também pode-se considerar a exportação do produto. As informações necessárias para o cálculo são:\n\nMercado doméstico (Brasil)\n- Quantidade de biomassa transportada (em kg/ano);\n- Distância percorrida até o mercado consumidor doméstico (em km);\n- Percentual do modal de transporte, sendo: rodoviário, hidroviário ou ferroviário;\n- Tipo de veículo utilizado no transporte rodoviário.\nMercado externo\n- Distância da fabrica ao porto hidroviário mais próximo em km (consulta pode ser efetuada no site: gov.br) \n- Percentual do modal de transporte até o porto;\n- Distância do porto hidroviário ao mercado consumidor final (consulta pode ser efetuada no site: searates.com)",
+    "type": "s",
+    "fill_color": "Values must be of type <class 'str'>"
+  },
+  {
+    "cell": "B12",
+    "row": 12,
+    "col": 2,
+    "value": "A utilização correta desta ferramenta permite uma avaliação precisa da eficiência energético-ambiental dos biocombustíveis sólidos, contribuindo para a promoção de práticas sustentáveis e alinhadas aos objetivos do RenovaBio.\nO desenvolvimento da planilha foi pensado para facilitar a entrada de dados pelos usuários, mas a precisão dos resultados depende de dados de entrada corretos, e esses são de responsabilidade dos usuários da planilha. Os desenvolvedores recomendam que seja realizada revisão de terceira parte e não se responsabilizam por divulgação incorreta dos resultados dos sistemas.\n\nEsta calculadora é um resultado técnico proveniente do projeto CNPq 401237/2022-2. Os autores agradecem a agencia pelo financiamento da pesquisa.\n\nEm caso de dúvidas, entre em contato conosco.\n\nAgradecemos por utilizar nossa calculadora!",
+    "type": "s",
+    "fill_color": "Values must be of type <class 'str'>"
+  }
+]

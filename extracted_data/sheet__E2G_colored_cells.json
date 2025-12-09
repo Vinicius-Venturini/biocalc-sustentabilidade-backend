@@ -1,0 +1,2196 @@
+{
+  "green_cells": [],
+  "blue_cells": [],
+  "other_colors": [
+    {
+      "cell": "B2",
+      "value": "Emissões totais - g CO₂ eq",
+      "color": "FF265EAA"
+    },
+    {
+      "cell": "C3",
+      "value": "Anidro",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "E3",
+      "value": "Hidratado",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "B4",
+      "value": "Total",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C4",
+      "value": "=C5+C6+C7",
+      "color": "FF648ECF"
+    },
+    {
+      "cell": "E4",
+      "value": "=E5+E6+E7",
+      "color": "FF648ECF"
+    },
+    {
+      "cell": "B5",
+      "value": "Industrial",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C5",
+      "value": "=($H$67-$H$17)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D5",
+      "value": "=C5/$C$4",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E5",
+      "value": "=($I$67-$I$17)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F5",
+      "value": "=E5/$E$4",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B6",
+      "value": "Transporte",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C6",
+      "value": "=$D$97",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D6",
+      "value": "=C6/$C$4",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E6",
+      "value": "=$E$97",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F6",
+      "value": "=E6/$E$4",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B7",
+      "value": "Uso",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C7",
+      "value": "='_QUEIMACOMB_RENOVACALC'!$I$7",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D7",
+      "value": "=C7/$C$4",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E7",
+      "value": "='_QUEIMACOMB_RENOVACALC'!$I$8",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F7",
+      "value": "=E7/$E$4",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B11",
+      "value": "Etapa industrial - Etanol",
+      "color": "FF1F4E79"
+    },
+    {
+      "cell": "H11",
+      "value": "Emissões por MJ de etanol anidro",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "I11",
+      "value": "Emissões por MJ de etanol hidratado",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "B12",
+      "value": "Produtos",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "C12",
+      "value": "Unidade",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "D12",
+      "value": "1 MLC",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "E12",
+      "value": "MJ",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "F12",
+      "value": "Alocação",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "B13",
+      "value": "Etanol anidro",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C13",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D13",
+      "value": "='RENOVACALC Solidos'!#REF!*_DADOSAUXILIARES!$D$15",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E13",
+      "value": "=D13*'_DADOSAUXILIARES'!$F$15",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F13",
+      "value": "=E13/SUM($E$13:$E$15)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B14",
+      "value": "Etanol hidratado",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C14",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D14",
+      "value": "='RENOVACALC Solidos'!#REF!*_DADOSAUXILIARES!$D$16",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E14",
+      "value": "=D14*'_DADOSAUXILIARES'!$F$16",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F14",
+      "value": "=E14/SUM($E$13:$E$15)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B15",
+      "value": "Energia elétrica comercializada",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C15",
+      "value": "kWh",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D15",
+      "value": "='RENOVACALC Solidos'!#REF!",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E15",
+      "value": "=CONVERT(D15,\"kWh\",\"MJ\")",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F15",
+      "value": "=E15/SUM($E$13:$E$15)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B16",
+      "value": "Entradas ",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "C16",
+      "value": "Unidade",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "D16",
+      "value": "1 MLC",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "F16",
+      "value": "g CO2 eq/t MLC",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "H16",
+      "value": "g CO2 eq/MJ",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "I16",
+      "value": "g CO2 eq/MJ",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "B17",
+      "value": "MLC",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C17",
+      "value": "t",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D17",
+      "value": "1.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F17",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H17",
+      "value": "=(F17/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I17",
+      "value": "=(F17/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B18",
+      "value": "Bagaço de terceiros",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C18",
+      "value": "kg base seca",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D18",
+      "value": "=('RENOVACALC Solidos'!$D$35*1-'RENOVACALC Solidos'!#REF!)*1000/'RENOVACALC Solidos'!#REF!",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F18",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H18",
+      "value": "=(F18/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I18",
+      "value": "=(F18/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B19",
+      "value": "Transporte de bagaço de terceiros",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C19",
+      "value": "tkm",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D19",
+      "value": "=D18/1000*#REF!",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F19",
+      "value": "=D19*'_DADOSAUXILIARES'!$H$131",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H19",
+      "value": "=(F19/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I19",
+      "value": "=(F19/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B20",
+      "value": "Palha de terceiros",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C20",
+      "value": "kg base seca",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D20",
+      "value": "='RENOVACALC Solidos'!$D$43*1000/'RENOVACALC Solidos'!#REF!",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F20",
+      "value": "=D20*'_DADOSAUXILIARES'!$H$78",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H20",
+      "value": "=(F20/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I20",
+      "value": "=(F20/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B21",
+      "value": "Transporte de palha de terceiros",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C21",
+      "value": "tkm",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D21",
+      "value": "=D20/1000*#REF!",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F21",
+      "value": "=D21*'_DADOSAUXILIARES'!$H$131",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H21",
+      "value": "=(F21/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I21",
+      "value": "=(F21/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B22",
+      "value": "Água",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C22",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D22",
+      "value": "4311.68859162723",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F22",
+      "value": "=D22*'_DADOSAUXILIARES'!$H$83",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H22",
+      "value": "=(F22/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I22",
+      "value": "=(F22/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B23",
+      "value": "Ácido sulfúrico",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C23",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D23",
+      "value": "0.619083147635881",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F23",
+      "value": "=D23*'_DADOSAUXILIARES'!$H$88",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H23",
+      "value": "=(F23/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I23",
+      "value": "=(F23/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B24",
+      "value": "Amônia",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C24",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D24",
+      "value": "3.79771097305803",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F24",
+      "value": "=D24*'_DADOSAUXILIARES'!$H$95",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H24",
+      "value": "=(F24/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I24",
+      "value": "=(F24/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B25",
+      "value": "Antibióticos",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C25",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D25",
+      "value": "0.00281994798456617",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F25",
+      "value": "=D25*'_DADOSAUXILIARES'!$H$92",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H25",
+      "value": "=(F25/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I25",
+      "value": "=(F25/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B26",
+      "value": "Zeolita",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C26",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D26",
+      "value": "=(0.4464/1000)*D13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F26",
+      "value": "=D26*'_DADOSAUXILIARES'!$H$94",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H26",
+      "value": "=(F26/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I26",
+      "value": "=(F26/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B27",
+      "value": "Enzimas",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C27",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D27",
+      "value": "='RENOVACALC Solidos'!#REF!",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F27",
+      "value": "=D27*'_DADOSAUXILIARES'!$H$99",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H27",
+      "value": "=(F27/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I27",
+      "value": "=(F27/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B28",
+      "value": "Ácido sulfúrico",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C28",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D28",
+      "value": "='RENOVACALC Solidos'!#REF!",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F28",
+      "value": "=D28*'_DADOSAUXILIARES'!$H$88",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H28",
+      "value": "=(F28/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I28",
+      "value": "=(F28/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B29",
+      "value": "Amônia",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C29",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D29",
+      "value": "='RENOVACALC Solidos'!#REF!",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F29",
+      "value": "=D29*'_DADOSAUXILIARES'!$H$95",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H29",
+      "value": "=(F29/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I29",
+      "value": "=(F29/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B30",
+      "value": "Hidróxido de sódio",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C30",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D30",
+      "value": "='RENOVACALC Solidos'!#REF!",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F30",
+      "value": "=D30*'_DADOSAUXILIARES'!$H$97",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H30",
+      "value": "=(F30/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I30",
+      "value": "=(F30/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B31",
+      "value": "Combustíveis e eletricidade",
+      "color": "FFD2ED61"
+    },
+    {
+      "cell": "B32",
+      "value": "Bagaço de terceiros",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C32",
+      "value": "kg base seca",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D32",
+      "value": "='RENOVACALC Solidos'!#REF!*(1-'RENOVACALC Solidos'!#REF!)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F32",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H32",
+      "value": "=(F32/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I32",
+      "value": "=(F32/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B33",
+      "value": "Transporte de bagaço de terceiros",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C33",
+      "value": "tkm",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D33",
+      "value": "=((D32/1000)*'RENOVACALC Solidos'!#REF!)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F33",
+      "value": "=D33*'_DADOSAUXILIARES'!$H$131",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H33",
+      "value": "=(F33/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I33",
+      "value": "=(F33/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B34",
+      "value": "Palha de terceiros",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C34",
+      "value": "kg base seca",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D34",
+      "value": "='RENOVACALC Solidos'!#REF!*(1-'RENOVACALC Solidos'!#REF!)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F34",
+      "value": "=D34*'_DADOSAUXILIARES'!$H$78",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H34",
+      "value": "=(F34/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I34",
+      "value": "=(F34/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B35",
+      "value": "Transporte de palha de terceiros",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C35",
+      "value": "tkm",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D35",
+      "value": "=((D34/1000)*'RENOVACALC Solidos'!#REF!)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F35",
+      "value": "=D35*'_DADOSAUXILIARES'!$H$131",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H35",
+      "value": "=(F35/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I35",
+      "value": "=(F35/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B36",
+      "value": "Cavaco de madeira",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C36",
+      "value": "kg base seca",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D36",
+      "value": "='RENOVACALC Solidos'!#REF!*(1-'RENOVACALC Solidos'!#REF!)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F36",
+      "value": "=D36*'_DADOSAUXILIARES'!$H$123",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H36",
+      "value": "=(F36/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I36",
+      "value": "=(F36/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B37",
+      "value": "Transporte de cavaco de madeira",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C37",
+      "value": "tkm",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D37",
+      "value": "=((D36/1000)*'RENOVACALC Solidos'!#REF!)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F37",
+      "value": "=D37*'_DADOSAUXILIARES'!$H$131",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H37",
+      "value": "=(F37/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I37",
+      "value": "=(F37/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B38",
+      "value": "Lenha",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C38",
+      "value": "kg base seca",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D38",
+      "value": "='RENOVACALC Solidos'!#REF!*(1-'RENOVACALC Solidos'!#REF!)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F38",
+      "value": "=D38*'_DADOSAUXILIARES'!$H$124",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H38",
+      "value": "=(F38/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I38",
+      "value": "=(F38/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B39",
+      "value": "Transporte de lenha",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C39",
+      "value": "tkm",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D39",
+      "value": "=((D38/1000)*'RENOVACALC Solidos'!#REF!)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F39",
+      "value": "=D39*'_DADOSAUXILIARES'!$H$131",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H39",
+      "value": "=(F39/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I39",
+      "value": "=(F39/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B40",
+      "value": "Resíduos florestais",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C40",
+      "value": "kg base seca",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D40",
+      "value": "='RENOVACALC Solidos'!#REF!*(1-'RENOVACALC Solidos'!#REF!)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F40",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H40",
+      "value": "=(F40/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I40",
+      "value": "=(F40/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B41",
+      "value": "Transporte de resíduos florestais",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C41",
+      "value": "tkm",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D41",
+      "value": "=((D40/1000)*'RENOVACALC Solidos'!#REF!)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F41",
+      "value": "=D41*'_DADOSAUXILIARES'!$H$131",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H41",
+      "value": "=(F41/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I41",
+      "value": "=(F41/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B42",
+      "value": "Óleo combusível",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C42",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D42",
+      "value": "='RENOVACALC Solidos'!#REF!*_DADOSAUXILIARES!$D$30",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F42",
+      "value": "=D42*'_DADOSAUXILIARES'!$H$126",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H42",
+      "value": "=(F42/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I42",
+      "value": "=(F42/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B43",
+      "value": "Biogás de terceiros",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C43",
+      "value": "Nm³",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D43",
+      "value": "='RENOVACALC Solidos'!#REF!",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F43",
+      "value": "=D43*'RENOVACALC Solidos'!#REF!*_DADOSAUXILIARES!$H$125",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H43",
+      "value": "=(F43/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I43",
+      "value": "=(F43/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B44",
+      "value": "Eletricidade da rede - mix médio",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C44",
+      "value": "kWh",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D44",
+      "value": "='RENOVACALC Solidos'!#REF!",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F44",
+      "value": "=D44*'_DADOSAUXILIARES'!$H$107",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H44",
+      "value": "=(F44/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I44",
+      "value": "=(F44/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B45",
+      "value": "Eletricidade - PCH",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C45",
+      "value": "kWh",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D45",
+      "value": "='RENOVACALC Solidos'!#REF!",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F45",
+      "value": "=D45*'_DADOSAUXILIARES'!$H$108",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H45",
+      "value": "=(F45/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I45",
+      "value": "=(F45/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B46",
+      "value": "Eletricidade - biomassa",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C46",
+      "value": "kWh",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D46",
+      "value": "='RENOVACALC Solidos'!#REF!",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F46",
+      "value": "=D46*'_DADOSAUXILIARES'!$H$109",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H46",
+      "value": "=(F46/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I46",
+      "value": "=(F46/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B47",
+      "value": "Eletricidade - eólica",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C47",
+      "value": "kWh",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D47",
+      "value": "='RENOVACALC Solidos'!#REF!",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F47",
+      "value": "=D47*'_DADOSAUXILIARES'!$H$110",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H47",
+      "value": "=(F47/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I47",
+      "value": "=(F47/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B48",
+      "value": "Eletricidade - solar",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C48",
+      "value": "kWh",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D48",
+      "value": "='RENOVACALC Solidos'!#REF!",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F48",
+      "value": "=D48*'_DADOSAUXILIARES'!$H$111",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H48",
+      "value": "=(F48/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I48",
+      "value": "=(F48/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B49",
+      "value": "Diesel B0",
+      "color": "FF66FF33"
+    },
+    {
+      "cell": "C49",
+      "value": "kg",
+      "color": "FF66FF33"
+    },
+    {
+      "cell": "D49",
+      "value": "=('RENOVACALC Solidos'!#REF!*(1-0.1)+'RENOVACALC Solidos'!#REF!*(1-0.11)+'RENOVACALC Solidos'!#REF!*(1-0.15)+'RENOVACALC Solidos'!#REF!*(1-'RENOVACALC Solidos'!#REF!)+'RENOVACALC Solidos'!#REF!*(1-0.2)+'RENOVACALC Solidos'!#REF!*(1-0.3)+'RENOVACALC Solidos'!#REF!*(1-1))*_DADOSAUXILIARES!$D$26",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F49",
+      "value": "=D49*'_DADOSAUXILIARES'!H116",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H49",
+      "value": "=(F49/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I49",
+      "value": "=(F49/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B50",
+      "value": "Biodiesel B100",
+      "color": "FF66FF33"
+    },
+    {
+      "cell": "C50",
+      "value": "kg",
+      "color": "FF66FF33"
+    },
+    {
+      "cell": "D50",
+      "value": "=('RENOVACALC Solidos'!#REF!*0.1+'RENOVACALC Solidos'!#REF!*0.11+'RENOVACALC Solidos'!#REF!*0.15+'RENOVACALC Solidos'!#REF!*'RENOVACALC Solidos'!#REF!+'RENOVACALC Solidos'!#REF!*0.2+'RENOVACALC Solidos'!#REF!*0.3+'RENOVACALC Solidos'!#REF!*1)*_DADOSAUXILIARES!$D$17",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F50",
+      "value": "=D50*'_DADOSAUXILIARES'!H117",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H50",
+      "value": "=(F50/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I50",
+      "value": "=(F50/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B51",
+      "value": "Emissões",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "C51",
+      "value": "Unidade",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "D51",
+      "value": "1 MLC",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "F51",
+      "value": "g CO2 eq/t cana",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "H51",
+      "value": "g CO2 eq/MJ",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "I51",
+      "value": "g CO2 eq/MJ",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "B52",
+      "value": "CO₂ eq - queima do bagaço de terceiros",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C52",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D52",
+      "value": "=$D$32*'_QUEIMACOMB_RENOVACALC'!$I$36/1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F52",
+      "value": "=D52*1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H52",
+      "value": "=(F52/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I52",
+      "value": "=(F52/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B53",
+      "value": "CO₂ eq - queima da palha de terceiros",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C53",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D53",
+      "value": "=$D$34*'_QUEIMACOMB_RENOVACALC'!$I$37/1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F53",
+      "value": "=D53*1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H53",
+      "value": "=(F53/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I53",
+      "value": "=(F53/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B54",
+      "value": "CO₂ eq - queima dos cavacos de madeira",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C54",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D54",
+      "value": "=$D$36*'_QUEIMACOMB_RENOVACALC'!$I$38/1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F54",
+      "value": "=D54*1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H54",
+      "value": "=(F54/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I54",
+      "value": "=(F54/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B55",
+      "value": "CO₂ eq - queima da lenha",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C55",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D55",
+      "value": "=$D$38*'_QUEIMACOMB_RENOVACALC'!$I$39/1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F55",
+      "value": "=D55*1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H55",
+      "value": "=(F55/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I55",
+      "value": "=(F55/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B56",
+      "value": "CO₂ eq - queima dos resíduos florestais",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C56",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D56",
+      "value": "=$D$40*'_QUEIMACOMB_RENOVACALC'!$I$40/1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F56",
+      "value": "=D56*1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H56",
+      "value": "=(F56/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I56",
+      "value": "=(F56/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B57",
+      "value": "CO₂ eq - queima do óleo combustível",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C57",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D57",
+      "value": "=D42*'_QUEIMACOMB_RENOVACALC'!$I$53/1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F57",
+      "value": "=D57*1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H57",
+      "value": "=(F57/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I57",
+      "value": "=(F57/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B58",
+      "value": "CO₂ eq - queima do etanol hidratado próprio",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C58",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D58",
+      "value": "='RENOVACALC Solidos'!#REF!*_DADOSAUXILIARES!$D$16*_QUEIMACOMB_RENOVACALC!$I$57/1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F58",
+      "value": "=D58*1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H58",
+      "value": "=(F58/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I58",
+      "value": "=(F58/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B59",
+      "value": "CO₂ eq - queima do etanol anidro próprio",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C59",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D59",
+      "value": "='RENOVACALC Solidos'!#REF!*_DADOSAUXILIARES!$D$15*_QUEIMACOMB_RENOVACALC!$I$55/1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F59",
+      "value": "=D59*1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H59",
+      "value": "=(F59/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I59",
+      "value": "=(F59/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B60",
+      "value": "CO₂ eq - queima do biogás próprio",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C60",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D60",
+      "value": "='RENOVACALC Solidos'!#REF!*'RENOVACALC Solidos'!#REF!*_QUEIMACOMB_RENOVACALC!$I$41/1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F60",
+      "value": "=D60*1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H60",
+      "value": "=(F60/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I60",
+      "value": "=(F60/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B61",
+      "value": "CO₂ eq - queima do biogás de terceiros",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C61",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D61",
+      "value": "='RENOVACALC Solidos'!#REF!*'RENOVACALC Solidos'!#REF!*_QUEIMACOMB_RENOVACALC!$I$41/1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F61",
+      "value": "=D61*1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H61",
+      "value": "=(F61/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I61",
+      "value": "=(F61/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B62",
+      "value": "CO₂ eq - queima do diesel",
+      "color": "FF66FF33"
+    },
+    {
+      "cell": "C62",
+      "value": "kg",
+      "color": "FF66FF33"
+    },
+    {
+      "cell": "D62",
+      "value": "=D49*'_QUEIMACOMB_RENOVACALC'!$I$50/1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F62",
+      "value": "=D62*1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H62",
+      "value": "=(F62/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I62",
+      "value": "=(F62/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B63",
+      "value": "CO₂ eq - queima do biodiesel",
+      "color": "FF66FF33"
+    },
+    {
+      "cell": "C63",
+      "value": "kg",
+      "color": "FF66FF33"
+    },
+    {
+      "cell": "D63",
+      "value": "=D50*'_QUEIMACOMB_RENOVACALC'!$I$51/1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F63",
+      "value": "=D63*1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H63",
+      "value": "=(F63/$E$13)*$F$13",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I63",
+      "value": "=(F63/$E$14)*$F$14",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B65",
+      "value": "Emissões do processo",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C65",
+      "value": "g CO2 eq/t MLC",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F65",
+      "value": "=SUM(F52:F63)",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "H65",
+      "value": "=(F65/$E$13)*$F$13",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "I65",
+      "value": "=(F65/$E$14)*$F$14",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "B66",
+      "value": "Emissões background",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C66",
+      "value": "g CO2 eq/t MLC",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F66",
+      "value": "=SUM(F17:F50)",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "H66",
+      "value": "=(F66/$E$13)*$F$13",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "I66",
+      "value": "=(F66/$E$14)*$F$14",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "B67",
+      "value": "Emissões totais",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C67",
+      "value": "g CO2 eq/t MLC",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F67",
+      "value": "=F65+F66",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "H67",
+      "value": "=(F67/$E$13)*$F$13",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "I67",
+      "value": "=(F67/$E$14)*$F$14",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "B70",
+      "value": "Etapa distribuição",
+      "color": "FF1F4E79"
+    },
+    {
+      "cell": "B71",
+      "value": "Sistema logístico rodoviário",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "B72",
+      "value": "Parâmetro",
+      "color": "FFD2ED61"
+    },
+    {
+      "cell": "C72",
+      "value": "Unidade",
+      "color": "FFD2ED61"
+    },
+    {
+      "cell": "D72",
+      "value": "Etanol anidro",
+      "color": "FFD2ED61"
+    },
+    {
+      "cell": "E72",
+      "value": "Etanol hidratado",
+      "color": "FFD2ED61"
+    },
+    {
+      "cell": "B73",
+      "value": "Massa",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C73",
+      "value": "kg/t MLC",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D73",
+      "value": "=$D$13*'RENOVACALC Solidos'!#REF!",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E73",
+      "value": "=$D$14*'RENOVACALC Solidos'!#REF!",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B74",
+      "value": "Distância de transporte rodoviário",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C74",
+      "value": "km",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D74",
+      "value": "='_DADOSAUXILIARES'!C155",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E74",
+      "value": "='_DADOSAUXILIARES'!C155",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B75",
+      "value": "Transporte rodoviário",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C75",
+      "value": "tkm/t MLC",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D75",
+      "value": "=D73/1000*D74",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E75",
+      "value": "=E73/1000*E74",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B76",
+      "value": "Emissões",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C76",
+      "value": "g CO2 eq/t MLC",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D76",
+      "value": "=D75*'_DADOSAUXILIARES'!$H$132",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E76",
+      "value": "=E75*'_DADOSAUXILIARES'!$H$132",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B77",
+      "value": "Emissões",
+      "color": "FFDAE3F3"
+    },
+    {
+      "cell": "C77",
+      "value": "g CO2 eq/MJ",
+      "color": "FFDAE3F3"
+    },
+    {
+      "cell": "D77",
+      "value": "=D76/$E$13",
+      "color": "FFDAE3F3"
+    },
+    {
+      "cell": "E77",
+      "value": "=E76/$E$14",
+      "color": "FFDAE3F3"
+    },
+    {
+      "cell": "B78",
+      "value": "Sistema logístico dutoviário",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "B79",
+      "value": "Parâmetro",
+      "color": "FFD2ED61"
+    },
+    {
+      "cell": "C79",
+      "value": "Unidade",
+      "color": "FFD2ED61"
+    },
+    {
+      "cell": "D79",
+      "value": "Etanol anidro",
+      "color": "FFD2ED61"
+    },
+    {
+      "cell": "E79",
+      "value": "Etanol hidratado",
+      "color": "FFD2ED61"
+    },
+    {
+      "cell": "B80",
+      "value": "Massa",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C80",
+      "value": "kg/t MLC",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D80",
+      "value": "=$D$13*'RENOVACALC Solidos'!#REF!",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E80",
+      "value": "=$D$14*'RENOVACALC Solidos'!#REF!",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B81",
+      "value": "Distância de transporte rodoviário",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C81",
+      "value": "km",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D81",
+      "value": "='_DADOSAUXILIARES'!E155",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E81",
+      "value": "='_DADOSAUXILIARES'!E155",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B82",
+      "value": "Transporte rodoviário",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C82",
+      "value": "tkm/t MLC",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D82",
+      "value": "=D80/1000*D81",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E82",
+      "value": "=E80/1000*E81",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B83",
+      "value": "Distância de transporte dutoviário",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C83",
+      "value": "km",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D83",
+      "value": "='_DADOSAUXILIARES'!D155",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E83",
+      "value": "='_DADOSAUXILIARES'!D155",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B84",
+      "value": "Transporte dutoviário",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C84",
+      "value": "tkm/t MLC",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D84",
+      "value": "=D80/1000*D83",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E84",
+      "value": "=E80/1000*E83",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B85",
+      "value": "Emissões",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C85",
+      "value": "g CO2 eq/t MLC",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D85",
+      "value": "=D82*'_DADOSAUXILIARES'!$H$132+D84*'_DADOSAUXILIARES'!$H$136",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E85",
+      "value": "=E82*'_DADOSAUXILIARES'!$H$132+E84*'_DADOSAUXILIARES'!$H$136",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B86",
+      "value": "Emissões",
+      "color": "FFDAE3F3"
+    },
+    {
+      "cell": "C86",
+      "value": "g CO2 eq/MJ",
+      "color": "FFDAE3F3"
+    },
+    {
+      "cell": "D86",
+      "value": "=D85/$E$13",
+      "color": "FFDAE3F3"
+    },
+    {
+      "cell": "E86",
+      "value": "=E85/$E$14",
+      "color": "FFDAE3F3"
+    },
+    {
+      "cell": "B87",
+      "value": "Sistema logístico ferroviário",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "B88",
+      "value": "Parâmetro",
+      "color": "FFD2ED61"
+    },
+    {
+      "cell": "C88",
+      "value": "Unidade",
+      "color": "FFD2ED61"
+    },
+    {
+      "cell": "D88",
+      "value": "Etanol anidro",
+      "color": "FFD2ED61"
+    },
+    {
+      "cell": "E88",
+      "value": "Etanol hidratado",
+      "color": "FFD2ED61"
+    },
+    {
+      "cell": "B89",
+      "value": "Massa",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C89",
+      "value": "kg/t MLC",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D89",
+      "value": "=$D$13*'RENOVACALC Solidos'!#REF!",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E89",
+      "value": "=$D$14*'RENOVACALC Solidos'!#REF!",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B90",
+      "value": "Distância de transporte rodoviário",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C90",
+      "value": "km",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D90",
+      "value": "='_DADOSAUXILIARES'!G155",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E90",
+      "value": "='_DADOSAUXILIARES'!G155",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B91",
+      "value": "Transporte rodoviário",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C91",
+      "value": "tkm/t MLC",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D91",
+      "value": "=D89/1000*D90",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E91",
+      "value": "=E89/1000*E90",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B92",
+      "value": "Distância de transporte ferroviário",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C92",
+      "value": "km",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D92",
+      "value": "='_DADOSAUXILIARES'!F155",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E92",
+      "value": "='_DADOSAUXILIARES'!F155",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B93",
+      "value": "Transporte ferroviário",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C93",
+      "value": "tkm/t MLC",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D93",
+      "value": "=D89/1000*D92",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E93",
+      "value": "=E89/1000*E92",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B94",
+      "value": "Emissões",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C94",
+      "value": "g CO2 eq/t MLC",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D94",
+      "value": "=D91*'_DADOSAUXILIARES'!$H$132+D93*'_DADOSAUXILIARES'!$H$135",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E94",
+      "value": "=E91*'_DADOSAUXILIARES'!$H$132+E93*'_DADOSAUXILIARES'!$H$135",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B95",
+      "value": "Emissões",
+      "color": "FFDAE3F3"
+    },
+    {
+      "cell": "C95",
+      "value": "g CO2 eq/MJ",
+      "color": "FFDAE3F3"
+    },
+    {
+      "cell": "D95",
+      "value": "=D94/$E$13",
+      "color": "FFDAE3F3"
+    },
+    {
+      "cell": "E95",
+      "value": "=E94/$E$14",
+      "color": "FFDAE3F3"
+    },
+    {
+      "cell": "B97",
+      "value": "Emissões totais",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "C97",
+      "value": "g CO2 eq/MJ",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "D97",
+      "value": "=D77+D86+D95",
+      "color": "FF4B9FD7"
+    },
+    {
+      "cell": "E97",
+      "value": "=E77+E86+E95",
+      "color": "FF4B9FD7"
+    }
+  ]
+}

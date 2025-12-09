@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Instruções",
+    "max_row": 13,
+    "max_col": 28,
+    "dimensions": "AB13"
+  },
+  {
+    "name": "EngS_BioCalc",
+    "max_row": 991,
+    "max_col": 27,
+    "dimensions": "AA991"
+  },
+  {
+    "name": "Dados auxiliares",
+    "max_row": 201,
+    "max_col": 31,
+    "dimensions": "AE201"
+  },
+  {
+    "name": "CFF",
+    "max_row": 1000,
+    "max_col": 30,
+    "dimensions": "AD1000"
+  },
+  {
+    "name": "Resultados",
+    "max_row": 43,
+    "max_col": 30,
+    "dimensions": "AD43"
+  },
+  {
+    "name": "Referências",
+    "max_row": 14,
+    "max_col": 31,
+    "dimensions": "AE14"
+  },
+  {
+    "name": "_E2G",
+    "max_row": 1000,
+    "max_col": 26,
+    "dimensions": "Z1000"
+  },
+  {
+    "name": "_EMISSOES_AGRICOLAS_RENOVACALC",
+    "max_row": 1000,
+    "max_col": 26,
+    "dimensions": "Z1000"
+  }
+]

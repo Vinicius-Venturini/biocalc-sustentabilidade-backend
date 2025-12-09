@@ -1,0 +1,7776 @@
+{
+  "green_cells": [],
+  "blue_cells": [],
+  "other_colors": [
+    {
+      "cell": "B1",
+      "value": "BioCalc \nCalculadora para contabilização de Eficiência Energético-Ambiental para biocombustíveis sólidos (Pellets ou Briquetes)\n\nChamada CNPq nº 26/2021 \n401237/2022-2",
+      "color": "00000000"
+    },
+    {
+      "cell": "B2",
+      "value": "Dados auxiliares ",
+      "color": "FFB7B7B7"
+    },
+    {
+      "cell": "B4",
+      "value": "Poder calorífico inferior das Biomassas",
+      "color": "00000000"
+    },
+    {
+      "cell": "B5",
+      "value": "Fontes de Biomassa",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "C5",
+      "value": "PCI",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "E5",
+      "value": "Combustão estacionária (queima em caldeira)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "F5",
+      "value": "Referência",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "G5",
+      "value": "PCI - Biocombustível",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "C6",
+      "value": "g/MJ",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "D6",
+      "value": "MJ/kg",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "E6",
+      "value": "kg CO2 eq/MJ",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "G6",
+      "value": "Biocombustível sólido",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "H6",
+      "value": "MJ/kg",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "B7",
+      "value": "Resíduo de Pinus",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C7",
+      "value": "=1/D7*1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D7",
+      "value": "18.8",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E7",
+      "value": "=J186",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F7",
+      "value": "Matheus et al. (2024)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G7",
+      "value": "Pellet/Briquette Pinus",
+      "color": "FFEFEFEF"
+    },
+    {
+      "cell": "H7",
+      "value": "18.8",
+      "color": "FFEFEFEF"
+    },
+    {
+      "cell": "B8",
+      "value": "Resíduo de Eucaliptus",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C8",
+      "value": "=1/D8*1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D8",
+      "value": "15.8",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E8",
+      "value": "=J186",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F8",
+      "value": "Matheus et al. (2024)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G8",
+      "value": "Pellet/Briquette Eucaliptus",
+      "color": "FFEFEFEF"
+    },
+    {
+      "cell": "H8",
+      "value": "15.8",
+      "color": "FFEFEFEF"
+    },
+    {
+      "cell": "B9",
+      "value": "Carvão vegetal de eucalipto",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C9",
+      "value": "=1/D9*1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D9",
+      "value": "15.8",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E9",
+      "value": "=N172",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F9",
+      "value": "Matheus et al. (2024)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G9",
+      "value": "Carvão vegetal de Eucalipto",
+      "color": "FFEFEFEF"
+    },
+    {
+      "cell": "H9",
+      "value": "18.5",
+      "color": "FFEFEFEF"
+    },
+    {
+      "cell": "B10",
+      "value": "Casca de Amendoin",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C10",
+      "value": "=1/D10*1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D10",
+      "value": "17.1",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E10",
+      "value": "=J183",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F10",
+      "value": "Perea-Moreno et al. (2018)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G10",
+      "value": "Pellet/Briquette de Casca de Amendoin",
+      "color": "FFEFEFEF"
+    },
+    {
+      "cell": "H10",
+      "value": "17.1",
+      "color": "FFEFEFEF"
+    },
+    {
+      "cell": "B11",
+      "value": "Eucaliptus Virgem",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C11",
+      "value": "=1/D11*1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D11",
+      "value": "15.8",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E11",
+      "value": "=J186",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F11",
+      "value": "Farrapo Jr. et al. (2023)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G11",
+      "value": "Pellet/Briquette de Eucaliptus Virgem",
+      "color": "FFEFEFEF"
+    },
+    {
+      "cell": "H11",
+      "value": "15.8",
+      "color": "FFEFEFEF"
+    },
+    {
+      "cell": "B12",
+      "value": "Pinus Virgem",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C12",
+      "value": "=1/D12*1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D12",
+      "value": "18.8",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E12",
+      "value": "=J186",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F12",
+      "value": "Farrapo Jr. et al. (2023)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G12",
+      "value": "Pellet/Briquette de Pinus Virgem",
+      "color": "FFEFEFEF"
+    },
+    {
+      "cell": "H12",
+      "value": "18.8",
+      "color": "FFEFEFEF"
+    },
+    {
+      "cell": "B14",
+      "value": "Fatores de caracterização dos gases causadores do efeito estufa",
+      "color": "00000000"
+    },
+    {
+      "cell": "B15",
+      "value": "Gases de Efeito Estufa",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "C15",
+      "value": "GWP",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "D15",
+      "value": "Referência",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "C16",
+      "value": "kg CO2eq/kg",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "B17",
+      "value": "CO2 - Dióxido de Carbono Fóssil",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C17",
+      "value": "1.0",
+      "color": "FF92CDDC"
+    },
+    {
+      "cell": "D17",
+      "value": "AR6 (IPCC, 2021)",
+      "color": "FF92CDDC"
+    },
+    {
+      "cell": "B18",
+      "value": "CH4 - Metano Fóssil",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C18",
+      "value": "29.8",
+      "color": "FF92CDDC"
+    },
+    {
+      "cell": "D18",
+      "value": "AR6 (IPCC, 2021)",
+      "color": "FF92CDDC"
+    },
+    {
+      "cell": "B19",
+      "value": "CH4 - biogênico - Metano Biogênico",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C19",
+      "value": "27.2",
+      "color": "FF92CDDC"
+    },
+    {
+      "cell": "D19",
+      "value": "AR6 (IPCC, 2021)",
+      "color": "FF92CDDC"
+    },
+    {
+      "cell": "B20",
+      "value": "N2O - Óxido Nitroso",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C20",
+      "value": "273.0",
+      "color": "FF92CDDC"
+    },
+    {
+      "cell": "D20",
+      "value": "AR6 (IPCC, 2021)",
+      "color": "FF92CDDC"
+    },
+    {
+      "cell": "B22",
+      "value": "Emissões do ciclo de vida dos insumos e outros processos à montante",
+      "color": "00000000"
+    },
+    {
+      "cell": "B23",
+      "value": "Insumo",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "C23",
+      "value": "Unidade ",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "D23",
+      "value": "emissão processo\nkg CO₂ eq/unidade",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "E23",
+      "value": "Alocação   \nproduto (%)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "F23",
+      "value": "Alocação co-produto(%)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "G23",
+      "value": "emissão biomassa alocada \nkg CO2 eq/unidade",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "H23",
+      "value": "Outras informações",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "I23",
+      "value": "Fonte dos dados",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "J23",
+      "value": "Método de impacto para estimar a emissão em kg CO2 eq",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "K23",
+      "value": "Processo de referência",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "B25",
+      "value": "Biomassas (produção)",
+      "color": "FF93C47D"
+    },
+    {
+      "cell": "H25",
+      "value": "Tipo de biomassa",
+      "color": "FF93C47D"
+    },
+    {
+      "cell": "B26",
+      "value": "Resíduo de Pinus",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C26",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D26",
+      "value": "0.0250947158128894",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E26",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F26",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G26",
+      "value": "=D26*F26",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H26",
+      "value": "Pinus",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I26",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J26",
+      "value": "ReCiPe 2016 MidPoint H",
+      "color": "00000000"
+    },
+    {
+      "cell": "K26",
+      "value": "market for residual softwood, wet | residual softwood, wet | Cutoff, U - RoW",
+      "color": "00000000"
+    },
+    {
+      "cell": "B27",
+      "value": "Resíduo de Eucaliptus",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C27",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D27",
+      "value": "0.0250947158128894",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E27",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F27",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G27",
+      "value": "=D27*F27",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H27",
+      "value": "Eucalipto",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I27",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J27",
+      "value": "ReCiPe 2016 MidPoint H",
+      "color": "00000000"
+    },
+    {
+      "cell": "K27",
+      "value": "market for residual softwood, wet | residual softwood, wet | Cutoff, U - RoW",
+      "color": "00000000"
+    },
+    {
+      "cell": "B28",
+      "value": "Carvão vegetal de eucalipto",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C28",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D28",
+      "value": "1.76253630637048",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E28",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F28",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G28",
+      "value": "=D28*E28",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H28",
+      "value": "Eucalipto",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I28",
+      "value": "ecoinvent 3.9.1 ",
+      "color": "00000000"
+    },
+    {
+      "cell": "J28",
+      "value": "ReCiPe 2016 MidPoint H",
+      "color": "00000000"
+    },
+    {
+      "cell": "K28",
+      "value": "charcoal production | charcoal | Cutoff, U - GLO",
+      "color": "00000000"
+    },
+    {
+      "cell": "B29",
+      "value": "Casca de Amendoin",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C29",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D29",
+      "value": "0.666051667404622",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E29",
+      "value": "0.77",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F29",
+      "value": "0.23",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G29",
+      "value": "=D29*F29",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H29",
+      "value": "Amendoin",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I29",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J29",
+      "value": "ReCiPe 2016 MidPoint H",
+      "color": "00000000"
+    },
+    {
+      "cell": "K29",
+      "value": "peanut production, reduced tillage | peanut | Cutoff, U - BR-SP",
+      "color": "00000000"
+    },
+    {
+      "cell": "B30",
+      "value": "Eucaliptus Virgem",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C30",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D30",
+      "value": "=(0.116894430212064+0.1521103354869+0.0421587193806945)/3",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E30",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F30",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G30",
+      "value": "=D30*E30",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H30",
+      "value": "Eucalipto",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I30",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J30",
+      "value": "ReCiPe 2016 MidPoint H",
+      "color": "00000000"
+    },
+    {
+      "cell": "K30",
+      "value": "hardwood forestry, eucalyptus ssp., planted forest management | cleft timber, measured as dry mass | Cutoff, U - BR (average between GO; MG; SP)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B31",
+      "value": "Pinus Virgem",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C31",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D31",
+      "value": "=210.86457019554/500",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E31",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F31",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G31",
+      "value": "=D31*E31",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H31",
+      "value": "Pinus",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I31",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J31",
+      "value": "ReCiPe 2016 MidPoint H",
+      "color": "00000000"
+    },
+    {
+      "cell": "K31",
+      "value": "softwood forestry, paraná pine, sustainable forest management | sawlog and veneer log, paraná pine, measured as solid wood under bark | Cutoff, U - BR-PR",
+      "color": "00000000"
+    },
+    {
+      "cell": "B32",
+      "value": "Amido de milho",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C32",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D32",
+      "value": "1.20067098542324",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E32",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F32",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G32",
+      "value": "=D32*E32",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H32",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I32",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J32",
+      "value": "ReCiPe 2016 MidPoint H",
+      "color": "00000000"
+    },
+    {
+      "cell": "K32",
+      "value": "maize starch production | maize starch | Cutoff, U - RoW",
+      "color": "00000000"
+    },
+    {
+      "cell": "B33",
+      "value": "Biomassas (combustão)",
+      "color": "FF93C47D"
+    },
+    {
+      "cell": "B34",
+      "value": "Resíduo de Pinus",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C34",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D34",
+      "value": "=M171",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E34",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F34",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G34",
+      "value": "=D34*E34",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H34",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I34",
+      "value": "IPCC (2006)",
+      "color": "00000000"
+    },
+    {
+      "cell": "J34",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K34",
+      "value": "Calculado do IPCC com base nos fatores de emissão do Tier 1 e para o setor de energia",
+      "color": "00000000"
+    },
+    {
+      "cell": "B35",
+      "value": "Resíduo de Eucaliptus",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C35",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D35",
+      "value": "=M171",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E35",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F35",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G35",
+      "value": "=D35*E35",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H35",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I35",
+      "value": "IPCC (2006)",
+      "color": "00000000"
+    },
+    {
+      "cell": "J35",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K35",
+      "value": "Calculado do IPCC com base nos fatores de emissão do Tier 1 e para o setor de energia",
+      "color": "00000000"
+    },
+    {
+      "cell": "B36",
+      "value": "Carvão vegetal de eucalipto",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C36",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D36",
+      "value": "=M172",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E36",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F36",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G36",
+      "value": "=D36*E36",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H36",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I36",
+      "value": "IPCC (2006)",
+      "color": "00000000"
+    },
+    {
+      "cell": "J36",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K36",
+      "value": "Calculado do IPCC com base nos fatores de emissão do Tier 1 e para o setor de energia",
+      "color": "00000000"
+    },
+    {
+      "cell": "B37",
+      "value": "Casca de Amendoin",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C37",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D37",
+      "value": "=M173",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E37",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F37",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G37",
+      "value": "=D37*E37",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H37",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I37",
+      "value": "IPCC (2006)",
+      "color": "00000000"
+    },
+    {
+      "cell": "J37",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K37",
+      "value": "Calculado do IPCC com base nos fatores de emissão do Tier 1 e para o setor de energia",
+      "color": "00000000"
+    },
+    {
+      "cell": "B38",
+      "value": "Eucaliptus Virgem",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C38",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D38",
+      "value": "=M171",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E38",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F38",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G38",
+      "value": "=D38*E38",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H38",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I38",
+      "value": "IPCC (2006)",
+      "color": "00000000"
+    },
+    {
+      "cell": "J38",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K38",
+      "value": "Calculado do IPCC com base nos fatores de emissão do Tier 1 e para o setor de energia",
+      "color": "00000000"
+    },
+    {
+      "cell": "B39",
+      "value": "Pinus Virgem",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C39",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D39",
+      "value": "=M171",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E39",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F39",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G39",
+      "value": "=D39*E39",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H39",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I39",
+      "value": "IPCC (2006)",
+      "color": "00000000"
+    },
+    {
+      "cell": "J39",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K39",
+      "value": "Calculado do IPCC com base nos fatores de emissão do Tier 1 e para o setor de energia",
+      "color": "00000000"
+    },
+    {
+      "cell": "B40",
+      "value": "Eletricidade ",
+      "color": "FF93C47D"
+    },
+    {
+      "cell": "B41",
+      "value": "Eletricidade da rede - mix média voltagem",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C41",
+      "value": "kWh",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D41",
+      "value": "=502.31323962/1000",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E41",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F41",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G41",
+      "value": "=D41*E41",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H41",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I41",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J41",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K41",
+      "value": "Electricity, medium voltage {BR}| market group for electricity, medium voltage | Cut-off, U",
+      "color": "00000000"
+    },
+    {
+      "cell": "B42",
+      "value": "Eletricidade da rede - mix alta voltagem",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C42",
+      "value": "kWh",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D42",
+      "value": "=128.769234/1000",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E42",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F42",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G42",
+      "value": "=D42*E42",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H42",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I42",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J42",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K42",
+      "value": "Electricity, high voltage {BR}| market group for electricity, high voltage | Cut-off, U",
+      "color": "00000000"
+    },
+    {
+      "cell": "B43",
+      "value": "Eletricidade - PCH",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C43",
+      "value": "kWh",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D43",
+      "value": "=36.744998654/1000",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E43",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F43",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G43",
+      "value": "=D43*E43",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H43",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I43",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J43",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K43",
+      "value": "Electricity, high voltage {BR-Southern grid}| electricity production, hydro, reservoir, tropical region | Cut-off, U",
+      "color": "00000000"
+    },
+    {
+      "cell": "B44",
+      "value": "Eletricidade - biomassa",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C44",
+      "value": "kWh",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D44",
+      "value": "=109.9588184/1000",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E44",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F44",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G44",
+      "value": "=D44*E44",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H44",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I44",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J44",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K44",
+      "value": "Electricity, high voltage {BR}| sugarcane processing, modern autonomous plant | Cut-off, U",
+      "color": "00000000"
+    },
+    {
+      "cell": "B45",
+      "value": "Eletricidade - eólica",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C45",
+      "value": "kWh",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D45",
+      "value": "=0.138043213591/1000",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E45",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F45",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G45",
+      "value": "=D45*E45",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H45",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I45",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J45",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K45",
+      "value": "Electricity, high voltage {BR-Southern grid}| electricity production, wind, 1-3MW turbine, onshore | Cut-off, U",
+      "color": "00000000"
+    },
+    {
+      "cell": "B46",
+      "value": "Eletricidade - solar",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C46",
+      "value": "kWh",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D46",
+      "value": "=80.08669637/1000",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E46",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F46",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G46",
+      "value": "=D46*E46",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H46",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I46",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J46",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K46",
+      "value": "Electricity, low voltage {RoW}| electricity production, photovoltaic, 570kWp open ground installation, multi-Si | Cut-off, U",
+      "color": "00000000"
+    },
+    {
+      "cell": "B47",
+      "value": "Combustíveis (produção)",
+      "color": "FF93C47D"
+    },
+    {
+      "cell": "H47",
+      "value": "Massa especifica (kg/litro)",
+      "color": "FF93C47D"
+    },
+    {
+      "cell": "B48",
+      "value": "Diesel",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C48",
+      "value": "litro",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D48",
+      "value": "=668.5/1000/H48",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E48",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F48",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G48",
+      "value": "=D48*E48",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H48",
+      "value": "0.84",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I48",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J48",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K48",
+      "value": "Diesel, low-sulfur {BR}| market for diesel, low-sulfur | Cut-off, U",
+      "color": "FFB6D7A8"
+    },
+    {
+      "cell": "B49",
+      "value": "Gás Natural",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C49",
+      "value": "Nm³",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D49",
+      "value": "=334.5/1000",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E49",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F49",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G49",
+      "value": "=D49*E49",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H49",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I49",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J49",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K49",
+      "value": "Natural gas, high pressure {BR}| market for natural gas, high pressure | Cut-off, U",
+      "color": "FFB6D7A8"
+    },
+    {
+      "cell": "B50",
+      "value": "GLP",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C50",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D50",
+      "value": "=721.96735612/1000",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E50",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F50",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G50",
+      "value": "=D50*E50",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H50",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I50",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J50",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K50",
+      "value": "Liquefied petroleum gas {BR}| liquefied petroleum gas production, petroleum refinery operation | Cut-off, U\n",
+      "color": "FFB6D7A8"
+    },
+    {
+      "cell": "B51",
+      "value": "Gasolina A",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C51",
+      "value": "litro",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D51",
+      "value": "=969.53793802/1000/H51",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E51",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F51",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G51",
+      "value": "=D51*E51",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H51",
+      "value": "0.742",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I51",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J51",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K51",
+      "value": "Petrol, low-sulfur {RoW}| market for petrol, low-sulfur | Cut-off, U",
+      "color": "FFB6D7A8"
+    },
+    {
+      "cell": "B52",
+      "value": "Etanol anidro",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C52",
+      "value": "litro",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D52",
+      "value": "=969.5/1000/H52",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E52",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F52",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G52",
+      "value": "=D52*E52",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H52",
+      "value": "0.791",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I52",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J52",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K52",
+      "value": "Petrol, low-sulfur {RoW}| market for petrol, low-sulfur | Cut-off, U",
+      "color": "FFB6D7A8"
+    },
+    {
+      "cell": "B53",
+      "value": "Etanol hidratado",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C53",
+      "value": "litro",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D53",
+      "value": "=490.7/1000/H53",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E53",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F53",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G53",
+      "value": "=D53*E53",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H53",
+      "value": "0.809",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I53",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J53",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K53",
+      "value": "Ethanol, without water, in 99.7% solution state, from fermentation {BR}| sugarcane processing, modern autonomous plant | Cut-off, U",
+      "color": "FFB6D7A8"
+    },
+    {
+      "cell": "B54",
+      "value": "Cavaco de madeira",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C54",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D54",
+      "value": "=364.7/1000",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E54",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F54",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G54",
+      "value": "=D54*E54",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H54",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I54",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J54",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K54",
+      "value": "Ethanol, without water, in 95% solution state, from fermentation {BR}| sugarcane processing, modern autonomous plant | Cut-off, U",
+      "color": "FFB6D7A8"
+    },
+    {
+      "cell": "B55",
+      "value": "Lenha",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C55",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D55",
+      "value": "=26/1000",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E55",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F55",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G55",
+      "value": "=D55*E55",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H55",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I55",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J55",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K55",
+      "value": "Wood chips, wet, measured as dry mass {RoW}| wood chips production, hardwood, at sawmill | Cut-off, U",
+      "color": "FFB6D7A8"
+    },
+    {
+      "cell": "B56",
+      "value": "Combustíveis (combustão)",
+      "color": "FF93C47D"
+    },
+    {
+      "cell": "B57",
+      "value": "Combustão de Diesel",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C57",
+      "value": "litro",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D57",
+      "value": "=M164",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E57",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F57",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G57",
+      "value": "=D57*E57",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H57",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I57",
+      "value": "IPCC (2006)",
+      "color": "00000000"
+    },
+    {
+      "cell": "J57",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K57",
+      "value": "Calculado do IPCC com base nos fatores de emissão do Tier 1 e para o setor de energia",
+      "color": "00000000"
+    },
+    {
+      "cell": "B58",
+      "value": "Uso de Gás Natural",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C58",
+      "value": "Nm³",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D58",
+      "value": "=M165",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E58",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F58",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G58",
+      "value": "=D58*E58",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H58",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I58",
+      "value": "IPCC (2006)",
+      "color": "00000000"
+    },
+    {
+      "cell": "J58",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K58",
+      "value": "Calculado do IPCC com base nos fatores de emissão do Tier 1 e para o setor de energia",
+      "color": "00000000"
+    },
+    {
+      "cell": "B59",
+      "value": "Uso de GLP",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C59",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D59",
+      "value": "=M166",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E59",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F59",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G59",
+      "value": "=D59*E59",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H59",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I59",
+      "value": "IPCC (2006)",
+      "color": "00000000"
+    },
+    {
+      "cell": "J59",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K59",
+      "value": "Calculado do IPCC com base nos fatores de emissão do Tier 1 e para o setor de energia",
+      "color": "00000000"
+    },
+    {
+      "cell": "B60",
+      "value": "Combustão de Gasolina A",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C60",
+      "value": "litro",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D60",
+      "value": "=M167",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E60",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F60",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G60",
+      "value": "=D60*E60",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H60",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I60",
+      "value": "IPCC (2006)",
+      "color": "00000000"
+    },
+    {
+      "cell": "J60",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K60",
+      "value": "Calculado do IPCC com base nos fatores de emissão do Tier 1 e para o setor de energia",
+      "color": "00000000"
+    },
+    {
+      "cell": "B61",
+      "value": "Combustão de Etanol anidro",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C61",
+      "value": "litro",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D61",
+      "value": "=M168",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E61",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F61",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G61",
+      "value": "=D61*E61",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H61",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I61",
+      "value": "IPCC (2006)",
+      "color": "00000000"
+    },
+    {
+      "cell": "J61",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K61",
+      "value": "Calculado do IPCC com base nos fatores de emissão do Tier 1 e para o setor de energia",
+      "color": "00000000"
+    },
+    {
+      "cell": "B62",
+      "value": "Combustão de Etanol hidratado",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C62",
+      "value": "litro",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D62",
+      "value": "=M169",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E62",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F62",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G62",
+      "value": "=D62*E62",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H62",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I62",
+      "value": "IPCC (2006)",
+      "color": "00000000"
+    },
+    {
+      "cell": "J62",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K62",
+      "value": "Calculado do IPCC com base nos fatores de emissão do Tier 1 e para o setor de energia",
+      "color": "00000000"
+    },
+    {
+      "cell": "B63",
+      "value": "Combustão de Cavaco de madeira",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C63",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D63",
+      "value": "=M170",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E63",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F63",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G63",
+      "value": "=D63*E63",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H63",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I63",
+      "value": "IPCC (2006)",
+      "color": "00000000"
+    },
+    {
+      "cell": "J63",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K63",
+      "value": "Calculado do IPCC com base nos fatores de emissão do Tier 1 e para o setor de energia",
+      "color": "00000000"
+    },
+    {
+      "cell": "B64",
+      "value": "Combustão de Lenha",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C64",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D64",
+      "value": "=M171",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E64",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F64",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G64",
+      "value": "=D64*E64",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H64",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I64",
+      "value": "IPCC (2006)",
+      "color": "00000000"
+    },
+    {
+      "cell": "J64",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K64",
+      "value": "Calculado do IPCC com base nos fatores de emissão do Tier 1 e para o setor de energia",
+      "color": "00000000"
+    },
+    {
+      "cell": "B65",
+      "value": "Insumos industriais",
+      "color": "FF93C47D"
+    },
+    {
+      "cell": "B66",
+      "value": "Água",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C66",
+      "value": "litro",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D66",
+      "value": "=0.0237497088/1000",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E66",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F66",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G66",
+      "value": "=D66*E66",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H66",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I66",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J66",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K66",
+      "value": "Water, decarbonised {BR}| market for water, decarbonised | Cut-off, U\n",
+      "color": "00000000"
+    },
+    {
+      "cell": "B67",
+      "value": "Óleo lubrificante",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C67",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D67",
+      "value": "=1512.4/1000",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E67",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F67",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G67",
+      "value": "=D67*E67",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H67",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I67",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J67",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K67",
+      "value": "Lubricating oil {RoW}| market for lubricating oil | Cut-off, U",
+      "color": "00000000"
+    },
+    {
+      "cell": "B68",
+      "value": "Areia de sílica",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C68",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D68",
+      "value": "0.0357757137501474",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E68",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F68",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G68",
+      "value": "=D68*E68",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H68",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I68",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J68",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K68",
+      "value": "silica sand production {RoW} | silica sand | Cutoff, U",
+      "color": "00000000"
+    },
+    {
+      "cell": "B69",
+      "value": "Transporte",
+      "color": "FF93C47D"
+    },
+    {
+      "cell": "B70",
+      "value": "Transporte, caminhão 7.5-16t",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C70",
+      "value": "tkm",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D70",
+      "value": "=93.697467968/1000",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E70",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F70",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G70",
+      "value": "=D70*E70",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H70",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I70",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J70",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K70",
+      "value": "Transport, freight, lorry 7.5-16 metric ton, EURO3 {BR}| market for transport, freight, lorry 7.5-16 metric ton, EURO3 | Cut-off, U",
+      "color": "00000000"
+    },
+    {
+      "cell": "B71",
+      "value": "Transporte caminhão 16-32t",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C71",
+      "value": "tkm",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D71",
+      "value": "=98.020519375/1000",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E71",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F71",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G71",
+      "value": "=D71*E71",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H71",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I71",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J71",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K71",
+      "value": "Transport, freight, lorry 16-32 metric ton, EURO3 {BR}| market for transport, freight, lorry 16-32 metric ton, EURO3 | Cut-off, U",
+      "color": "00000000"
+    },
+    {
+      "cell": "B72",
+      "value": "Transporte, caminhão  >32t",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C72",
+      "value": "tkm",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D72",
+      "value": "=61.124489876/1000",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E72",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F72",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G72",
+      "value": "=D72*E72",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H72",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I72",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J72",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K72",
+      "value": "Transport, freight, lorry >32 metric ton, EURO3 {BR}| market for transport, freight, lorry >32 metric ton, EURO3 | Cut-off, U",
+      "color": "00000000"
+    },
+    {
+      "cell": "B73",
+      "value": "Transporte, caminhão  60m³",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C73",
+      "value": "tkm",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D73",
+      "value": "=61.124489876/1000",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E73",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F73",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G73",
+      "value": "=D73*E73",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H73",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I73",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J73",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K73",
+      "value": "Transport, freight, lorry >32 metric ton, EURO3 {BR}| market for transport, freight, lorry >32 metric ton, EURO3 | Cut-off, U",
+      "color": "00000000"
+    },
+    {
+      "cell": "B74",
+      "value": "Transporte, navio",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C74",
+      "value": "tkm",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D74",
+      "value": "=9.51832926726/1000",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E74",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F74",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G74",
+      "value": "=D74*E74",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H74",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I74",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J74",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K74",
+      "value": "Transport, freight, sea, container ship {GLO}| market for transport, freight, sea, container ship | Cut-off, U",
+      "color": "00000000"
+    },
+    {
+      "cell": "B75",
+      "value": "Transporte, balsa",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C75",
+      "value": "tkm",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D75",
+      "value": "=34.9702296846/1000",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E75",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F75",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G75",
+      "value": "=D75*E75",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H75",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I75",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J75",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K75",
+      "value": "Transport, freight, inland waterways, barge tanker {RoW}| market for transport, freight, inland waterways, barge tanker | Cut-off, U",
+      "color": "00000000"
+    },
+    {
+      "cell": "B76",
+      "value": "Transporte, ferroviário",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C76",
+      "value": "tkm",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D76",
+      "value": "=33.35804744/1000",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E76",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F76",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G76",
+      "value": "=D76*E76",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H76",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I76",
+      "value": "ecoinvent 3.9.1",
+      "color": "00000000"
+    },
+    {
+      "cell": "J76",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "K76",
+      "value": "Transport, freight train {RoW}| market for transport, freight train | Cut-off, U",
+      "color": "00000000"
+    },
+    {
+      "cell": "B78",
+      "value": "Alocação para Mudança do Uso da Terra",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "C78",
+      "value": "Estágios do ciclo de vida",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "D78",
+      "value": "Biomassa e Ciclo de Vida",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "E78",
+      "value": "Biomassa",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "F78",
+      "value": "Produto",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "G78",
+      "value": "Alocação   \nproduto (%)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "H78",
+      "value": "Co-produto",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "I78",
+      "value": "Alocação co-produto(%)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "J78",
+      "value": "Alocação considerada para biomassa",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "K78",
+      "value": "Fonte",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "L78",
+      "value": "Filtro",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "B80",
+      "value": "Biomassa",
+      "color": "FF93C47D"
+    },
+    {
+      "cell": "L80",
+      "value": "Filtro para lista suspensa condicional",
+      "color": "FF93C47D"
+    },
+    {
+      "cell": "B81",
+      "value": "Resíduo de Pinus",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C81",
+      "value": "Resíduos de galhos e folhas",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D81",
+      "value": "=B81&C81",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E81",
+      "value": "Pinus",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F81",
+      "value": "Tora de madeira",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G81",
+      "value": "0.675",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H81",
+      "value": "Resíduos de galhos e folhas",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I81",
+      "value": "0.325",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J81",
+      "value": "=I81",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "K81",
+      "value": "Sgarbossa et al. (2020)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "L81",
+      "value": "=IFERROR(__xludf.DUMMYFUNCTION(\"filter(C81:C92,B81:B92=EngS_BioCalc!E33)\"),\"#N/A\")",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B82",
+      "value": "Resíduo de Pinus",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C82",
+      "value": "Resíduos de Casca ",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D82",
+      "value": "=B82&C82",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E82",
+      "value": "Pinus",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F82",
+      "value": "Troncos descascados",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G82",
+      "value": "=0.9*0.675",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H82",
+      "value": "Casca de pinus",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I82",
+      "value": "=0.1*0.675",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J82",
+      "value": "=I82",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "K82",
+      "value": "Sgarbossa et al. (2020)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B83",
+      "value": "Resíduo de Pinus",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C83",
+      "value": "Resíduo de serragem",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D83",
+      "value": "=B83&C83",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E83",
+      "value": "Pinus",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F83",
+      "value": "Madeira serrada",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G83",
+      "value": "=0.5*0.6075",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H83",
+      "value": "Subproduto da serraria",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I83",
+      "value": "=0.5*0.6075",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J83",
+      "value": "=I83",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "K83",
+      "value": "Sgarbossa et al. (2020)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B84",
+      "value": "Resíduo de Pinus",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C84",
+      "value": "Não especificado",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D84",
+      "value": "=B84&C84",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E84",
+      "value": "Pinus",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F84",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G84",
+      "value": "-%",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H84",
+      "value": "Não especificado",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I84",
+      "value": "=AVERAGE(I81:I83)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J84",
+      "value": "=I84",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "K84",
+      "value": "Sgarbossa et al. (2020)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B85",
+      "value": "Resíduo de Eucaliptus",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C85",
+      "value": "Resíduos de galhos e folhas",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D85",
+      "value": "=B85&C85",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E85",
+      "value": "Eucalipto",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F85",
+      "value": "Tora de madeira",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G85",
+      "value": "0.675",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H85",
+      "value": "Resíduos de galhos e folhas",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I85",
+      "value": "0.325",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J85",
+      "value": "=I85",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "K85",
+      "value": "Sgarbossa et al. (2020)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B86",
+      "value": "Resíduo de Eucaliptus",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C86",
+      "value": "Resíduos de Casca ",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D86",
+      "value": "=B86&C86",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E86",
+      "value": "Eucalipto",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F86",
+      "value": "Troncos descascados",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G86",
+      "value": "=0.9*0.675",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H86",
+      "value": "Casca de eucalipto",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I86",
+      "value": "=0.1*0.675",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J86",
+      "value": "=I86",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "K86",
+      "value": "Sgarbossa et al. (2020)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B87",
+      "value": "Resíduo de Eucaliptus",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C87",
+      "value": "Resíduo de serragem",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D87",
+      "value": "=B87&C87",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E87",
+      "value": "Eucalipto",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F87",
+      "value": "Madeira serrada",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G87",
+      "value": "=0.5*0.6075",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H87",
+      "value": "Subproduto da serraria",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I87",
+      "value": "=0.5*0.6075",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J87",
+      "value": "=I87",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "K87",
+      "value": "Sgarbossa et al. (2020)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B88",
+      "value": "Resíduo de Eucaliptus",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C88",
+      "value": "Não especificado",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D88",
+      "value": "=B88&C88",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E88",
+      "value": "Eucalipto",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F88",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G88",
+      "value": "-%",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H88",
+      "value": "Não especificado",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I88",
+      "value": "=AVERAGE(I85:I87)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J88",
+      "value": "=I88",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "K88",
+      "value": "Sgarbossa et al. (2020)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B89",
+      "value": "Carvão vegetal de eucalipto",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C89",
+      "value": "Não aplica",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D89",
+      "value": "=B89&C89",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E89",
+      "value": "Eucalipto",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F89",
+      "value": "Carvão vegetal",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G89",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H89",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I89",
+      "value": "0.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J89",
+      "value": "=G89",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "K89",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B90",
+      "value": "Casca de Amendoin",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C90",
+      "value": "Não aplica",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D90",
+      "value": "=B90&C90",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E90",
+      "value": "Amendoin",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F90",
+      "value": "Amendoim",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G90",
+      "value": "0.77",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H90",
+      "value": "Casca de amendoim",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I90",
+      "value": "0.23",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J90",
+      "value": "=I90",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "K90",
+      "value": "Ecoinvent 3.10",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B91",
+      "value": "Eucaliptus Virgem",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C91",
+      "value": "Não aplica",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D91",
+      "value": "=B91&C91",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E91",
+      "value": "Eucalipto",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F91",
+      "value": "Eucaliptus virgem",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G91",
+      "value": "0.675",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H91",
+      "value": "Resíduo de eucaliptus",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I91",
+      "value": "0.325",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J91",
+      "value": "=G91",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "K91",
+      "value": "Sgarbossa et al. (2020)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B92",
+      "value": "Pinus Virgem",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C92",
+      "value": "Não aplica",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D92",
+      "value": "=B92&C92",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E92",
+      "value": "Pinus",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F92",
+      "value": "Pinus virgm",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G92",
+      "value": "0.675",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H92",
+      "value": "Resíduo de pinus",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I92",
+      "value": "0.325",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J92",
+      "value": "=G92",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "K92",
+      "value": "Sgarbossa et al. (2020)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B94",
+      "value": "Mudança do Uso da Terra",
+      "color": "00000000"
+    },
+    {
+      "cell": "B95",
+      "value": "Estado ",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "C95",
+      "value": "Pinus",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "G95",
+      "value": "Eucalipto",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "K95",
+      "value": "Amendoin",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "O95",
+      "value": "Referência",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "C96",
+      "value": "Taxa de emissão (tCO2-há-yr-1)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "D96",
+      "value": "Tempo de produção em anos (Valor estimado)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "E96",
+      "value": "Produtividade (kg\\ha)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "F96",
+      "value": "Emissão Final (tCO2\\kgPinus)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "G96",
+      "value": "Taxa de emissão (tCO2-há-yr-1)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "H96",
+      "value": "Tempo de produção em anos (Valor estimado)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "I96",
+      "value": "Produtividade (kg\\ha)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "J96",
+      "value": "Emissão Final (tCO2\\kgEucalipto)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "K96",
+      "value": "Taxa de emissão (tCO2-há-yr-1)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "L96",
+      "value": "Tempo de produção em anos",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "M96",
+      "value": "Produtividade (kg\\ha)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "N96",
+      "value": "Emissão Final (tCO2\\kgAmendoim)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "B97",
+      "value": "Acre",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C97",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D97",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E97",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F97",
+      "value": "=C97*D97/E97",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G97",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H97",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I97",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J97",
+      "value": "=G97*H97/I97",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K97",
+      "value": "1.7",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L97",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M97",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N97",
+      "value": "=K97*L97/M97",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O97",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B98",
+      "value": "Alagoas",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C98",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D98",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E98",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F98",
+      "value": "=C98*D98/E98",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G98",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H98",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I98",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J98",
+      "value": "=G98*H98/I98",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K98",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L98",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M98",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N98",
+      "value": "=K98*L98/M98",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O98",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B99",
+      "value": "Amapá",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C99",
+      "value": "7.72",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D99",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E99",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F99",
+      "value": "=C99*D99/E99",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G99",
+      "value": "7.72",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H99",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I99",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J99",
+      "value": "=G99*H99/I99",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K99",
+      "value": "1.05",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L99",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M99",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N99",
+      "value": "=K99*L99/M99",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O99",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B100",
+      "value": "Amazonas",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C100",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D100",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E100",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F100",
+      "value": "=C100*D100/E100",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G100",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H100",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I100",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J100",
+      "value": "=G100*H100/I100",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K100",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L100",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M100",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N100",
+      "value": "=K100*L100/M100",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O100",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B101",
+      "value": "Bahia",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C101",
+      "value": "-0.59",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D101",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E101",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F101",
+      "value": "=C101*D101/E101",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G101",
+      "value": "-0.59",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H101",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I101",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J101",
+      "value": "=G101*H101/I101",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K101",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L101",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M101",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N101",
+      "value": "=K101*L101/M101",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O101",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B102",
+      "value": "Ceará",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C102",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D102",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E102",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F102",
+      "value": "=C102*D102/E102",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G102",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H102",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I102",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J102",
+      "value": "=G102*H102/I102",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K102",
+      "value": "2.05",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L102",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M102",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N102",
+      "value": "=K102*L102/M102",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O102",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B103",
+      "value": "Distrito Federal",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C103",
+      "value": "-1.19",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D103",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E103",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F103",
+      "value": "=C103*D103/E103",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G103",
+      "value": "-1.19",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H103",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I103",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J103",
+      "value": "=G103*H103/I103",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K103",
+      "value": "1.56",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L103",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M103",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N103",
+      "value": "=K103*L103/M103",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O103",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B104",
+      "value": "Espírito Santo",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C104",
+      "value": "-0.34",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D104",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E104",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F104",
+      "value": "=C104*D104/E104",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G104",
+      "value": "-0.34",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H104",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I104",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J104",
+      "value": "=G104*H104/I104",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K104",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L104",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M104",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N104",
+      "value": "=K104*L104/M104",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O104",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B105",
+      "value": "Goiás",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C105",
+      "value": "-2.09",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D105",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E105",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F105",
+      "value": "=C105*D105/E105",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G105",
+      "value": "-2.09",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H105",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I105",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J105",
+      "value": "=G105*H105/I105",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K105",
+      "value": "4.2",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L105",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M105",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N105",
+      "value": "=K105*L105/M105",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O105",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B106",
+      "value": "Maranhão",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C106",
+      "value": "8.73",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D106",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E106",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F106",
+      "value": "=C106*D106/E106",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G106",
+      "value": "8.73",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H106",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I106",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J106",
+      "value": "=G106*H106/I106",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K106",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L106",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M106",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N106",
+      "value": "=K106*L106/M106",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O106",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B107",
+      "value": "Mato Grosso",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C107",
+      "value": "-2.29",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D107",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E107",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F107",
+      "value": "=C107*D107/E107",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G107",
+      "value": "-2.29",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H107",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I107",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J107",
+      "value": "=G107*H107/I107",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K107",
+      "value": "9.71",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L107",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M107",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N107",
+      "value": "=K107*L107/M107",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O107",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B108",
+      "value": "Mato Grosso do Sul",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C108",
+      "value": "-2.65",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D108",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E108",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F108",
+      "value": "=C108*D108/E108",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G108",
+      "value": "-2.65",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H108",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I108",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J108",
+      "value": "=G108*H108/I108",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K108",
+      "value": "2.55",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L108",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M108",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N108",
+      "value": "=K108*L108/M108",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O108",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B109",
+      "value": "Minas Gerais",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C109",
+      "value": "0.38",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D109",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E109",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F109",
+      "value": "=C109*D109/E109",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G109",
+      "value": "0.38",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H109",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I109",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J109",
+      "value": "=G109*H109/I109",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K109",
+      "value": "1.49",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L109",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M109",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N109",
+      "value": "=K109*L109/M109",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O109",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B110",
+      "value": "Pará",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C110",
+      "value": "12.23",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D110",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E110",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F110",
+      "value": "=C110*D110/E110",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G110",
+      "value": "12.23",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H110",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I110",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J110",
+      "value": "=G110*H110/I110",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K110",
+      "value": "1.79",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L110",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M110",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N110",
+      "value": "=K110*L110/M110",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O110",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B111",
+      "value": "Paraíba",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C111",
+      "value": "-4.43",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D111",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E111",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F111",
+      "value": "=C111*D111/E111",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G111",
+      "value": "-4.43",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H111",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I111",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J111",
+      "value": "=G111*H111/I111",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K111",
+      "value": "16.7",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L111",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M111",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N111",
+      "value": "=K111*L111/M111",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O111",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B112",
+      "value": "Paraná",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C112",
+      "value": "0.01",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D112",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E112",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F112",
+      "value": "=C112*D112/E112",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G112",
+      "value": "0.01",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H112",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I112",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J112",
+      "value": "=G112*H112/I112",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K112",
+      "value": "0.72",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L112",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M112",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N112",
+      "value": "=K112*L112/M112",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O112",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B113",
+      "value": "Pernambuco",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C113",
+      "value": "-4.06",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D113",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E113",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F113",
+      "value": "=C113*D113/E113",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G113",
+      "value": "-4.06",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H113",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I113",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J113",
+      "value": "=G113*H113/I113",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K113",
+      "value": "1.36",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L113",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M113",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N113",
+      "value": "=K113*L113/M113",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O113",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B114",
+      "value": "Piauí",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C114",
+      "value": "-1.45",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D114",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E114",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F114",
+      "value": "=C114*D114/E114",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G114",
+      "value": "-1.45",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H114",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I114",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J114",
+      "value": "=G114*H114/I114",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K114",
+      "value": "0.48",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L114",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M114",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N114",
+      "value": "=K114*L114/M114",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O114",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B115",
+      "value": "Rio de Janeiro",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C115",
+      "value": "3.79",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D115",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E115",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F115",
+      "value": "=C115*D115/E115",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G115",
+      "value": "3.79",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H115",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I115",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J115",
+      "value": "=G115*H115/I115",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K115",
+      "value": "1.59",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L115",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M115",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N115",
+      "value": "=K115*L115/M115",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O115",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B116",
+      "value": "Rio Grande do Norte",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C116",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D116",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E116",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F116",
+      "value": "=C116*D116/E116",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G116",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H116",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I116",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J116",
+      "value": "=G116*H116/I116",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K116",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L116",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M116",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N116",
+      "value": "=K116*L116/M116",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O116",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B117",
+      "value": "Rio Grande do Sul",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C117",
+      "value": "0.5",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D117",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E117",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F117",
+      "value": "=C117*D117/E117",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G117",
+      "value": "0.5",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H117",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I117",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J117",
+      "value": "=G117*H117/I117",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K117",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L117",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M117",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N117",
+      "value": "=K117*L117/M117",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O117",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B118",
+      "value": "Rondônia",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C118",
+      "value": "15.79",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D118",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E118",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F118",
+      "value": "=C118*D118/E118",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G118",
+      "value": "15.79",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H118",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I118",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J118",
+      "value": "=G118*H118/I118",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K118",
+      "value": "1.64",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L118",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M118",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N118",
+      "value": "=K118*L118/M118",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O118",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B119",
+      "value": "Roraima",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C119",
+      "value": "11.18",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D119",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E119",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F119",
+      "value": "=C119*D119/E119",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G119",
+      "value": "11.18",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H119",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I119",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J119",
+      "value": "=G119*H119/I119",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K119",
+      "value": "6.09",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L119",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M119",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N119",
+      "value": "=K119*L119/M119",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O119",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B120",
+      "value": "Santa Catarina",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C120",
+      "value": "1.47",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D120",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E120",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F120",
+      "value": "=C120*D120/E120",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G120",
+      "value": "1.47",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H120",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I120",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J120",
+      "value": "=G120*H120/I120",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K120",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L120",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M120",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N120",
+      "value": "=K120*L120/M120",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O120",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B121",
+      "value": "São Paulo",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C121",
+      "value": "-0.48",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D121",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E121",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F121",
+      "value": "=C121*D121/E121",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G121",
+      "value": "-0.48",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H121",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I121",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J121",
+      "value": "=G121*H121/I121",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K121",
+      "value": "1.48",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L121",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M121",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N121",
+      "value": "=K121*L121/M121",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O121",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B122",
+      "value": "Sergipe",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C122",
+      "value": "-3.09",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D122",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E122",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F122",
+      "value": "=C122*D122/E122",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G122",
+      "value": "-3.09",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H122",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I122",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J122",
+      "value": "=G122*H122/I122",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K122",
+      "value": "1.82",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L122",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M122",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N122",
+      "value": "=K122*L122/M122",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O122",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B123",
+      "value": "Tocantins",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C123",
+      "value": "9.16",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D123",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E123",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F123",
+      "value": "=C123*D123/E123",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G123",
+      "value": "9.16",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H123",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I123",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J123",
+      "value": "=G123*H123/I123",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K123",
+      "value": "2.1",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L123",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M123",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N123",
+      "value": "=K123*L123/M123",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O123",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B124",
+      "value": "Brasil",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C124",
+      "value": "0.07",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D124",
+      "value": "15.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E124",
+      "value": "15000.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F124",
+      "value": "=C124*D124/E124",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G124",
+      "value": "0.07",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H124",
+      "value": "7.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I124",
+      "value": "20631.33",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J124",
+      "value": "=G124*H124/I124",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K124",
+      "value": "3.18",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "L124",
+      "value": "=100/365",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "M124",
+      "value": "2873.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "N124",
+      "value": "=K124*L124/M124",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "O124",
+      "value": "BRLUC 2.0 (Brazilian Land Use Change)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B126",
+      "value": "Disponibilidade de dados",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "B127",
+      "value": "Sim",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B128",
+      "value": "Não",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B130",
+      "value": "Combustível fóssil substituto",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "C130",
+      "value": "Intensidade total de carbono do combustível fóssil substituto (g CO₂ eq/MJ)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "D130",
+      "value": "Intensidade total de carbono do combustível fóssil substituto (Kg CO₂ eq/MJ)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "E130",
+      "value": "Intensidade de carbono da produção do combustível fóssil substituto (Kg CO₂ eq/Kg)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "F130",
+      "value": "Fonte",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "B131",
+      "value": "Gasolina A",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "C131",
+      "value": "87.4",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "D131",
+      "value": "=C131/1000",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "B132",
+      "value": "Diesel A",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "C132",
+      "value": "86.5",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "D132",
+      "value": "=C132/1000",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "B133",
+      "value": "Média ponderada: Diesel A, Gasolina A e GNV",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "C133",
+      "value": "86.7",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "D133",
+      "value": "=C133/1000",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "B134",
+      "value": "Querosene de aviação",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "C134",
+      "value": "87.5",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "D134",
+      "value": "=C134/1000",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "B135",
+      "value": "GLP",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "C135",
+      "value": "85.0",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "D135",
+      "value": "=C135/1000",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "B136",
+      "value": "Coque de Petróleo",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "C136",
+      "value": "=D136*1000",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "D136",
+      "value": "=(E136/E157)+N163",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "E136",
+      "value": "0.633483369683796",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "B137",
+      "value": "Oléo Combustível",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "C137",
+      "value": "=D137*1000",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "D137",
+      "value": "=(E137/E154)+N162",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "E137",
+      "value": "0.6779",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "F137",
+      "value": "heavy fuel oil production, petroleum refinery operation | heavy fuel oil | Cutoff, U",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "B139",
+      "value": "Unidade de Medida para aproveitamento energético (co-geração)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "B140",
+      "value": "kWh - Kilowatt-hora ",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "B141",
+      "value": "MJ - MegaJoule",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "B142",
+      "value": "Kg - Quilos de Biomassa",
+      "color": "FFE7E6E6"
+    },
+    {
+      "cell": "B144",
+      "value": "Massa específica e poder calorífico inferior dos combustíveis",
+      "color": "00000000"
+    },
+    {
+      "cell": "B145",
+      "value": "Combustíveis",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "C145",
+      "value": "Massa específica",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "D145",
+      "value": "PCI",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "F145",
+      "value": "Referência",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "C146",
+      "value": "kg/L",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "D146",
+      "value": "kcal/kg",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "E146",
+      "value": "MJ/kg",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "B147",
+      "value": "Etanol anidro",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C147",
+      "value": "0.791",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D147",
+      "value": "6750.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E147",
+      "value": "28.26",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F147",
+      "value": "Resolução ANP nº 894/2022 ",
+      "color": "00000000"
+    },
+    {
+      "cell": "B148",
+      "value": "Etanol hidratado",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C148",
+      "value": "0.809",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D148",
+      "value": "6300.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E148",
+      "value": "26.38",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F148",
+      "value": "Resolução ANP nº 894/2022 ",
+      "color": "00000000"
+    },
+    {
+      "cell": "B149",
+      "value": "GLP renovável",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C149",
+      "value": "0.55",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D149",
+      "value": "11130.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E149",
+      "value": "46.6",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F149",
+      "value": "Petrobras",
+      "color": "00000000"
+    },
+    {
+      "cell": "G149",
+      "value": "Densidade - https://www.neste.fi/static/ktt/13898_eng.pdf",
+      "color": "00000000"
+    },
+    {
+      "cell": "B150",
+      "value": "Gasolina A",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C150",
+      "value": "0.742",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D150",
+      "value": "10400.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E150",
+      "value": "43.54",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F150",
+      "value": "Resolução ANP nº 894/2022 ",
+      "color": "00000000"
+    },
+    {
+      "cell": "B151",
+      "value": "Diesel A",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C151",
+      "value": "0.84",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D151",
+      "value": "10100.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E151",
+      "value": "42.29",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F151",
+      "value": "Resolução ANP nº 894/2022 ",
+      "color": "00000000"
+    },
+    {
+      "cell": "B152",
+      "value": "Gás natural seco",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C152",
+      "value": "0.00074",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D152",
+      "value": "8800.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E152",
+      "value": "36.84",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F152",
+      "value": "Resolução ANP nº 894/2022 ",
+      "color": "00000000"
+    },
+    {
+      "cell": "B153",
+      "value": "GLP",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C153",
+      "value": "0.552",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D153",
+      "value": "11100.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E153",
+      "value": "46.47",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F153",
+      "value": "Resolução ANP nº 894/2022 ",
+      "color": "00000000"
+    },
+    {
+      "cell": "B154",
+      "value": "Óleo combustível",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C154",
+      "value": "1.013",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D154",
+      "value": "9590.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E154",
+      "value": "40.15",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F154",
+      "value": "Resolução ANP nº 894/2022 ",
+      "color": "00000000"
+    },
+    {
+      "cell": "B155",
+      "value": "Resíduo de Pinus",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C155",
+      "value": "-",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D155",
+      "value": "=1/E155*1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E155",
+      "value": "18.8",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F155",
+      "value": "Matheus et al. (2024)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B156",
+      "value": "Resíduo de Eucaliptus",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C156",
+      "value": "-",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D156",
+      "value": "=1/E156*1000",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E156",
+      "value": "15.8",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F156",
+      "value": "Matheus et al. (2024)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B157",
+      "value": "Coque de Petróleo",
+      "color": "00000000"
+    },
+    {
+      "cell": "D157",
+      "value": "8390.0",
+      "color": "00000000"
+    },
+    {
+      "cell": "E157",
+      "value": "35.12",
+      "color": "00000000"
+    },
+    {
+      "cell": "F157",
+      "value": "Resolução ANP nº 894/2022 ",
+      "color": "00000000"
+    },
+    {
+      "cell": "B159",
+      "value": "Cálculo dos Fatores de emissão para combustão estacionária",
+      "color": "00000000"
+    },
+    {
+      "cell": "B160",
+      "value": "Combustíveis",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "C160",
+      "value": "Unidade de entrada",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "D160",
+      "value": "Fatores de Emissão do setor de energia:",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "G160",
+      "value": "PCI",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "I160",
+      "value": "Fator de conversão de medida",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "J160",
+      "value": "Fatores de Emissão do setor de energia:",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "M160",
+      "value": "Fator de emissão CO2 eq",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "N160",
+      "value": "Fator de emissão CO2 eq",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "D161",
+      "value": "CO2 (kg/TJ)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "E161",
+      "value": "CH4 (kg/TJ)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "F161",
+      "value": "N2O (kg/TJ)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "G161",
+      "value": "MJ/kg de combustível",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "H161",
+      "value": "TJ/kg combustível",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "I161",
+      "value": "kg combustível /unidade de entrada",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "J161",
+      "value": "CO2 (kg/un)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "K161",
+      "value": "CH4 (kg/un)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "L161",
+      "value": "N2O (kg/un)",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "M161",
+      "value": "kg CO2 eq/unidade",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "N161",
+      "value": "kg CO2 eq/MJ",
+      "color": "FF2E75B6"
+    },
+    {
+      "cell": "B162",
+      "value": "Combustão de Oleo Combustível",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C162",
+      "value": "MJ",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D162",
+      "value": "73300.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E162",
+      "value": "3.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F162",
+      "value": "0.6",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G162",
+      "value": "=E154",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H162",
+      "value": "=G162/10^6",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I162",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J162",
+      "value": "=D162*H162*I162",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "K162",
+      "value": "=E162*H162*I162",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "L162",
+      "value": "=F162*H162*I162",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "M162",
+      "value": "=(J162*1)+(K162*$C$18)+(L162*$C$20)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "N162",
+      "value": "0.077",
+      "color": "00000000"
+    },
+    {
+      "cell": "O162",
+      "value": "IPCC",
+      "color": "00000000"
+    },
+    {
+      "cell": "B163",
+      "value": "Combustão de Coque de Petróleo",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C163",
+      "value": "MJ",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D163",
+      "value": "97500.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E163",
+      "value": "3.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F163",
+      "value": "0.6",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G163",
+      "value": "=E157",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H163",
+      "value": "=G163/10^6",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I163",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J163",
+      "value": "=D163*H163*I163",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "K163",
+      "value": "=E163*H163*I163",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "L163",
+      "value": "=F163*H163*I163",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "M163",
+      "value": "=(J163*1)+(K163*$C$18)+(L163*$C$20)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "N163",
+      "value": "0.102",
+      "color": "00000000"
+    },
+    {
+      "cell": "O163",
+      "value": "IPCC",
+      "color": "00000000"
+    },
+    {
+      "cell": "B164",
+      "value": "Combustão de Diesel",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C164",
+      "value": "litro",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D164",
+      "value": "74100.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E164",
+      "value": "3.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F164",
+      "value": "0.6",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G164",
+      "value": "=E151",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H164",
+      "value": "=G164/10^6",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I164",
+      "value": "=C151",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J164",
+      "value": "=D164*H164*I164",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "K164",
+      "value": "=E164*H164*I164",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "L164",
+      "value": "=F164*H164*I164",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "M164",
+      "value": "=(J164*1)+(K164*$C$18)+(L164*$C$20)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "N164",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "B165",
+      "value": "Uso de Gás Natural",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C165",
+      "value": "Nm³",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D165",
+      "value": "56100.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E165",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F165",
+      "value": "0.1",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G165",
+      "value": "=E152",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H165",
+      "value": "=G165/10^6",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I165",
+      "value": "0.74",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J165",
+      "value": "=D165*H165*I165",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "K165",
+      "value": "=E165*H165*I165",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "L165",
+      "value": "=F165*H165*I165",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "M165",
+      "value": "=(J165*1)+(K165*$C$18)+(L165*$C$20)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "N165",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "B166",
+      "value": "Uso de GLP",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C166",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D166",
+      "value": "63100.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E166",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F166",
+      "value": "0.1",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G166",
+      "value": "=E153",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H166",
+      "value": "=G166/10^6",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I166",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J166",
+      "value": "=D166*H166*I166",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "K166",
+      "value": "=E166*H166*I166",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "L166",
+      "value": "=F166*H166*I166",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "M166",
+      "value": "=(J166*1)+(K166*$C$18)+(L166*$C$20)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "N166",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "B167",
+      "value": "Combustão de Gasolina A",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C167",
+      "value": "litro",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D167",
+      "value": "69300.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E167",
+      "value": "3.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F167",
+      "value": "0.6",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G167",
+      "value": "=E150",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H167",
+      "value": "=G167/10^6",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I167",
+      "value": "=C150",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J167",
+      "value": "=D167*H167*I167",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "K167",
+      "value": "=E167*H167*I167",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "L167",
+      "value": "=F167*H167*I167",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "M167",
+      "value": "=(J167*1)+(K167*$C$18)+(L167*$C$20)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "N167",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "B168",
+      "value": "Combustão de Etanol anidro",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C168",
+      "value": "litro",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D168",
+      "value": "79600.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E168",
+      "value": "3.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F168",
+      "value": "0.6",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G168",
+      "value": "=E147",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H168",
+      "value": "=G168/10^6",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I168",
+      "value": "=C147",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J168",
+      "value": "=D168*H168*I168",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "K168",
+      "value": "=E168*H168*I168",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "L168",
+      "value": "=F168*H168*I168",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "M168",
+      "value": "=(J168*1)+(K168*$C$18)+(L168*$C$20)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "N168",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "B169",
+      "value": "Combustão de Etanol hidratado",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C169",
+      "value": "litro",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D169",
+      "value": "79600.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E169",
+      "value": "3.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F169",
+      "value": "0.6",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G169",
+      "value": "=E148",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H169",
+      "value": "=G169/10^6",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I169",
+      "value": "=C148",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J169",
+      "value": "=D169*H169*I169",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "K169",
+      "value": "=E169*H169*I169",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "L169",
+      "value": "=F169*H169*I169",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "M169",
+      "value": "=(J169*1)+(K169*$C$18)+(L169*$C$20)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "N169",
+      "value": "-",
+      "color": "00000000"
+    },
+    {
+      "cell": "B170",
+      "value": "Combustão de Cavaco de madeira",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C170",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D170",
+      "value": "112000.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E170",
+      "value": "30.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F170",
+      "value": "4.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G170",
+      "value": "=AVERAGE(E155:E156)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H170",
+      "value": "=G170/10^6",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I170",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J170",
+      "value": "=D170*H170*I170",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "K170",
+      "value": "=E170*H170*I170",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "L170",
+      "value": "=F170*H170*I170",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "M170",
+      "value": "=(J170*1)+(K170*$C$18)+(L170*$C$20)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "N170",
+      "value": "=M170/G170",
+      "color": "00000000"
+    },
+    {
+      "cell": "B171",
+      "value": "Combustão de Lenha / Lenha residual",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C171",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D171",
+      "value": "112000.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E171",
+      "value": "30.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F171",
+      "value": "4.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G171",
+      "value": "=AVERAGE(E155:E156)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H171",
+      "value": "=G171/10^6",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I171",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J171",
+      "value": "=D171*H171*I171",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "K171",
+      "value": "=E171*H171*I171",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "L171",
+      "value": "=F171*H171*I171",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "M171",
+      "value": "=(J171*1)+(K171*$C$18)+(L171*$C$20)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "N171",
+      "value": "=M171/G171",
+      "color": "00000000"
+    },
+    {
+      "cell": "B172",
+      "value": "Combustão de carvão vegetal",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C172",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D172",
+      "value": "112000.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E172",
+      "value": "200.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F172",
+      "value": "4.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G172",
+      "value": "=D9",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H172",
+      "value": "=G172/10^6",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I172",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J172",
+      "value": "=D172*H172*I172",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "K172",
+      "value": "=E172*H172*I172",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "L172",
+      "value": "=F172*H172*I172",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "M172",
+      "value": "=(J172*1)+(K172*$C$18)+(L172*$C$20)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "N172",
+      "value": "=M172/G172",
+      "color": "00000000"
+    },
+    {
+      "cell": "B173",
+      "value": "Combustão de resíduo de amendoim",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C173",
+      "value": "kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D173",
+      "value": "100000.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E173",
+      "value": "30.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "F173",
+      "value": "4.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G173",
+      "value": "=D10",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H173",
+      "value": "=G173/10^6",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "I173",
+      "value": "1.0",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J173",
+      "value": "=D173*H173*I173",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "K173",
+      "value": "=E173*H173*I173",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "L173",
+      "value": "=F173*H173*I173",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "M173",
+      "value": "=(J173*1)+(K173*$C$18)+(L173*$C$20)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "N173",
+      "value": "=M173/G173",
+      "color": "00000000"
+    },
+    {
+      "cell": "B174",
+      "value": "Combustão do Pellet de resíduo de Pinus",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C174",
+      "value": "Kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G174",
+      "value": "17.6",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B175",
+      "value": "Combustão do Pellet de resíduo de Eucalipto",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C175",
+      "value": "Kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B176",
+      "value": "Combustão do Pellet de resíduo de amendoin",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C176",
+      "value": "Kg",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D177",
+      "value": "Fonte: IPCC (2006)",
+      "color": "FFEEECE1"
+    },
+    {
+      "cell": "G177",
+      "value": "Fonte: Tabela massa especifica e poder calorífico inferior",
+      "color": "FFEEECE1"
+    },
+    {
+      "cell": "I177",
+      "value": "Fonte: Tabela massa especifica e poder calorífico inferior; Gás Natural - BEN (2023)",
+      "color": "FFEEECE1"
+    },
+    {
+      "cell": "J177",
+      "value": "Calculado",
+      "color": "FFEEECE1"
+    },
+    {
+      "cell": "B180",
+      "value": "Fatores de emissão da queima de combustíveis em caldeiras",
+      "color": "00000000"
+    },
+    {
+      "cell": "B181",
+      "value": "Combustível",
+      "color": "FF4472C4"
+    },
+    {
+      "cell": "C181",
+      "value": "Unidade",
+      "color": "FF4472C4"
+    },
+    {
+      "cell": "D181",
+      "value": "CO2 Fóssil",
+      "color": "FF4472C4"
+    },
+    {
+      "cell": "E181",
+      "value": "CO2 Biogênico",
+      "color": "FF4472C4"
+    },
+    {
+      "cell": "F181",
+      "value": "CH4 Fóssil",
+      "color": "FF4472C4"
+    },
+    {
+      "cell": "G181",
+      "value": "CH4 Biogênico",
+      "color": "FF4472C4"
+    },
+    {
+      "cell": "H181",
+      "value": "N2O",
+      "color": "FF4472C4"
+    },
+    {
+      "cell": "I181",
+      "value": "CO₂ eq",
+      "color": "FF4472C4"
+    },
+    {
+      "cell": "J181",
+      "value": "Fator de emissão CO2 eq",
+      "color": "FF4472C4"
+    },
+    {
+      "cell": "K181",
+      "value": "Referência",
+      "color": "FF4472C4"
+    },
+    {
+      "cell": "D182",
+      "value": "g/unidade",
+      "color": "FF8FAADC"
+    },
+    {
+      "cell": "E182",
+      "value": "g/unidade",
+      "color": "FF8FAADC"
+    },
+    {
+      "cell": "F182",
+      "value": "g/unidade",
+      "color": "FF8FAADC"
+    },
+    {
+      "cell": "G182",
+      "value": "g/unidade",
+      "color": "FF8FAADC"
+    },
+    {
+      "cell": "H182",
+      "value": "g/unidade",
+      "color": "FF8FAADC"
+    },
+    {
+      "cell": "I182",
+      "value": "g/unidade",
+      "color": "FF8FAADC"
+    },
+    {
+      "cell": "J182",
+      "value": "kg CO2 eq/MJ",
+      "color": "FF8FAADC"
+    },
+    {
+      "cell": "B183",
+      "value": "Casca de amendoin",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C183",
+      "value": "kg base seca",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D183",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F183",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G183",
+      "value": "0.014",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H183",
+      "value": "0.022",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I183",
+      "value": "=D183+E183*0+F183*$C$18+G183*$C$19+H183*$C$20",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J183",
+      "value": "=(I183/1000)/G173",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K183",
+      "value": "IPCC (2006) apud RenovaCalc",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B184",
+      "value": "Cavacos de madeira",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C184",
+      "value": "kg base seca",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D184",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F184",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G184",
+      "value": "0.014",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H184",
+      "value": "0.022",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I184",
+      "value": "=D184+E184*0+F184*$C$18+G184*$C$19+H184*$C$20",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J184",
+      "value": "=(I184/1000)/G171",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K184",
+      "value": "IPCC (2006) apud RenovaCalc",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B185",
+      "value": "Lenha",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C185",
+      "value": "kg base seca",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D185",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F185",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G185",
+      "value": "0.014",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H185",
+      "value": "0.022",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I185",
+      "value": "=D185+E185*0+F185*$C$18+G185*$C$19+H185*$C$20",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J185",
+      "value": "=(I185/1000)/G170",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K185",
+      "value": "IPCC (2006) apud RenovaCalc",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B186",
+      "value": "Resíduos florestais",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C186",
+      "value": "kg base seca",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D186",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F186",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G186",
+      "value": "0.014",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H186",
+      "value": "0.022",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I186",
+      "value": "=D186+E186*0+F186*$C$18+G186*$C$19+H186*$C$20",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "J186",
+      "value": "=(I186/1000)/G170",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K186",
+      "value": "IPCC (2006) apud RenovaCalc",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B187",
+      "value": "Gás combustível renovável",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C187",
+      "value": "MJ",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D187",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E187",
+      "value": "55.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F187",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G187",
+      "value": "0.001",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H187",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I187",
+      "value": "0.1",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K187",
+      "value": "(IPCC, 2006 - Capítulo 2 - Combustão Estacionária)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B188",
+      "value": "Gás Natural",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C188",
+      "value": "MJ",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D188",
+      "value": "56.1",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E188",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F188",
+      "value": "0.005",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G188",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H188",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I188",
+      "value": "56.3",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K188",
+      "value": "(IPCC, 2006 - Capítulo 2 - Combustão Estacionária)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B189",
+      "value": "Gás Natural",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C189",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D189",
+      "value": "2067.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E189",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F189",
+      "value": "0.184",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G189",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H189",
+      "value": "0.004",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I189",
+      "value": "2073.4",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K189",
+      "value": "(IPCC, 2006 - Capítulo 2 - Combustão Estacionária)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B190",
+      "value": "GLP",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C190",
+      "value": "MJ",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D190",
+      "value": "63.1",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E190",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F190",
+      "value": "0.002",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G190",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H190",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I190",
+      "value": "63.2",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K190",
+      "value": "(IPCC, 2006 - Capítulo 2 - Combustão Estacionária)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B191",
+      "value": "GLP",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C191",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D191",
+      "value": "2932.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E191",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F191",
+      "value": "0.07",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G191",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H191",
+      "value": "0.005",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I191",
+      "value": "2935.8",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K191",
+      "value": "(IPCC, 2006 - Capítulo 2 - Combustão Estacionária)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B192",
+      "value": "Carvão de coque",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C192",
+      "value": "MJ",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D192",
+      "value": "95.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E192",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F192",
+      "value": "0.3",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G192",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H192",
+      "value": "0.002",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I192",
+      "value": "103.9",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K192",
+      "value": "(IPCC, 2006 - Capítulo 2 - Combustão Estacionária)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B193",
+      "value": "Diesel A (B0)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C193",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D193",
+      "value": "3134.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E193",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F193",
+      "value": "0.127",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G193",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H193",
+      "value": "0.025",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I193",
+      "value": "3144.3",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K193",
+      "value": "(IPCC, 2006 - Capítulo 2 - Combustão Estacionária)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B194",
+      "value": "Biodiesel (B100)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C194",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D194",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E194",
+      "value": "2763.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F194",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G194",
+      "value": "0.127",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H194",
+      "value": "0.025",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I194",
+      "value": "10.3",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K194",
+      "value": "RenovaBio",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B195",
+      "value": "Óleo combustível",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C195",
+      "value": "MJ",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D195",
+      "value": "77.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E195",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F195",
+      "value": "0.003",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G195",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H195",
+      "value": "0.001",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I195",
+      "value": "77.7",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K195",
+      "value": "(IPCC, 2006 - Capítulo 2 - Combustão Estacionária)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B196",
+      "value": "Óleo combustível",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C196",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D196",
+      "value": "3108.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E196",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F196",
+      "value": "0.12",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G196",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H196",
+      "value": "0.024",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I196",
+      "value": "3117.9",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K196",
+      "value": "(IPCC, 2006 - Capítulo 2 - Combustão Estacionária)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B197",
+      "value": "Etanol anidro",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C197",
+      "value": "MJ",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D197",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E197",
+      "value": "80.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F197",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G197",
+      "value": "0.003",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H197",
+      "value": "0.001",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I197",
+      "value": "0.2",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K197",
+      "value": "(IPCC, 2006 - Capítulo 2 - Combustão Estacionária)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B198",
+      "value": "Etanol anidro",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C198",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D198",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E198",
+      "value": "2250.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F198",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G198",
+      "value": "0.085",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H198",
+      "value": "0.017",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I198",
+      "value": "6.9",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K198",
+      "value": "(IPCC, 2006 - Capítulo 2 - Combustão Estacionária)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B199",
+      "value": "Etanol hidratado",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C199",
+      "value": "MJ",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D199",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E199",
+      "value": "80.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F199",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G199",
+      "value": "0.003",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H199",
+      "value": "0.001",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I199",
+      "value": "0.2",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K199",
+      "value": "(IPCC, 2006 - Capítulo 2 - Combustão Estacionária)",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "B200",
+      "value": "Etanol hidratado",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "C200",
+      "value": "kg",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "D200",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "E200",
+      "value": "2100.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "F200",
+      "value": "0.0",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "G200",
+      "value": "0.079",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "H200",
+      "value": "0.016",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "I200",
+      "value": "6.5",
+      "color": "FFF2F2F2"
+    },
+    {
+      "cell": "K200",
+      "value": "(IPCC, 2006 - Capítulo 2 - Combustão Estacionária)",
+      "color": "FFF2F2F2"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "cell": "A1",
+    "row": 1,
+    "col": 1,
+    "value": "                              Calculadora para contabilização de Eficiência Energético-Ambiental para biocombustíveis sólidos (Pellets ou Briquetes)\n\n                                                                             Chamada CNPq nº 26/2021 \n                                                                                      401237/2022-2",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "B2",
+    "row": 2,
+    "col": 2,
+    "value": "Referências",
+    "type": "s",
+    "fill_color": "FFB7B7B7"
+  },
+  {
+    "cell": "B3",
+    "row": 3,
+    "col": 2,
+    "value": "BRLUC 2.0 (Brazilian Land Use Change) 2024. Disponível em: https://brluc.cnpma.embrapa.br/",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "B4",
+    "row": 4,
+    "col": 2,
+    "value": "CASTRO, R. S. D. D. (2010). Avaliação das características organolépticas de grãos e qualidade fisiológica de sementes em função do tempo de armazenamento em amendoim. Disponível em: https://repositorio.unesp.br/server/api/core/bitstreams/7888a4d8-70fc-4dd7-861f-652de34560d2/content",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "B5",
+    "row": 5,
+    "col": 2,
+    "value": "Embrapa (2023) https://www.embrapa.br/busca-de-solucoes-tecnologicas/-/produto-servico/9659/amendoim---brs-423-ol",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "B6",
+    "row": 6,
+    "col": 2,
+    "value": "FARRAPO, A. C., MATHEUS, T. T., LAGUNES, R. M., FILLETI, R., YAMAJI, F., & LOPES SILVA, D. A. (2023). The Application of Circular Footprint Formula in Bioenergy/Bioeconomy: Challenges, Case Study, and Comparison with Life Cycle Assessment Allocation Methods. Sustainability (Switzerland), 15(3). https://doi.org/10.3390/su15032339",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "B7",
+    "row": 7,
+    "col": 2,
+    "value": "IPCC 2006, 2006 IPCC Guidelines for National Greenhouse Gas Inventories, Prepared by the National Greenhouse Gas Inventories Programme, Eggleston H.S., Buendia L., Miwa K., Ngara T. and Tanabe K. (eds).\nPublished: IGES, Japan. ",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "B8",
+    "row": 8,
+    "col": 2,
+    "value": "IPCC, 2021: Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change[Masson-Delmotte, V., P. Zhai, A. Pirani, S.L. Connors, C. Péan, S. Berger, N. Caud, Y. Chen, L. Goldfarb, M.I. Gomis, M. Huang, K. Leitzell, E. Lonnoy, J.B.R. Matthews, T.K. Maycock, T. Waterfield, O. Yelekçi, R. Yu, and B. Zhou (eds.)]. Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA, In press, doi:10.1017/9781009157896.",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "B9",
+    "row": 9,
+    "col": 2,
+    "value": "MATHEUS, T. T., FARRAPO JR., A. C., LAGUNES, R. M., FILLETI, R., GARCIA, D. P., & SILVA, D. A. L. (2024). The effect of transportation choices for mitigating climate-related impacts: The case of solid biofuels exported to Europe produced by Latin American countries. Sustainable Production and Consumption",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "B10",
+    "row": 10,
+    "col": 2,
+    "value": "PEREA-MORENO, M.A., MANZANO-AGUGLIARO, F., HERNANDEZ-ESCOBEDO, Q., & PEREA-MORENO, A.J. (2018). Peanut shell for energy: properties and its potential to respect the environment. Sustainability, 10(9), 3254.",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "B11",
+    "row": 11,
+    "col": 2,
+    "value": "Resolução ANP nº 894/2022 ",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "B12",
+    "row": 12,
+    "col": 2,
+    "value": "RODIGHERI, H. R., GRAÇA, L. R., & de LIMA, M. A. (2005). Indicadores de custos, produtividade, renda e créditos de carbono de plantio de eucaliptos e pinus em pequenas propriedades rurais.",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "B13",
+    "row": 13,
+    "col": 2,
+    "value": "SILVA, D. A. L. (2012). Avaliação do ciclo de vida da produção do painel de madeira MDP no Brasil (Doctoral dissertation, Universidade de São Paulo). Disponível em: https://oasisbr.ibict.br/vufind/Record/USP_d416ac5814858b5df3ddb5f026e0a9a4",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "B14",
+    "row": 14,
+    "col": 2,
+    "value": "Silva, D. A. L., Filleti, R. A. P., Musule, R., Matheus, T. T., & Freire, F. (2022). A systematic review and life cycle assessment of biomass pellets and briquettes production in Latin America. Renewable and Sustainable Energy Reviews, 157, 112042.",
+    "type": "s",
+    "fill_color": "00000000"
+  }
+]

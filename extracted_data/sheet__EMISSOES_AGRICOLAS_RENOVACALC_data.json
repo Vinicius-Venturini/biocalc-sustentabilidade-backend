@@ -1,0 +1,1070 @@
+[
+  {
+    "cell": "B2",
+    "row": 2,
+    "col": 2,
+    "value": "Emissões de N2O diretas e indiretas ",
+    "type": "s",
+    "fill_color": "FF2E75B6"
+  },
+  {
+    "cell": "B3",
+    "row": 3,
+    "col": 2,
+    "value": "IPCC (2006) V.04 \"Agricultura, floresta e outros usos da terra\"",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B5",
+    "row": 5,
+    "col": 2,
+    "value": "N2O= 44/28*(FE1*(Ntot+Nrc)+FE4*14/17*NH3+FE5*14/62*NO3-)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B6",
+    "row": 6,
+    "col": 2,
+    "value": "Onde:",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B7",
+    "row": 7,
+    "col": 2,
+    "value": "N2O = Emissões de N2O [kg/ha]  ",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B8",
+    "row": 8,
+    "col": 2,
+    "value": "FE1= 0,01",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B9",
+    "row": 9,
+    "col": 2,
+    "value": "Ntot= Nmin_fert+Norg_fert",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B10",
+    "row": 10,
+    "col": 2,
+    "value": "Nrc= Quantidade de N em resíduos culturais [kg/ha]",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B11",
+    "row": 11,
+    "col": 2,
+    "value": "FE4= 0,01",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B12",
+    "row": 12,
+    "col": 2,
+    "value": "NH3= Perdas de Nitrogênio na forma de amônia [kg/ha]",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B13",
+    "row": 13,
+    "col": 2,
+    "value": "FE5= 0,0075",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B14",
+    "row": 14,
+    "col": 2,
+    "value": "NO3-= Perdas de Nitrogênio na forma de nitrato [kg/ha]",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B16",
+    "row": 16,
+    "col": 2,
+    "value": "NH3= (Nmin_fert*0,1+Norg_fert*0,2)*17/14",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B17",
+    "row": 17,
+    "col": 2,
+    "value": "NO3= (Nmin_fert+Norg_fert+Nrc)*0,3*62/14",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B18",
+    "row": 18,
+    "col": 2,
+    "value": "Onde:",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B19",
+    "row": 19,
+    "col": 2,
+    "value": "Nmin_fert= kg N/ha em fertilizantes minerais",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B20",
+    "row": 20,
+    "col": 2,
+    "value": "Norg_fert= kg N/ha em fertilizantes orgânicos",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B21",
+    "row": 21,
+    "col": 2,
+    "value": "0,1= Fração de N em fertilizante mineral (sintético) que volatiliza como NH3 e NOx",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B22",
+    "row": 22,
+    "col": 2,
+    "value": "0,2= Fração de N em fertilizante orgânico que volatiliza como NH3 e NOx",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B23",
+    "row": 23,
+    "col": 2,
+    "value": "0,3= Fração de N nos fertilizante minerais e orgânico que é perdida via lixiviação e runnof",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B24",
+    "row": 24,
+    "col": 2,
+    "value": "Nrc= kg N/ha em resíduos culturais",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B27",
+    "row": 27,
+    "col": 2,
+    "value": "Resídos culturais",
+    "type": "s",
+    "fill_color": "FF2E75B6"
+  },
+  {
+    "cell": "B28",
+    "row": 28,
+    "col": 2,
+    "value": "Nrc CANA DE AÇÚCAR =",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "F28",
+    "row": 28,
+    "col": 6,
+    "value": "Nrc MILHO E SOJA = ",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B29",
+    "row": 29,
+    "col": 2,
+    "value": "[teor de N na raíz * quantidade de raíz)+(teor de N na palha*quantidade de palha*produtividade*(1 - % da área queimada - % de resíduos agrícolas recolhida)]",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "F29",
+    "row": 29,
+    "col": 6,
+    "value": "[Quantidade de resíduos na parte aérea*1000*Teor de N na parte aérea*(1-Fração de resíduos recolhidos)+(Quantidade de resíduos na parte aérea*1000+Produtividade em massa seca*1000)*Quantidade de raíz*Teor de N na raíz]",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "C30",
+    "row": 30,
+    "col": 3,
+    "value": "Cana de açúcar E1G",
+    "type": "s",
+    "fill_color": "FFA8C615"
+  },
+  {
+    "cell": "D30",
+    "row": 30,
+    "col": 4,
+    "value": "Cana E1G2G",
+    "type": "s",
+    "fill_color": "FFA8C615"
+  },
+  {
+    "cell": "E30",
+    "row": 30,
+    "col": 5,
+    "value": "Cana Flex",
+    "type": "s",
+    "fill_color": "FFA8C615"
+  },
+  {
+    "cell": "G30",
+    "row": 30,
+    "col": 7,
+    "value": "Milho BR - Stand Alone",
+    "type": "s",
+    "fill_color": "FFA8C615"
+  },
+  {
+    "cell": "H30",
+    "row": 30,
+    "col": 8,
+    "value": "Milho BR - Flex",
+    "type": "s",
+    "fill_color": "FFA8C615"
+  },
+  {
+    "cell": "I30",
+    "row": 30,
+    "col": 9,
+    "value": "Milho Importado",
+    "type": "s",
+    "fill_color": "FFA8C615"
+  },
+  {
+    "cell": "J30",
+    "row": 30,
+    "col": 10,
+    "value": "Soja",
+    "type": "s",
+    "fill_color": "FFA8C615"
+  },
+  {
+    "cell": "K30",
+    "row": 30,
+    "col": 11,
+    "value": "Soja HEFA",
+    "type": "s",
+    "fill_color": "FFA8C615"
+  },
+  {
+    "cell": "B31",
+    "row": 31,
+    "col": 2,
+    "value": "Fração de massa seca ",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "F31",
+    "row": 31,
+    "col": 6,
+    "value": "Fração de massa seca ",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B32",
+    "row": 32,
+    "col": 2,
+    "value": "Produtividade (t/ha)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "F32",
+    "row": 32,
+    "col": 6,
+    "value": "Produtividade (t/ha)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B33",
+    "row": 33,
+    "col": 2,
+    "value": "Produtividade em massa seca (t/ha)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "F33",
+    "row": 33,
+    "col": 6,
+    "value": "Produtividade em massa seca (t/ha)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B34",
+    "row": 34,
+    "col": 2,
+    "value": "Quantidade de palha (tpalha (bs) /tcana )",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "F34",
+    "row": 34,
+    "col": 6,
+    "value": "Quantidade de resíduos na parte aérea (t bs/ha)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B35",
+    "row": 35,
+    "col": 2,
+    "value": "Quantidade de resíduos na parte aérea (t bs/ha)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "F35",
+    "row": 35,
+    "col": 6,
+    "value": "Teor de N nos resíduos da parte aérea (kgN/kg resíduo bs)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B36",
+    "row": 36,
+    "col": 2,
+    "value": "Teor de N nos resíduos da parte aérea (kgN/tpalha bs)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "F36",
+    "row": 36,
+    "col": 6,
+    "value": "Fração de resíduos recolhidos",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B37",
+    "row": 37,
+    "col": 2,
+    "value": "Razão entre as raízes e a parte aérea (kgraízes/kgparte aérea)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "F37",
+    "row": 37,
+    "col": 6,
+    "value": "Razão entre as raízes e a parte aérea (kgraízes/kgparte aérea)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B38",
+    "row": 38,
+    "col": 2,
+    "value": "Teor de N na raíz (kgN / traíz bs)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "F38",
+    "row": 38,
+    "col": 6,
+    "value": "Teor de N na raíz (kgN/kg raíz)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B39",
+    "row": 39,
+    "col": 2,
+    "value": "Quantidade de raíz (t(bs)/ha/ano)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B40",
+    "row": 40,
+    "col": 2,
+    "value": "Fração da área queimada",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B41",
+    "row": 41,
+    "col": 2,
+    "value": "Palha retirada como impureza vegetal (tpalha (bs) /ha )",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B42",
+    "row": 42,
+    "col": 2,
+    "value": "Palha recolhida (tpalha (bs) /ha)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B43",
+    "row": 43,
+    "col": 2,
+    "value": "Fração de resíduos recolhidos",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B46",
+    "row": 46,
+    "col": 2,
+    "value": "Emissões de N2O",
+    "type": "s",
+    "fill_color": "FF2E75B6"
+  },
+  {
+    "cell": "C47",
+    "row": 47,
+    "col": 3,
+    "value": "Cana de açúcar E1G",
+    "type": "s",
+    "fill_color": "FFA8C615"
+  },
+  {
+    "cell": "D47",
+    "row": 47,
+    "col": 4,
+    "value": "Cana E1G2G",
+    "type": "s",
+    "fill_color": "FFA8C615"
+  },
+  {
+    "cell": "E47",
+    "row": 47,
+    "col": 5,
+    "value": "Cana Flex",
+    "type": "s",
+    "fill_color": "FFA8C615"
+  },
+  {
+    "cell": "G47",
+    "row": 47,
+    "col": 7,
+    "value": "Milho BR - Stand Alone",
+    "type": "s",
+    "fill_color": "FFA8C615"
+  },
+  {
+    "cell": "H47",
+    "row": 47,
+    "col": 8,
+    "value": "Milho BR - Flex",
+    "type": "s",
+    "fill_color": "FFA8C615"
+  },
+  {
+    "cell": "I47",
+    "row": 47,
+    "col": 9,
+    "value": "Milho Importado",
+    "type": "s",
+    "fill_color": "FFA8C615"
+  },
+  {
+    "cell": "J47",
+    "row": 47,
+    "col": 10,
+    "value": "Soja B100",
+    "type": "s",
+    "fill_color": "FFA8C615"
+  },
+  {
+    "cell": "K47",
+    "row": 47,
+    "col": 11,
+    "value": "Soja HEFA",
+    "type": "s",
+    "fill_color": "FFA8C615"
+  },
+  {
+    "cell": "B48",
+    "row": 48,
+    "col": 2,
+    "value": "Nmin_fert (kg N/ha)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "F48",
+    "row": 48,
+    "col": 6,
+    "value": "Nmin_fert (kg N/ha)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B49",
+    "row": 49,
+    "col": 2,
+    "value": "Norg_fert (kg N/ha)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "F49",
+    "row": 49,
+    "col": 6,
+    "value": "Norg_fert (kg N/ha)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B50",
+    "row": 50,
+    "col": 2,
+    "value": "Nrc (kg N/ha)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "F50",
+    "row": 50,
+    "col": 6,
+    "value": "Nrc (kg N/ha)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B51",
+    "row": 51,
+    "col": 2,
+    "value": "Emissões fertilizantes minerais",
+    "type": "s",
+    "fill_color": "FF8EB4E6"
+  },
+  {
+    "cell": "F51",
+    "row": 51,
+    "col": 6,
+    "value": "Emissões fertilizantes minerais",
+    "type": "s",
+    "fill_color": "FF8EB4E6"
+  },
+  {
+    "cell": "B52",
+    "row": 52,
+    "col": 2,
+    "value": "NH3",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "F52",
+    "row": 52,
+    "col": 6,
+    "value": "NH3",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B53",
+    "row": 53,
+    "col": 2,
+    "value": "NO3-",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "F53",
+    "row": 53,
+    "col": 6,
+    "value": "NO3-",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B54",
+    "row": 54,
+    "col": 2,
+    "value": "N2O",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "F54",
+    "row": 54,
+    "col": 6,
+    "value": "N2O",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B55",
+    "row": 55,
+    "col": 2,
+    "value": "Emissões fertilizantes orgânicos",
+    "type": "s",
+    "fill_color": "FF8EB4E6"
+  },
+  {
+    "cell": "F55",
+    "row": 55,
+    "col": 6,
+    "value": "Emissões fertilizantes orgânicos",
+    "type": "s",
+    "fill_color": "FF8EB4E6"
+  },
+  {
+    "cell": "B56",
+    "row": 56,
+    "col": 2,
+    "value": "NH3",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "F56",
+    "row": 56,
+    "col": 6,
+    "value": "NH3",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B57",
+    "row": 57,
+    "col": 2,
+    "value": "NO3-",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "F57",
+    "row": 57,
+    "col": 6,
+    "value": "NO3-",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B58",
+    "row": 58,
+    "col": 2,
+    "value": "N2O",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "F58",
+    "row": 58,
+    "col": 6,
+    "value": "N2O",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B59",
+    "row": 59,
+    "col": 2,
+    "value": "Emissões resíduos culturais",
+    "type": "s",
+    "fill_color": "FF8EB4E6"
+  },
+  {
+    "cell": "F59",
+    "row": 59,
+    "col": 6,
+    "value": "Emissões resíduos culturais",
+    "type": "s",
+    "fill_color": "FF8EB4E6"
+  },
+  {
+    "cell": "B60",
+    "row": 60,
+    "col": 2,
+    "value": "NH3",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "F60",
+    "row": 60,
+    "col": 6,
+    "value": "NH3",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B61",
+    "row": 61,
+    "col": 2,
+    "value": "NO3-",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "F61",
+    "row": 61,
+    "col": 6,
+    "value": "NO3-",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B62",
+    "row": 62,
+    "col": 2,
+    "value": "N2O",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "F62",
+    "row": 62,
+    "col": 6,
+    "value": "N2O",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B63",
+    "row": 63,
+    "col": 2,
+    "value": "IPCC (2006)",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "B66",
+    "row": 66,
+    "col": 2,
+    "value": "Emissões de N2O e CH4 da palha queimada do campo - Apenas para Cana de Açúcar",
+    "type": "s",
+    "fill_color": "FF2E75B6"
+  },
+  {
+    "cell": "B67",
+    "row": 67,
+    "col": 2,
+    "value": "Quantidade de palha queimada = quantidade de palha produzida*produtividade*% da área queimada",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B68",
+    "row": 68,
+    "col": 2,
+    "value": "Fatores de emissão (kg/t palha bs):",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B69",
+    "row": 69,
+    "col": 2,
+    "value": "N2O",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "C69",
+    "row": 69,
+    "col": 3,
+    "value": "0.07",
+    "type": "n",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "B70",
+    "row": 70,
+    "col": 2,
+    "value": "CH4 Bio",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "C70",
+    "row": 70,
+    "col": 3,
+    "value": "2.7",
+    "type": "n",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "C71",
+    "row": 71,
+    "col": 3,
+    "value": "Cana de açúcar E1G",
+    "type": "s",
+    "fill_color": "FFA8C615"
+  },
+  {
+    "cell": "D71",
+    "row": 71,
+    "col": 4,
+    "value": "Cana E1G2G",
+    "type": "s",
+    "fill_color": "FFA8C615"
+  },
+  {
+    "cell": "E71",
+    "row": 71,
+    "col": 5,
+    "value": "Cana Flex",
+    "type": "s",
+    "fill_color": "FFA8C615"
+  },
+  {
+    "cell": "B72",
+    "row": 72,
+    "col": 2,
+    "value": "Quantidade de palha queimada",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "C72",
+    "row": 72,
+    "col": 3,
+    "value": "=C34*C32*C40",
+    "type": "f",
+    "fill_color": "FFE7E6E6",
+    "formula": "=C34*C32*C40"
+  },
+  {
+    "cell": "D72",
+    "row": 72,
+    "col": 4,
+    "value": "=D34*D32*D40",
+    "type": "f",
+    "fill_color": "FFE7E6E6",
+    "formula": "=D34*D32*D40"
+  },
+  {
+    "cell": "E72",
+    "row": 72,
+    "col": 5,
+    "value": "=E34*E32*E40",
+    "type": "f",
+    "fill_color": "FFE7E6E6",
+    "formula": "=E34*E32*E40"
+  },
+  {
+    "cell": "B73",
+    "row": 73,
+    "col": 2,
+    "value": "Emissões de N2O (kg/ha)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "C73",
+    "row": 73,
+    "col": 3,
+    "value": "=C72*$C$69",
+    "type": "f",
+    "fill_color": "FFE7E6E6",
+    "formula": "=C72*$C$69"
+  },
+  {
+    "cell": "D73",
+    "row": 73,
+    "col": 4,
+    "value": "=D72*$C$69",
+    "type": "f",
+    "fill_color": "FFE7E6E6",
+    "formula": "=D72*$C$69"
+  },
+  {
+    "cell": "E73",
+    "row": 73,
+    "col": 5,
+    "value": "=E72*$C$69",
+    "type": "f",
+    "fill_color": "FFE7E6E6",
+    "formula": "=E72*$C$69"
+  },
+  {
+    "cell": "B74",
+    "row": 74,
+    "col": 2,
+    "value": "Emissões de CH4 (kg/ha)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "C74",
+    "row": 74,
+    "col": 3,
+    "value": "=C72*$C$70",
+    "type": "f",
+    "fill_color": "FFE7E6E6",
+    "formula": "=C72*$C$70"
+  },
+  {
+    "cell": "D74",
+    "row": 74,
+    "col": 4,
+    "value": "=D72*$C$70",
+    "type": "f",
+    "fill_color": "FFE7E6E6",
+    "formula": "=D72*$C$70"
+  },
+  {
+    "cell": "E74",
+    "row": 74,
+    "col": 5,
+    "value": "=E72*$C$70",
+    "type": "f",
+    "fill_color": "FFE7E6E6",
+    "formula": "=E72*$C$70"
+  },
+  {
+    "cell": "B75",
+    "row": 75,
+    "col": 2,
+    "value": "GREET (2010)",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "B78",
+    "row": 78,
+    "col": 2,
+    "value": "Emissões de CO2 fóssil após aplicação de Calcário e Uréia",
+    "type": "s",
+    "fill_color": "FF2E75B6"
+  },
+  {
+    "cell": "B79",
+    "row": 79,
+    "col": 2,
+    "value": "Calcário Calcítico (kg C/kg)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "C79",
+    "row": 79,
+    "col": 3,
+    "value": "0.12",
+    "type": "n",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "D79",
+    "row": 79,
+    "col": 4,
+    "value": "Calcário Calcítico (kg CO₂/kg)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "E79",
+    "row": 79,
+    "col": 5,
+    "value": "=C79*(44/12)",
+    "type": "f",
+    "fill_color": "FFE7E6E6",
+    "formula": "=C79*(44/12)"
+  },
+  {
+    "cell": "B80",
+    "row": 80,
+    "col": 2,
+    "value": "Calcário Dolomítico (kg C/kg)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "C80",
+    "row": 80,
+    "col": 3,
+    "value": "0.13",
+    "type": "n",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "D80",
+    "row": 80,
+    "col": 4,
+    "value": "Calcário Dolomítico (kg CO₂/kg)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "E80",
+    "row": 80,
+    "col": 5,
+    "value": "=C80*(44/12)",
+    "type": "f",
+    "fill_color": "FFE7E6E6",
+    "formula": "=C80*(44/12)"
+  },
+  {
+    "cell": "B81",
+    "row": 81,
+    "col": 2,
+    "value": "Calcário Ureia (kg C/kg)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "C81",
+    "row": 81,
+    "col": 3,
+    "value": "0.2",
+    "type": "n",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "D81",
+    "row": 81,
+    "col": 4,
+    "value": "Ureia (kg CO₂/kg N)",
+    "type": "s",
+    "fill_color": "FFE7E6E6"
+  },
+  {
+    "cell": "E81",
+    "row": 81,
+    "col": 5,
+    "value": "=C81*(44/12)/0.47",
+    "type": "f",
+    "fill_color": "FFE7E6E6",
+    "formula": "=C81*(44/12)/0.47"
+  },
+  {
+    "cell": "B82",
+    "row": 82,
+    "col": 2,
+    "value": "IPCC (2006)",
+    "type": "s",
+    "fill_color": "00000000"
+  }
+]

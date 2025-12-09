@@ -1,0 +1,1712 @@
+[
+  {
+    "cell": "C7",
+    "formula": "=1/D7*1000",
+    "result": "=1/D7*1000"
+  },
+  {
+    "cell": "E7",
+    "formula": "=J186",
+    "result": "=J186"
+  },
+  {
+    "cell": "C8",
+    "formula": "=1/D8*1000",
+    "result": "=1/D8*1000"
+  },
+  {
+    "cell": "E8",
+    "formula": "=J186",
+    "result": "=J186"
+  },
+  {
+    "cell": "C9",
+    "formula": "=1/D9*1000",
+    "result": "=1/D9*1000"
+  },
+  {
+    "cell": "E9",
+    "formula": "=N172",
+    "result": "=N172"
+  },
+  {
+    "cell": "C10",
+    "formula": "=1/D10*1000",
+    "result": "=1/D10*1000"
+  },
+  {
+    "cell": "E10",
+    "formula": "=J183",
+    "result": "=J183"
+  },
+  {
+    "cell": "C11",
+    "formula": "=1/D11*1000",
+    "result": "=1/D11*1000"
+  },
+  {
+    "cell": "E11",
+    "formula": "=J186",
+    "result": "=J186"
+  },
+  {
+    "cell": "C12",
+    "formula": "=1/D12*1000",
+    "result": "=1/D12*1000"
+  },
+  {
+    "cell": "E12",
+    "formula": "=J186",
+    "result": "=J186"
+  },
+  {
+    "cell": "G26",
+    "formula": "=D26*F26",
+    "result": "=D26*F26"
+  },
+  {
+    "cell": "G27",
+    "formula": "=D27*F27",
+    "result": "=D27*F27"
+  },
+  {
+    "cell": "G28",
+    "formula": "=D28*E28",
+    "result": "=D28*E28"
+  },
+  {
+    "cell": "G29",
+    "formula": "=D29*F29",
+    "result": "=D29*F29"
+  },
+  {
+    "cell": "D30",
+    "formula": "=(0.116894430212064+0.1521103354869+0.0421587193806945)/3",
+    "result": "=(0.116894430212064+0.1521103354869+0.0421587193806945)/3"
+  },
+  {
+    "cell": "G30",
+    "formula": "=D30*E30",
+    "result": "=D30*E30"
+  },
+  {
+    "cell": "D31",
+    "formula": "=210.86457019554/500",
+    "result": "=210.86457019554/500"
+  },
+  {
+    "cell": "G31",
+    "formula": "=D31*E31",
+    "result": "=D31*E31"
+  },
+  {
+    "cell": "G32",
+    "formula": "=D32*E32",
+    "result": "=D32*E32"
+  },
+  {
+    "cell": "D34",
+    "formula": "=M171",
+    "result": "=M171"
+  },
+  {
+    "cell": "G34",
+    "formula": "=D34*E34",
+    "result": "=D34*E34"
+  },
+  {
+    "cell": "D35",
+    "formula": "=M171",
+    "result": "=M171"
+  },
+  {
+    "cell": "G35",
+    "formula": "=D35*E35",
+    "result": "=D35*E35"
+  },
+  {
+    "cell": "D36",
+    "formula": "=M172",
+    "result": "=M172"
+  },
+  {
+    "cell": "G36",
+    "formula": "=D36*E36",
+    "result": "=D36*E36"
+  },
+  {
+    "cell": "D37",
+    "formula": "=M173",
+    "result": "=M173"
+  },
+  {
+    "cell": "G37",
+    "formula": "=D37*E37",
+    "result": "=D37*E37"
+  },
+  {
+    "cell": "D38",
+    "formula": "=M171",
+    "result": "=M171"
+  },
+  {
+    "cell": "G38",
+    "formula": "=D38*E38",
+    "result": "=D38*E38"
+  },
+  {
+    "cell": "D39",
+    "formula": "=M171",
+    "result": "=M171"
+  },
+  {
+    "cell": "G39",
+    "formula": "=D39*E39",
+    "result": "=D39*E39"
+  },
+  {
+    "cell": "D41",
+    "formula": "=502.31323962/1000",
+    "result": "=502.31323962/1000"
+  },
+  {
+    "cell": "G41",
+    "formula": "=D41*E41",
+    "result": "=D41*E41"
+  },
+  {
+    "cell": "D42",
+    "formula": "=128.769234/1000",
+    "result": "=128.769234/1000"
+  },
+  {
+    "cell": "G42",
+    "formula": "=D42*E42",
+    "result": "=D42*E42"
+  },
+  {
+    "cell": "D43",
+    "formula": "=36.744998654/1000",
+    "result": "=36.744998654/1000"
+  },
+  {
+    "cell": "G43",
+    "formula": "=D43*E43",
+    "result": "=D43*E43"
+  },
+  {
+    "cell": "D44",
+    "formula": "=109.9588184/1000",
+    "result": "=109.9588184/1000"
+  },
+  {
+    "cell": "G44",
+    "formula": "=D44*E44",
+    "result": "=D44*E44"
+  },
+  {
+    "cell": "D45",
+    "formula": "=0.138043213591/1000",
+    "result": "=0.138043213591/1000"
+  },
+  {
+    "cell": "G45",
+    "formula": "=D45*E45",
+    "result": "=D45*E45"
+  },
+  {
+    "cell": "D46",
+    "formula": "=80.08669637/1000",
+    "result": "=80.08669637/1000"
+  },
+  {
+    "cell": "G46",
+    "formula": "=D46*E46",
+    "result": "=D46*E46"
+  },
+  {
+    "cell": "D48",
+    "formula": "=668.5/1000/H48",
+    "result": "=668.5/1000/H48"
+  },
+  {
+    "cell": "G48",
+    "formula": "=D48*E48",
+    "result": "=D48*E48"
+  },
+  {
+    "cell": "D49",
+    "formula": "=334.5/1000",
+    "result": "=334.5/1000"
+  },
+  {
+    "cell": "G49",
+    "formula": "=D49*E49",
+    "result": "=D49*E49"
+  },
+  {
+    "cell": "D50",
+    "formula": "=721.96735612/1000",
+    "result": "=721.96735612/1000"
+  },
+  {
+    "cell": "G50",
+    "formula": "=D50*E50",
+    "result": "=D50*E50"
+  },
+  {
+    "cell": "D51",
+    "formula": "=969.53793802/1000/H51",
+    "result": "=969.53793802/1000/H51"
+  },
+  {
+    "cell": "G51",
+    "formula": "=D51*E51",
+    "result": "=D51*E51"
+  },
+  {
+    "cell": "D52",
+    "formula": "=969.5/1000/H52",
+    "result": "=969.5/1000/H52"
+  },
+  {
+    "cell": "G52",
+    "formula": "=D52*E52",
+    "result": "=D52*E52"
+  },
+  {
+    "cell": "D53",
+    "formula": "=490.7/1000/H53",
+    "result": "=490.7/1000/H53"
+  },
+  {
+    "cell": "G53",
+    "formula": "=D53*E53",
+    "result": "=D53*E53"
+  },
+  {
+    "cell": "D54",
+    "formula": "=364.7/1000",
+    "result": "=364.7/1000"
+  },
+  {
+    "cell": "G54",
+    "formula": "=D54*E54",
+    "result": "=D54*E54"
+  },
+  {
+    "cell": "D55",
+    "formula": "=26/1000",
+    "result": "=26/1000"
+  },
+  {
+    "cell": "G55",
+    "formula": "=D55*E55",
+    "result": "=D55*E55"
+  },
+  {
+    "cell": "D57",
+    "formula": "=M164",
+    "result": "=M164"
+  },
+  {
+    "cell": "G57",
+    "formula": "=D57*E57",
+    "result": "=D57*E57"
+  },
+  {
+    "cell": "D58",
+    "formula": "=M165",
+    "result": "=M165"
+  },
+  {
+    "cell": "G58",
+    "formula": "=D58*E58",
+    "result": "=D58*E58"
+  },
+  {
+    "cell": "D59",
+    "formula": "=M166",
+    "result": "=M166"
+  },
+  {
+    "cell": "G59",
+    "formula": "=D59*E59",
+    "result": "=D59*E59"
+  },
+  {
+    "cell": "D60",
+    "formula": "=M167",
+    "result": "=M167"
+  },
+  {
+    "cell": "G60",
+    "formula": "=D60*E60",
+    "result": "=D60*E60"
+  },
+  {
+    "cell": "D61",
+    "formula": "=M168",
+    "result": "=M168"
+  },
+  {
+    "cell": "G61",
+    "formula": "=D61*E61",
+    "result": "=D61*E61"
+  },
+  {
+    "cell": "D62",
+    "formula": "=M169",
+    "result": "=M169"
+  },
+  {
+    "cell": "G62",
+    "formula": "=D62*E62",
+    "result": "=D62*E62"
+  },
+  {
+    "cell": "D63",
+    "formula": "=M170",
+    "result": "=M170"
+  },
+  {
+    "cell": "G63",
+    "formula": "=D63*E63",
+    "result": "=D63*E63"
+  },
+  {
+    "cell": "D64",
+    "formula": "=M171",
+    "result": "=M171"
+  },
+  {
+    "cell": "G64",
+    "formula": "=D64*E64",
+    "result": "=D64*E64"
+  },
+  {
+    "cell": "D66",
+    "formula": "=0.0237497088/1000",
+    "result": "=0.0237497088/1000"
+  },
+  {
+    "cell": "G66",
+    "formula": "=D66*E66",
+    "result": "=D66*E66"
+  },
+  {
+    "cell": "D67",
+    "formula": "=1512.4/1000",
+    "result": "=1512.4/1000"
+  },
+  {
+    "cell": "G67",
+    "formula": "=D67*E67",
+    "result": "=D67*E67"
+  },
+  {
+    "cell": "G68",
+    "formula": "=D68*E68",
+    "result": "=D68*E68"
+  },
+  {
+    "cell": "D70",
+    "formula": "=93.697467968/1000",
+    "result": "=93.697467968/1000"
+  },
+  {
+    "cell": "G70",
+    "formula": "=D70*E70",
+    "result": "=D70*E70"
+  },
+  {
+    "cell": "D71",
+    "formula": "=98.020519375/1000",
+    "result": "=98.020519375/1000"
+  },
+  {
+    "cell": "G71",
+    "formula": "=D71*E71",
+    "result": "=D71*E71"
+  },
+  {
+    "cell": "D72",
+    "formula": "=61.124489876/1000",
+    "result": "=61.124489876/1000"
+  },
+  {
+    "cell": "G72",
+    "formula": "=D72*E72",
+    "result": "=D72*E72"
+  },
+  {
+    "cell": "D73",
+    "formula": "=61.124489876/1000",
+    "result": "=61.124489876/1000"
+  },
+  {
+    "cell": "G73",
+    "formula": "=D73*E73",
+    "result": "=D73*E73"
+  },
+  {
+    "cell": "D74",
+    "formula": "=9.51832926726/1000",
+    "result": "=9.51832926726/1000"
+  },
+  {
+    "cell": "G74",
+    "formula": "=D74*E74",
+    "result": "=D74*E74"
+  },
+  {
+    "cell": "D75",
+    "formula": "=34.9702296846/1000",
+    "result": "=34.9702296846/1000"
+  },
+  {
+    "cell": "G75",
+    "formula": "=D75*E75",
+    "result": "=D75*E75"
+  },
+  {
+    "cell": "D76",
+    "formula": "=33.35804744/1000",
+    "result": "=33.35804744/1000"
+  },
+  {
+    "cell": "G76",
+    "formula": "=D76*E76",
+    "result": "=D76*E76"
+  },
+  {
+    "cell": "D81",
+    "formula": "=B81&C81",
+    "result": "=B81&C81"
+  },
+  {
+    "cell": "J81",
+    "formula": "=I81",
+    "result": "=I81"
+  },
+  {
+    "cell": "L81",
+    "formula": "=IFERROR(__xludf.DUMMYFUNCTION(\"filter(C81:C92,B81:B92=EngS_BioCalc!E33)\"),\"#N/A\")",
+    "result": "=IFERROR(__xludf.DUMMYFUNCTION(\"filter(C81:C92,B81:B92=EngS_BioCalc!E33)\"),\"#N/A\")"
+  },
+  {
+    "cell": "D82",
+    "formula": "=B82&C82",
+    "result": "=B82&C82"
+  },
+  {
+    "cell": "G82",
+    "formula": "=0.9*0.675",
+    "result": "=0.9*0.675"
+  },
+  {
+    "cell": "I82",
+    "formula": "=0.1*0.675",
+    "result": "=0.1*0.675"
+  },
+  {
+    "cell": "J82",
+    "formula": "=I82",
+    "result": "=I82"
+  },
+  {
+    "cell": "D83",
+    "formula": "=B83&C83",
+    "result": "=B83&C83"
+  },
+  {
+    "cell": "G83",
+    "formula": "=0.5*0.6075",
+    "result": "=0.5*0.6075"
+  },
+  {
+    "cell": "I83",
+    "formula": "=0.5*0.6075",
+    "result": "=0.5*0.6075"
+  },
+  {
+    "cell": "J83",
+    "formula": "=I83",
+    "result": "=I83"
+  },
+  {
+    "cell": "D84",
+    "formula": "=B84&C84",
+    "result": "=B84&C84"
+  },
+  {
+    "cell": "I84",
+    "formula": "=AVERAGE(I81:I83)",
+    "result": "=AVERAGE(I81:I83)"
+  },
+  {
+    "cell": "J84",
+    "formula": "=I84",
+    "result": "=I84"
+  },
+  {
+    "cell": "D85",
+    "formula": "=B85&C85",
+    "result": "=B85&C85"
+  },
+  {
+    "cell": "J85",
+    "formula": "=I85",
+    "result": "=I85"
+  },
+  {
+    "cell": "D86",
+    "formula": "=B86&C86",
+    "result": "=B86&C86"
+  },
+  {
+    "cell": "G86",
+    "formula": "=0.9*0.675",
+    "result": "=0.9*0.675"
+  },
+  {
+    "cell": "I86",
+    "formula": "=0.1*0.675",
+    "result": "=0.1*0.675"
+  },
+  {
+    "cell": "J86",
+    "formula": "=I86",
+    "result": "=I86"
+  },
+  {
+    "cell": "D87",
+    "formula": "=B87&C87",
+    "result": "=B87&C87"
+  },
+  {
+    "cell": "G87",
+    "formula": "=0.5*0.6075",
+    "result": "=0.5*0.6075"
+  },
+  {
+    "cell": "I87",
+    "formula": "=0.5*0.6075",
+    "result": "=0.5*0.6075"
+  },
+  {
+    "cell": "J87",
+    "formula": "=I87",
+    "result": "=I87"
+  },
+  {
+    "cell": "D88",
+    "formula": "=B88&C88",
+    "result": "=B88&C88"
+  },
+  {
+    "cell": "I88",
+    "formula": "=AVERAGE(I85:I87)",
+    "result": "=AVERAGE(I85:I87)"
+  },
+  {
+    "cell": "J88",
+    "formula": "=I88",
+    "result": "=I88"
+  },
+  {
+    "cell": "D89",
+    "formula": "=B89&C89",
+    "result": "=B89&C89"
+  },
+  {
+    "cell": "J89",
+    "formula": "=G89",
+    "result": "=G89"
+  },
+  {
+    "cell": "D90",
+    "formula": "=B90&C90",
+    "result": "=B90&C90"
+  },
+  {
+    "cell": "J90",
+    "formula": "=I90",
+    "result": "=I90"
+  },
+  {
+    "cell": "D91",
+    "formula": "=B91&C91",
+    "result": "=B91&C91"
+  },
+  {
+    "cell": "J91",
+    "formula": "=G91",
+    "result": "=G91"
+  },
+  {
+    "cell": "D92",
+    "formula": "=B92&C92",
+    "result": "=B92&C92"
+  },
+  {
+    "cell": "J92",
+    "formula": "=G92",
+    "result": "=G92"
+  },
+  {
+    "cell": "F97",
+    "formula": "=C97*D97/E97",
+    "result": "=C97*D97/E97"
+  },
+  {
+    "cell": "J97",
+    "formula": "=G97*H97/I97",
+    "result": "=G97*H97/I97"
+  },
+  {
+    "cell": "L97",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N97",
+    "formula": "=K97*L97/M97",
+    "result": "=K97*L97/M97"
+  },
+  {
+    "cell": "F98",
+    "formula": "=C98*D98/E98",
+    "result": "=C98*D98/E98"
+  },
+  {
+    "cell": "J98",
+    "formula": "=G98*H98/I98",
+    "result": "=G98*H98/I98"
+  },
+  {
+    "cell": "L98",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N98",
+    "formula": "=K98*L98/M98",
+    "result": "=K98*L98/M98"
+  },
+  {
+    "cell": "F99",
+    "formula": "=C99*D99/E99",
+    "result": "=C99*D99/E99"
+  },
+  {
+    "cell": "J99",
+    "formula": "=G99*H99/I99",
+    "result": "=G99*H99/I99"
+  },
+  {
+    "cell": "L99",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N99",
+    "formula": "=K99*L99/M99",
+    "result": "=K99*L99/M99"
+  },
+  {
+    "cell": "F100",
+    "formula": "=C100*D100/E100",
+    "result": "=C100*D100/E100"
+  },
+  {
+    "cell": "J100",
+    "formula": "=G100*H100/I100",
+    "result": "=G100*H100/I100"
+  },
+  {
+    "cell": "L100",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N100",
+    "formula": "=K100*L100/M100",
+    "result": "=K100*L100/M100"
+  },
+  {
+    "cell": "F101",
+    "formula": "=C101*D101/E101",
+    "result": "=C101*D101/E101"
+  },
+  {
+    "cell": "J101",
+    "formula": "=G101*H101/I101",
+    "result": "=G101*H101/I101"
+  },
+  {
+    "cell": "L101",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N101",
+    "formula": "=K101*L101/M101",
+    "result": "=K101*L101/M101"
+  },
+  {
+    "cell": "F102",
+    "formula": "=C102*D102/E102",
+    "result": "=C102*D102/E102"
+  },
+  {
+    "cell": "J102",
+    "formula": "=G102*H102/I102",
+    "result": "=G102*H102/I102"
+  },
+  {
+    "cell": "L102",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N102",
+    "formula": "=K102*L102/M102",
+    "result": "=K102*L102/M102"
+  },
+  {
+    "cell": "F103",
+    "formula": "=C103*D103/E103",
+    "result": "=C103*D103/E103"
+  },
+  {
+    "cell": "J103",
+    "formula": "=G103*H103/I103",
+    "result": "=G103*H103/I103"
+  },
+  {
+    "cell": "L103",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N103",
+    "formula": "=K103*L103/M103",
+    "result": "=K103*L103/M103"
+  },
+  {
+    "cell": "F104",
+    "formula": "=C104*D104/E104",
+    "result": "=C104*D104/E104"
+  },
+  {
+    "cell": "J104",
+    "formula": "=G104*H104/I104",
+    "result": "=G104*H104/I104"
+  },
+  {
+    "cell": "L104",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N104",
+    "formula": "=K104*L104/M104",
+    "result": "=K104*L104/M104"
+  },
+  {
+    "cell": "F105",
+    "formula": "=C105*D105/E105",
+    "result": "=C105*D105/E105"
+  },
+  {
+    "cell": "J105",
+    "formula": "=G105*H105/I105",
+    "result": "=G105*H105/I105"
+  },
+  {
+    "cell": "L105",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N105",
+    "formula": "=K105*L105/M105",
+    "result": "=K105*L105/M105"
+  },
+  {
+    "cell": "F106",
+    "formula": "=C106*D106/E106",
+    "result": "=C106*D106/E106"
+  },
+  {
+    "cell": "J106",
+    "formula": "=G106*H106/I106",
+    "result": "=G106*H106/I106"
+  },
+  {
+    "cell": "L106",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N106",
+    "formula": "=K106*L106/M106",
+    "result": "=K106*L106/M106"
+  },
+  {
+    "cell": "F107",
+    "formula": "=C107*D107/E107",
+    "result": "=C107*D107/E107"
+  },
+  {
+    "cell": "J107",
+    "formula": "=G107*H107/I107",
+    "result": "=G107*H107/I107"
+  },
+  {
+    "cell": "L107",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N107",
+    "formula": "=K107*L107/M107",
+    "result": "=K107*L107/M107"
+  },
+  {
+    "cell": "F108",
+    "formula": "=C108*D108/E108",
+    "result": "=C108*D108/E108"
+  },
+  {
+    "cell": "J108",
+    "formula": "=G108*H108/I108",
+    "result": "=G108*H108/I108"
+  },
+  {
+    "cell": "L108",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N108",
+    "formula": "=K108*L108/M108",
+    "result": "=K108*L108/M108"
+  },
+  {
+    "cell": "F109",
+    "formula": "=C109*D109/E109",
+    "result": "=C109*D109/E109"
+  },
+  {
+    "cell": "J109",
+    "formula": "=G109*H109/I109",
+    "result": "=G109*H109/I109"
+  },
+  {
+    "cell": "L109",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N109",
+    "formula": "=K109*L109/M109",
+    "result": "=K109*L109/M109"
+  },
+  {
+    "cell": "F110",
+    "formula": "=C110*D110/E110",
+    "result": "=C110*D110/E110"
+  },
+  {
+    "cell": "J110",
+    "formula": "=G110*H110/I110",
+    "result": "=G110*H110/I110"
+  },
+  {
+    "cell": "L110",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N110",
+    "formula": "=K110*L110/M110",
+    "result": "=K110*L110/M110"
+  },
+  {
+    "cell": "F111",
+    "formula": "=C111*D111/E111",
+    "result": "=C111*D111/E111"
+  },
+  {
+    "cell": "J111",
+    "formula": "=G111*H111/I111",
+    "result": "=G111*H111/I111"
+  },
+  {
+    "cell": "L111",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N111",
+    "formula": "=K111*L111/M111",
+    "result": "=K111*L111/M111"
+  },
+  {
+    "cell": "F112",
+    "formula": "=C112*D112/E112",
+    "result": "=C112*D112/E112"
+  },
+  {
+    "cell": "J112",
+    "formula": "=G112*H112/I112",
+    "result": "=G112*H112/I112"
+  },
+  {
+    "cell": "L112",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N112",
+    "formula": "=K112*L112/M112",
+    "result": "=K112*L112/M112"
+  },
+  {
+    "cell": "F113",
+    "formula": "=C113*D113/E113",
+    "result": "=C113*D113/E113"
+  },
+  {
+    "cell": "J113",
+    "formula": "=G113*H113/I113",
+    "result": "=G113*H113/I113"
+  },
+  {
+    "cell": "L113",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N113",
+    "formula": "=K113*L113/M113",
+    "result": "=K113*L113/M113"
+  },
+  {
+    "cell": "F114",
+    "formula": "=C114*D114/E114",
+    "result": "=C114*D114/E114"
+  },
+  {
+    "cell": "J114",
+    "formula": "=G114*H114/I114",
+    "result": "=G114*H114/I114"
+  },
+  {
+    "cell": "L114",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N114",
+    "formula": "=K114*L114/M114",
+    "result": "=K114*L114/M114"
+  },
+  {
+    "cell": "F115",
+    "formula": "=C115*D115/E115",
+    "result": "=C115*D115/E115"
+  },
+  {
+    "cell": "J115",
+    "formula": "=G115*H115/I115",
+    "result": "=G115*H115/I115"
+  },
+  {
+    "cell": "L115",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N115",
+    "formula": "=K115*L115/M115",
+    "result": "=K115*L115/M115"
+  },
+  {
+    "cell": "F116",
+    "formula": "=C116*D116/E116",
+    "result": "=C116*D116/E116"
+  },
+  {
+    "cell": "J116",
+    "formula": "=G116*H116/I116",
+    "result": "=G116*H116/I116"
+  },
+  {
+    "cell": "L116",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N116",
+    "formula": "=K116*L116/M116",
+    "result": "=K116*L116/M116"
+  },
+  {
+    "cell": "F117",
+    "formula": "=C117*D117/E117",
+    "result": "=C117*D117/E117"
+  },
+  {
+    "cell": "J117",
+    "formula": "=G117*H117/I117",
+    "result": "=G117*H117/I117"
+  },
+  {
+    "cell": "L117",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N117",
+    "formula": "=K117*L117/M117",
+    "result": "=K117*L117/M117"
+  },
+  {
+    "cell": "F118",
+    "formula": "=C118*D118/E118",
+    "result": "=C118*D118/E118"
+  },
+  {
+    "cell": "J118",
+    "formula": "=G118*H118/I118",
+    "result": "=G118*H118/I118"
+  },
+  {
+    "cell": "L118",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N118",
+    "formula": "=K118*L118/M118",
+    "result": "=K118*L118/M118"
+  },
+  {
+    "cell": "F119",
+    "formula": "=C119*D119/E119",
+    "result": "=C119*D119/E119"
+  },
+  {
+    "cell": "J119",
+    "formula": "=G119*H119/I119",
+    "result": "=G119*H119/I119"
+  },
+  {
+    "cell": "L119",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N119",
+    "formula": "=K119*L119/M119",
+    "result": "=K119*L119/M119"
+  },
+  {
+    "cell": "F120",
+    "formula": "=C120*D120/E120",
+    "result": "=C120*D120/E120"
+  },
+  {
+    "cell": "J120",
+    "formula": "=G120*H120/I120",
+    "result": "=G120*H120/I120"
+  },
+  {
+    "cell": "L120",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N120",
+    "formula": "=K120*L120/M120",
+    "result": "=K120*L120/M120"
+  },
+  {
+    "cell": "F121",
+    "formula": "=C121*D121/E121",
+    "result": "=C121*D121/E121"
+  },
+  {
+    "cell": "J121",
+    "formula": "=G121*H121/I121",
+    "result": "=G121*H121/I121"
+  },
+  {
+    "cell": "L121",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N121",
+    "formula": "=K121*L121/M121",
+    "result": "=K121*L121/M121"
+  },
+  {
+    "cell": "F122",
+    "formula": "=C122*D122/E122",
+    "result": "=C122*D122/E122"
+  },
+  {
+    "cell": "J122",
+    "formula": "=G122*H122/I122",
+    "result": "=G122*H122/I122"
+  },
+  {
+    "cell": "L122",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N122",
+    "formula": "=K122*L122/M122",
+    "result": "=K122*L122/M122"
+  },
+  {
+    "cell": "F123",
+    "formula": "=C123*D123/E123",
+    "result": "=C123*D123/E123"
+  },
+  {
+    "cell": "J123",
+    "formula": "=G123*H123/I123",
+    "result": "=G123*H123/I123"
+  },
+  {
+    "cell": "L123",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N123",
+    "formula": "=K123*L123/M123",
+    "result": "=K123*L123/M123"
+  },
+  {
+    "cell": "F124",
+    "formula": "=C124*D124/E124",
+    "result": "=C124*D124/E124"
+  },
+  {
+    "cell": "J124",
+    "formula": "=G124*H124/I124",
+    "result": "=G124*H124/I124"
+  },
+  {
+    "cell": "L124",
+    "formula": "=100/365",
+    "result": "=100/365"
+  },
+  {
+    "cell": "N124",
+    "formula": "=K124*L124/M124",
+    "result": "=K124*L124/M124"
+  },
+  {
+    "cell": "D131",
+    "formula": "=C131/1000",
+    "result": "=C131/1000"
+  },
+  {
+    "cell": "D132",
+    "formula": "=C132/1000",
+    "result": "=C132/1000"
+  },
+  {
+    "cell": "D133",
+    "formula": "=C133/1000",
+    "result": "=C133/1000"
+  },
+  {
+    "cell": "D134",
+    "formula": "=C134/1000",
+    "result": "=C134/1000"
+  },
+  {
+    "cell": "D135",
+    "formula": "=C135/1000",
+    "result": "=C135/1000"
+  },
+  {
+    "cell": "C136",
+    "formula": "=D136*1000",
+    "result": "=D136*1000"
+  },
+  {
+    "cell": "D136",
+    "formula": "=(E136/E157)+N163",
+    "result": "=(E136/E157)+N163"
+  },
+  {
+    "cell": "C137",
+    "formula": "=D137*1000",
+    "result": "=D137*1000"
+  },
+  {
+    "cell": "D137",
+    "formula": "=(E137/E154)+N162",
+    "result": "=(E137/E154)+N162"
+  },
+  {
+    "cell": "D155",
+    "formula": "=1/E155*1000",
+    "result": "=1/E155*1000"
+  },
+  {
+    "cell": "D156",
+    "formula": "=1/E156*1000",
+    "result": "=1/E156*1000"
+  },
+  {
+    "cell": "G162",
+    "formula": "=E154",
+    "result": "=E154"
+  },
+  {
+    "cell": "H162",
+    "formula": "=G162/10^6",
+    "result": "=G162/10^6"
+  },
+  {
+    "cell": "J162",
+    "formula": "=D162*H162*I162",
+    "result": "=D162*H162*I162"
+  },
+  {
+    "cell": "K162",
+    "formula": "=E162*H162*I162",
+    "result": "=E162*H162*I162"
+  },
+  {
+    "cell": "L162",
+    "formula": "=F162*H162*I162",
+    "result": "=F162*H162*I162"
+  },
+  {
+    "cell": "M162",
+    "formula": "=(J162*1)+(K162*$C$18)+(L162*$C$20)",
+    "result": "=(J162*1)+(K162*$C$18)+(L162*$C$20)"
+  },
+  {
+    "cell": "G163",
+    "formula": "=E157",
+    "result": "=E157"
+  },
+  {
+    "cell": "H163",
+    "formula": "=G163/10^6",
+    "result": "=G163/10^6"
+  },
+  {
+    "cell": "J163",
+    "formula": "=D163*H163*I163",
+    "result": "=D163*H163*I163"
+  },
+  {
+    "cell": "K163",
+    "formula": "=E163*H163*I163",
+    "result": "=E163*H163*I163"
+  },
+  {
+    "cell": "L163",
+    "formula": "=F163*H163*I163",
+    "result": "=F163*H163*I163"
+  },
+  {
+    "cell": "M163",
+    "formula": "=(J163*1)+(K163*$C$18)+(L163*$C$20)",
+    "result": "=(J163*1)+(K163*$C$18)+(L163*$C$20)"
+  },
+  {
+    "cell": "G164",
+    "formula": "=E151",
+    "result": "=E151"
+  },
+  {
+    "cell": "H164",
+    "formula": "=G164/10^6",
+    "result": "=G164/10^6"
+  },
+  {
+    "cell": "I164",
+    "formula": "=C151",
+    "result": "=C151"
+  },
+  {
+    "cell": "J164",
+    "formula": "=D164*H164*I164",
+    "result": "=D164*H164*I164"
+  },
+  {
+    "cell": "K164",
+    "formula": "=E164*H164*I164",
+    "result": "=E164*H164*I164"
+  },
+  {
+    "cell": "L164",
+    "formula": "=F164*H164*I164",
+    "result": "=F164*H164*I164"
+  },
+  {
+    "cell": "M164",
+    "formula": "=(J164*1)+(K164*$C$18)+(L164*$C$20)",
+    "result": "=(J164*1)+(K164*$C$18)+(L164*$C$20)"
+  },
+  {
+    "cell": "G165",
+    "formula": "=E152",
+    "result": "=E152"
+  },
+  {
+    "cell": "H165",
+    "formula": "=G165/10^6",
+    "result": "=G165/10^6"
+  },
+  {
+    "cell": "J165",
+    "formula": "=D165*H165*I165",
+    "result": "=D165*H165*I165"
+  },
+  {
+    "cell": "K165",
+    "formula": "=E165*H165*I165",
+    "result": "=E165*H165*I165"
+  },
+  {
+    "cell": "L165",
+    "formula": "=F165*H165*I165",
+    "result": "=F165*H165*I165"
+  },
+  {
+    "cell": "M165",
+    "formula": "=(J165*1)+(K165*$C$18)+(L165*$C$20)",
+    "result": "=(J165*1)+(K165*$C$18)+(L165*$C$20)"
+  },
+  {
+    "cell": "G166",
+    "formula": "=E153",
+    "result": "=E153"
+  },
+  {
+    "cell": "H166",
+    "formula": "=G166/10^6",
+    "result": "=G166/10^6"
+  },
+  {
+    "cell": "J166",
+    "formula": "=D166*H166*I166",
+    "result": "=D166*H166*I166"
+  },
+  {
+    "cell": "K166",
+    "formula": "=E166*H166*I166",
+    "result": "=E166*H166*I166"
+  },
+  {
+    "cell": "L166",
+    "formula": "=F166*H166*I166",
+    "result": "=F166*H166*I166"
+  },
+  {
+    "cell": "M166",
+    "formula": "=(J166*1)+(K166*$C$18)+(L166*$C$20)",
+    "result": "=(J166*1)+(K166*$C$18)+(L166*$C$20)"
+  },
+  {
+    "cell": "G167",
+    "formula": "=E150",
+    "result": "=E150"
+  },
+  {
+    "cell": "H167",
+    "formula": "=G167/10^6",
+    "result": "=G167/10^6"
+  },
+  {
+    "cell": "I167",
+    "formula": "=C150",
+    "result": "=C150"
+  },
+  {
+    "cell": "J167",
+    "formula": "=D167*H167*I167",
+    "result": "=D167*H167*I167"
+  },
+  {
+    "cell": "K167",
+    "formula": "=E167*H167*I167",
+    "result": "=E167*H167*I167"
+  },
+  {
+    "cell": "L167",
+    "formula": "=F167*H167*I167",
+    "result": "=F167*H167*I167"
+  },
+  {
+    "cell": "M167",
+    "formula": "=(J167*1)+(K167*$C$18)+(L167*$C$20)",
+    "result": "=(J167*1)+(K167*$C$18)+(L167*$C$20)"
+  },
+  {
+    "cell": "G168",
+    "formula": "=E147",
+    "result": "=E147"
+  },
+  {
+    "cell": "H168",
+    "formula": "=G168/10^6",
+    "result": "=G168/10^6"
+  },
+  {
+    "cell": "I168",
+    "formula": "=C147",
+    "result": "=C147"
+  },
+  {
+    "cell": "J168",
+    "formula": "=D168*H168*I168",
+    "result": "=D168*H168*I168"
+  },
+  {
+    "cell": "K168",
+    "formula": "=E168*H168*I168",
+    "result": "=E168*H168*I168"
+  },
+  {
+    "cell": "L168",
+    "formula": "=F168*H168*I168",
+    "result": "=F168*H168*I168"
+  },
+  {
+    "cell": "M168",
+    "formula": "=(J168*1)+(K168*$C$18)+(L168*$C$20)",
+    "result": "=(J168*1)+(K168*$C$18)+(L168*$C$20)"
+  },
+  {
+    "cell": "G169",
+    "formula": "=E148",
+    "result": "=E148"
+  },
+  {
+    "cell": "H169",
+    "formula": "=G169/10^6",
+    "result": "=G169/10^6"
+  },
+  {
+    "cell": "I169",
+    "formula": "=C148",
+    "result": "=C148"
+  },
+  {
+    "cell": "J169",
+    "formula": "=D169*H169*I169",
+    "result": "=D169*H169*I169"
+  },
+  {
+    "cell": "K169",
+    "formula": "=E169*H169*I169",
+    "result": "=E169*H169*I169"
+  },
+  {
+    "cell": "L169",
+    "formula": "=F169*H169*I169",
+    "result": "=F169*H169*I169"
+  },
+  {
+    "cell": "M169",
+    "formula": "=(J169*1)+(K169*$C$18)+(L169*$C$20)",
+    "result": "=(J169*1)+(K169*$C$18)+(L169*$C$20)"
+  },
+  {
+    "cell": "G170",
+    "formula": "=AVERAGE(E155:E156)",
+    "result": "=AVERAGE(E155:E156)"
+  },
+  {
+    "cell": "H170",
+    "formula": "=G170/10^6",
+    "result": "=G170/10^6"
+  },
+  {
+    "cell": "J170",
+    "formula": "=D170*H170*I170",
+    "result": "=D170*H170*I170"
+  },
+  {
+    "cell": "K170",
+    "formula": "=E170*H170*I170",
+    "result": "=E170*H170*I170"
+  },
+  {
+    "cell": "L170",
+    "formula": "=F170*H170*I170",
+    "result": "=F170*H170*I170"
+  },
+  {
+    "cell": "M170",
+    "formula": "=(J170*1)+(K170*$C$18)+(L170*$C$20)",
+    "result": "=(J170*1)+(K170*$C$18)+(L170*$C$20)"
+  },
+  {
+    "cell": "N170",
+    "formula": "=M170/G170",
+    "result": "=M170/G170"
+  },
+  {
+    "cell": "G171",
+    "formula": "=AVERAGE(E155:E156)",
+    "result": "=AVERAGE(E155:E156)"
+  },
+  {
+    "cell": "H171",
+    "formula": "=G171/10^6",
+    "result": "=G171/10^6"
+  },
+  {
+    "cell": "J171",
+    "formula": "=D171*H171*I171",
+    "result": "=D171*H171*I171"
+  },
+  {
+    "cell": "K171",
+    "formula": "=E171*H171*I171",
+    "result": "=E171*H171*I171"
+  },
+  {
+    "cell": "L171",
+    "formula": "=F171*H171*I171",
+    "result": "=F171*H171*I171"
+  },
+  {
+    "cell": "M171",
+    "formula": "=(J171*1)+(K171*$C$18)+(L171*$C$20)",
+    "result": "=(J171*1)+(K171*$C$18)+(L171*$C$20)"
+  },
+  {
+    "cell": "N171",
+    "formula": "=M171/G171",
+    "result": "=M171/G171"
+  },
+  {
+    "cell": "G172",
+    "formula": "=D9",
+    "result": "=D9"
+  },
+  {
+    "cell": "H172",
+    "formula": "=G172/10^6",
+    "result": "=G172/10^6"
+  },
+  {
+    "cell": "J172",
+    "formula": "=D172*H172*I172",
+    "result": "=D172*H172*I172"
+  },
+  {
+    "cell": "K172",
+    "formula": "=E172*H172*I172",
+    "result": "=E172*H172*I172"
+  },
+  {
+    "cell": "L172",
+    "formula": "=F172*H172*I172",
+    "result": "=F172*H172*I172"
+  },
+  {
+    "cell": "M172",
+    "formula": "=(J172*1)+(K172*$C$18)+(L172*$C$20)",
+    "result": "=(J172*1)+(K172*$C$18)+(L172*$C$20)"
+  },
+  {
+    "cell": "N172",
+    "formula": "=M172/G172",
+    "result": "=M172/G172"
+  },
+  {
+    "cell": "G173",
+    "formula": "=D10",
+    "result": "=D10"
+  },
+  {
+    "cell": "H173",
+    "formula": "=G173/10^6",
+    "result": "=G173/10^6"
+  },
+  {
+    "cell": "J173",
+    "formula": "=D173*H173*I173",
+    "result": "=D173*H173*I173"
+  },
+  {
+    "cell": "K173",
+    "formula": "=E173*H173*I173",
+    "result": "=E173*H173*I173"
+  },
+  {
+    "cell": "L173",
+    "formula": "=F173*H173*I173",
+    "result": "=F173*H173*I173"
+  },
+  {
+    "cell": "M173",
+    "formula": "=(J173*1)+(K173*$C$18)+(L173*$C$20)",
+    "result": "=(J173*1)+(K173*$C$18)+(L173*$C$20)"
+  },
+  {
+    "cell": "N173",
+    "formula": "=M173/G173",
+    "result": "=M173/G173"
+  },
+  {
+    "cell": "I183",
+    "formula": "=D183+E183*0+F183*$C$18+G183*$C$19+H183*$C$20",
+    "result": "=D183+E183*0+F183*$C$18+G183*$C$19+H183*$C$20"
+  },
+  {
+    "cell": "J183",
+    "formula": "=(I183/1000)/G173",
+    "result": "=(I183/1000)/G173"
+  },
+  {
+    "cell": "I184",
+    "formula": "=D184+E184*0+F184*$C$18+G184*$C$19+H184*$C$20",
+    "result": "=D184+E184*0+F184*$C$18+G184*$C$19+H184*$C$20"
+  },
+  {
+    "cell": "J184",
+    "formula": "=(I184/1000)/G171",
+    "result": "=(I184/1000)/G171"
+  },
+  {
+    "cell": "I185",
+    "formula": "=D185+E185*0+F185*$C$18+G185*$C$19+H185*$C$20",
+    "result": "=D185+E185*0+F185*$C$18+G185*$C$19+H185*$C$20"
+  },
+  {
+    "cell": "J185",
+    "formula": "=(I185/1000)/G170",
+    "result": "=(I185/1000)/G170"
+  },
+  {
+    "cell": "I186",
+    "formula": "=D186+E186*0+F186*$C$18+G186*$C$19+H186*$C$20",
+    "result": "=D186+E186*0+F186*$C$18+G186*$C$19+H186*$C$20"
+  },
+  {
+    "cell": "J186",
+    "formula": "=(I186/1000)/G170",
+    "result": "=(I186/1000)/G170"
+  }
+]

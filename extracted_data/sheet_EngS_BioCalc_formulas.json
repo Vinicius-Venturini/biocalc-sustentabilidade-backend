@@ -1,0 +1,197 @@
+[
+  {
+    "cell": "C21",
+    "formula": "=SUM(C23:C26)",
+    "result": "=SUM(C23:C26)"
+  },
+  {
+    "cell": "C23",
+    "formula": "=IFERROR(SUM(E40,E47,E53),0)",
+    "result": "=IFERROR(SUM(E40,E47,E53),0)"
+  },
+  {
+    "cell": "C24",
+    "formula": "=IFERROR((SUM(E69,E81,E85,E91)),0)",
+    "result": "=IFERROR((SUM(E69,E81,E85,E91)),0)"
+  },
+  {
+    "cell": "H24",
+    "formula": "=IFERROR(ROUNDDOWN(VLOOKUP(E33,'Dados auxiliares'!B7:D12,3,0)*(H21*(SUMIF(C27,\">0\",C27))),0),\"\")",
+    "result": "=IFERROR(ROUNDDOWN(VLOOKUP(E33,'Dados auxiliares'!B7:D12,3,0)*(H21*(SUMIF(C27,\">0\",C27))),0),\"\")"
+  },
+  {
+    "cell": "C25",
+    "formula": "=IFERROR(SUM(E104,E117),\" \")",
+    "result": "=IFERROR(SUM(E104,E117),\" \")"
+  },
+  {
+    "cell": "C26",
+    "formula": "=IFERROR(VLOOKUP(E33,'Dados auxiliares'!B7:E12,4,0), \" \")",
+    "result": "=IFERROR(VLOOKUP(E33,'Dados auxiliares'!B7:E12,4,0), \" \")"
+  },
+  {
+    "cell": "C27",
+    "formula": "=J20-C21",
+    "result": "=J20-C21"
+  },
+  {
+    "cell": "C29",
+    "formula": "=(J20-C21)/J20",
+    "result": "=(J20-C21)/J20"
+  },
+  {
+    "cell": "H29",
+    "formula": "=H24*H27",
+    "result": "=H24*H27"
+  },
+  {
+    "cell": "E36",
+    "formula": "=IFERROR(VLOOKUP(EngS_BioCalc!E33,'Dados auxiliares'!B26:G32,6,0),\" \")",
+    "result": "=IFERROR(VLOOKUP(EngS_BioCalc!E33,'Dados auxiliares'!B26:G32,6,0),\" \")"
+  },
+  {
+    "cell": "E37",
+    "formula": "=IFERROR(VLOOKUP(E33,'Dados auxiliares'!B7:C12,2,0)/1000, \" \")",
+    "result": "=IFERROR(VLOOKUP(E33,'Dados auxiliares'!B7:C12,2,0)/1000, \" \")"
+  },
+  {
+    "cell": "E39",
+    "formula": "=IFERROR((E38*'Dados auxiliares'!D32), \" \")",
+    "result": "=IFERROR((E38*'Dados auxiliares'!D32), \" \")"
+  },
+  {
+    "cell": "E40",
+    "formula": "=IFERROR(IFS(E34=\"Não\", ((E37*E36)+E39) , E34=\"Sim\", ((E35*E37*E36)+E39)), \" \")",
+    "result": "=IFERROR(IFS(E34=\"Não\", ((E37*E36)+E39) , E34=\"Sim\", ((E35*E37*E36)+E39)), \" \")"
+  },
+  {
+    "cell": "E43",
+    "formula": "=IFERROR(VLOOKUP(E33,'Dados auxiliares'!B26:H31,7,0), \" \")",
+    "result": "=IFERROR(VLOOKUP(E33,'Dados auxiliares'!B26:H31,7,0), \" \")"
+  },
+  {
+    "cell": "E45",
+    "formula": "=IFERROR(IFS(E43=\"Pinus\", ((VLOOKUP(E42,'Dados auxiliares'!B95:N124,5,0))*1000), E43=\"Eucalipto\", ((VLOOKUP(E42,'Dados auxiliares'!B95:N124,9,0))*1000), E43=\"Amendoin\", ((VLOOKUP(E42,'Dados auxiliares'!B95:N124,13,0))*1000)), \" \")",
+    "result": "=IFERROR(IFS(E43=\"Pinus\", ((VLOOKUP(E42,'Dados auxiliares'!B95:N124,5,0))*1000), E43=\"Eucalipto\", ((VLOOKUP(E42,'Dados auxiliares'!B95:N124,9,0))*1000), E43=\"Amendoin\", ((VLOOKUP(E42,'Dados auxiliares'!B95:N124,13,0))*1000)), \" \")"
+  },
+  {
+    "cell": "E46",
+    "formula": "=IFERROR(VLOOKUP((E33&E44),'Dados auxiliares'!D78:J92,7,0), \" \")",
+    "result": "=IFERROR(VLOOKUP((E33&E44),'Dados auxiliares'!D78:J92,7,0), \" \")"
+  },
+  {
+    "cell": "E47",
+    "formula": "=IFERROR((E37*(E45*E46)), \" \")",
+    "result": "=IFERROR((E37*(E45*E46)), \" \")"
+  },
+  {
+    "cell": "E51",
+    "formula": "=IFERROR(VLOOKUP(E33,'Dados auxiliares'!B7:C12,2,0)/1000000, \" \")",
+    "result": "=IFERROR(VLOOKUP(E33,'Dados auxiliares'!B7:C12,2,0)/1000000, \" \")"
+  },
+  {
+    "cell": "E52",
+    "formula": "=IFERROR((E49*E51), \" \")",
+    "result": "=IFERROR((E49*E51), \" \")"
+  },
+  {
+    "cell": "E53",
+    "formula": "=IFERROR((E52*VLOOKUP(E50,'Dados auxiliares'!B70:F76,3,0)),\" \")",
+    "result": "=IFERROR((E52*VLOOKUP(E50,'Dados auxiliares'!B70:F76,3,0)),\" \")"
+  },
+  {
+    "cell": "E68",
+    "formula": "=IFERROR(SUMPRODUCT(E62:E67,'Dados auxiliares'!G41:G46), \" \")",
+    "result": "=IFERROR(SUMPRODUCT(E62:E67,'Dados auxiliares'!G41:G46), \" \")"
+  },
+  {
+    "cell": "E69",
+    "formula": "=IFERROR(E68*(1/E59)*E37, \" \")",
+    "result": "=IFERROR(E68*(1/E59)*E37, \" \")"
+  },
+  {
+    "cell": "E79",
+    "formula": "=IFERROR(SUMPRODUCT(E71:E78,'Dados auxiliares'!G48:G55), \" \")",
+    "result": "=IFERROR(SUMPRODUCT(E71:E78,'Dados auxiliares'!G48:G55), \" \")"
+  },
+  {
+    "cell": "E80",
+    "formula": "=IFERROR(SUMPRODUCT(E71:E78,'Dados auxiliares'!G57:G64), \" \")",
+    "result": "=IFERROR(SUMPRODUCT(E71:E78,'Dados auxiliares'!G57:G64), \" \")"
+  },
+  {
+    "cell": "E81",
+    "formula": "=IFERROR((E79+E80)*(1/E59)*E37, \" \")",
+    "result": "=IFERROR((E79+E80)*(1/E59)*E37, \" \")"
+  },
+  {
+    "cell": "E83",
+    "formula": "=IFERROR((VLOOKUP(E33,'Dados auxiliares'!B33:G39,6,0)),0)",
+    "result": "=IFERROR((VLOOKUP(E33,'Dados auxiliares'!B33:G39,6,0)),0)"
+  },
+  {
+    "cell": "E84",
+    "formula": "=IFERROR((E60*E83),\" ')\")",
+    "result": "=IFERROR((E60*E83),\" ')\")"
+  },
+  {
+    "cell": "E85",
+    "formula": "=IFERROR((E84)*(1/E59)*E37, \" \")",
+    "result": "=IFERROR((E84)*(1/E59)*E37, \" \")"
+  },
+  {
+    "cell": "E90",
+    "formula": "=IFERROR(SUMPRODUCT(E87:E89,'Dados auxiliares'!G66:G68), \" \")",
+    "result": "=IFERROR(SUMPRODUCT(E87:E89,'Dados auxiliares'!G66:G68), \" \")"
+  },
+  {
+    "cell": "E91",
+    "formula": "=IFERROR(E90*(1/E59)*E37, \" \")",
+    "result": "=IFERROR(E90*(1/E59)*E37, \" \")"
+  },
+  {
+    "cell": "E100",
+    "formula": "=1-SUM(E98:E99)",
+    "result": "=1-SUM(E98:E99)"
+  },
+  {
+    "cell": "E102",
+    "formula": "=IFERROR(((E96*(E97*E98)*'Dados auxiliares'!G76)+(E96*(E97*E99)*'Dados auxiliares'!G75)+(E96*(E97*E100)*VLOOKUP(E101,'Dados auxiliares'!B70:G76,6,0))),0)",
+    "result": "=IFERROR(((E96*(E97*E98)*'Dados auxiliares'!G76)+(E96*(E97*E99)*'Dados auxiliares'!G75)+(E96*(E97*E100)*VLOOKUP(E101,'Dados auxiliares'!B70:G76,6,0))),0)"
+  },
+  {
+    "cell": "E103",
+    "formula": "=IFERROR(E96*1000*(1/E37),\" \")",
+    "result": "=IFERROR(E96*1000*(1/E37),\" \")"
+  },
+  {
+    "cell": "E104",
+    "formula": "=IFERROR(E102/E103,\"\")",
+    "result": "=IFERROR(E102/E103,\"\")"
+  },
+  {
+    "cell": "E111",
+    "formula": "=1-SUM(E109:E110)",
+    "result": "=1-SUM(E109:E110)"
+  },
+  {
+    "cell": "E114",
+    "formula": "=(E107*(E108*E109)*'Dados auxiliares'!G76)+(E107*(E108*E110)*'Dados auxiliares'!G75)+(E107*(E108*E111)*VLOOKUP(E112,'Dados auxiliares'!B70:G76,6,0))",
+    "result": "=(E107*(E108*E109)*'Dados auxiliares'!G76)+(E107*(E108*E110)*'Dados auxiliares'!G75)+(E107*(E108*E111)*VLOOKUP(E112,'Dados auxiliares'!B70:G76,6,0))"
+  },
+  {
+    "cell": "E115",
+    "formula": "=E107*E113*'Dados auxiliares'!G74",
+    "result": "=E107*E113*'Dados auxiliares'!G74"
+  },
+  {
+    "cell": "E116",
+    "formula": "=E107*1000*(1/E37)",
+    "result": "=E107*1000*(1/E37)"
+  },
+  {
+    "cell": "E117",
+    "formula": "=IFERROR((E114+E115)/E116,\" \")",
+    "result": "=IFERROR((E114+E115)/E116,\" \")"
+  }
+]

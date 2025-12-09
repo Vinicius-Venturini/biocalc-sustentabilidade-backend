@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Environment files
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Frontend (repositório separado)
+frontend/
+
+# Extracted data (já processado)
+extracted_data/
+
+# Git
+.git/
+.gitignore
+
+# Documentation (não necessário na imagem)
+docs/
+
+# Tests
+tests/
+*.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Alembic (se usar migrations)
+alembic/versions/__pycache__/

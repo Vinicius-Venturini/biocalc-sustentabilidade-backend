@@ -1,0 +1,491 @@
+{
+  "green_cells": [],
+  "blue_cells": [],
+  "other_colors": [
+    {
+      "cell": "A1",
+      "value": "                              Calculadora para contabilização de Eficiência Energético-Ambiental para biocombustíveis sólidos (Pellets ou Briquetes)\n\n                                                                             Chamada CNPq nº 26/2021 \n                                                                                      401237/2022-2",
+      "color": "00000000"
+    },
+    {
+      "cell": "B1",
+      "value": "BioCalc\nCalculadora para contabilização de Eficiência Energético-Ambiental para biocombustíveis sólidos (Pellets ou Briquetes)\n\nChamada CNPq nº 26/2021 \n401237/2022-2",
+      "color": "00000000"
+    },
+    {
+      "cell": "B3",
+      "value": "Biomassa do biocombustível:",
+      "color": "00000000"
+    },
+    {
+      "cell": "C3",
+      "value": "=EngS_BioCalc!E33",
+      "color": "00000000"
+    },
+    {
+      "cell": "B4",
+      "value": "Intensidade de Carbono do Biocombustível\n(kg CO₂eq/MJ)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C4",
+      "value": "=SUM(C6:C9)",
+      "color": "FF265EAA"
+    },
+    {
+      "cell": "D4",
+      "value": "% de contribuição",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B5",
+      "value": "Etapas do ciclo de vida",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B6",
+      "value": "agrícola",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C6",
+      "value": "=EngS_BioCalc!$C$23",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D6",
+      "value": "=C6/$C$4",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B7",
+      "value": "industrial",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C7",
+      "value": "=EngS_BioCalc!$C$24",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D7",
+      "value": "=C7/$C$4",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B8",
+      "value": "transporte",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C8",
+      "value": "=EngS_BioCalc!$C$25",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D8",
+      "value": "=C8/$C$4",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B9",
+      "value": "Uso",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C9",
+      "value": "=EngS_BioCalc!$C$26",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D9",
+      "value": "=C9/$C$4",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C11",
+      "value": "Comparação entre combustíveis fósseis equivalentes",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C12",
+      "value": "Diesel A, Gasolina A e GNV (Média ponderada)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D12",
+      "value": "Óleo combustível pesado",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E12",
+      "value": "Coque de Petróleo",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B13",
+      "value": "Intensidade de Carbono do combustível fóssil \n(kg CO₂eq/MJ)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C13",
+      "value": "='Dados auxiliares'!D133",
+      "color": "00000000"
+    },
+    {
+      "cell": "D13",
+      "value": "='Dados auxiliares'!D137",
+      "color": "00000000"
+    },
+    {
+      "cell": "E13",
+      "value": "='Dados auxiliares'!D136",
+      "color": "00000000"
+    },
+    {
+      "cell": "B14",
+      "value": "Nota de Eficiência Energético-Ambiental ",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C14",
+      "value": "=C13-$C$4",
+      "color": "00000000"
+    },
+    {
+      "cell": "D14",
+      "value": "=D13-$C$4",
+      "color": "00000000"
+    },
+    {
+      "cell": "E14",
+      "value": "=E13-$C$4",
+      "color": "00000000"
+    },
+    {
+      "cell": "B15",
+      "value": "Redução de emissões",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C15",
+      "value": "=(C13-$C$4)/C13",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D15",
+      "value": "=(D13-$C$4)/D13",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E15",
+      "value": "=(E13-$C$4)/E13",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B16",
+      "value": "Possíveis créditos elegíveis (CBIOs)\nConsiderando usina de médio porte com produção anual de 10.000 Ton",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C16",
+      "value": "=IFERROR(ROUNDDOWN(VLOOKUP(EngS_BioCalc!$E$33,'Dados auxiliares'!$B$7:$D$12,3,0)*(10000*(SUMIF(C14,\">0\",C14))),0),\"\")",
+      "color": "00000000"
+    },
+    {
+      "cell": "D16",
+      "value": "=IFERROR(ROUNDDOWN(VLOOKUP(EngS_BioCalc!$E$33,'Dados auxiliares'!$B$7:$D$12,3,0)*(10000*(SUMIF(D14,\">0\",D14))),0),\"\")",
+      "color": "00000000"
+    },
+    {
+      "cell": "E16",
+      "value": "=IFERROR(ROUNDDOWN(VLOOKUP(EngS_BioCalc!$E$33,'Dados auxiliares'!$B$7:$D$12,3,0)*(12000*(SUMIF(E14,\">0\",E14))),0),\"\")",
+      "color": "00000000"
+    },
+    {
+      "cell": "B19",
+      "value": "Considerando carga nula na fase agricola, quando resíduo",
+      "color": "00000000"
+    },
+    {
+      "cell": "B20",
+      "value": "Intensidade de Carbono do Biocombustível\n(kg CO₂eq/MJ)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C20",
+      "value": "=SUM(C22:C24)",
+      "color": "FF265EAA"
+    },
+    {
+      "cell": "D20",
+      "value": "% de contribuição",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B21",
+      "value": "Etapas do ciclo de vida",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B22",
+      "value": "industrial",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C22",
+      "value": "=EngS_BioCalc!$C$24",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D22",
+      "value": "=C22/$C$20",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B23",
+      "value": "transporte",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C23",
+      "value": "=EngS_BioCalc!$C$25",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D23",
+      "value": "=C23/$C$20",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B24",
+      "value": "Uso",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C24",
+      "value": "=EngS_BioCalc!$C$26",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D24",
+      "value": "=C24/$C$20",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C26",
+      "value": "Comparação entre combustíveis fósseis substitutos ",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C27",
+      "value": "Diesel A, Gasolina A e GNV (Média ponderada)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D27",
+      "value": "Óleo combustível pesado",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E27",
+      "value": "Coque de Petróleo",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B28",
+      "value": "Intensidade de Carbono do combustível fóssil \n(kg CO₂eq/MJ)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C28",
+      "value": "='Dados auxiliares'!$D$133",
+      "color": "00000000"
+    },
+    {
+      "cell": "D28",
+      "value": "='Dados auxiliares'!$D$137",
+      "color": "00000000"
+    },
+    {
+      "cell": "E28",
+      "value": "='Dados auxiliares'!$D$136",
+      "color": "00000000"
+    },
+    {
+      "cell": "B29",
+      "value": "Nota de Eficiência Energético-Ambiental \n(kg CO₂eq/MJ)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C29",
+      "value": "=C28-$C$20",
+      "color": "00000000"
+    },
+    {
+      "cell": "D29",
+      "value": "=D28-$C$20",
+      "color": "00000000"
+    },
+    {
+      "cell": "E29",
+      "value": "=E28-$C$20",
+      "color": "00000000"
+    },
+    {
+      "cell": "B30",
+      "value": "Redução de emissões",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C30",
+      "value": "=(C28-$C$20)/C28",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D30",
+      "value": "=(D28-$C$20)/D28",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E30",
+      "value": "=(E28-$C$20)/E28",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B31",
+      "value": "Possíveis créditos elegíveis (CBIOs)\nConsiderando usina de médio porte com produção anual de 10.000 Ton",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C31",
+      "value": "=IFERROR(ROUNDDOWN(VLOOKUP(EngS_BioCalc!$E$33,'Dados auxiliares'!$B$7:$D$12,3,0)*(10000*(SUMIF(C29,\">0\",C29))),0),\"\")",
+      "color": "00000000"
+    },
+    {
+      "cell": "D31",
+      "value": "=IFERROR(ROUNDDOWN(VLOOKUP(EngS_BioCalc!$E$33,'Dados auxiliares'!$B$7:$D$12,3,0)*(10000*(SUMIF(D29,\">0\",D29))),0),\"\")",
+      "color": "00000000"
+    },
+    {
+      "cell": "E31",
+      "value": "=IFERROR(ROUNDDOWN(VLOOKUP(EngS_BioCalc!$E$33,'Dados auxiliares'!$B$7:$D$12,3,0)*(10000*(SUMIF(E29,\">0\",E29))),0),\"\")",
+      "color": "00000000"
+    },
+    {
+      "cell": "B34",
+      "value": "Considerando a aplicação da Circular Footprint Formula (CFF)",
+      "color": "00000000"
+    },
+    {
+      "cell": "B36",
+      "value": "Intensidade de Carbono do Biocombustível\n(kg CO₂eq/MJ)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C36",
+      "value": "=EngS_BioCalc!C21+CFF!D2",
+      "color": "FF265EAA"
+    },
+    {
+      "cell": "C38",
+      "value": "Comparação entre combustíveis fósseis equivalentes",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C39",
+      "value": "Diesel A, Gasolina A e GNV (Média ponderada)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D39",
+      "value": "Óleo combustível pesado",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E39",
+      "value": "Coque de Petróleo",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B40",
+      "value": "Intensidade de Carbono do combustível fóssil \n(kg CO₂eq/MJ)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C40",
+      "value": "='Dados auxiliares'!$D$133",
+      "color": "00000000"
+    },
+    {
+      "cell": "D40",
+      "value": "='Dados auxiliares'!$D$137",
+      "color": "00000000"
+    },
+    {
+      "cell": "E40",
+      "value": "='Dados auxiliares'!$D$136",
+      "color": "00000000"
+    },
+    {
+      "cell": "B41",
+      "value": "Nota de Eficiência Energético-Ambiental ",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C41",
+      "value": "=C40-$C$36",
+      "color": "00000000"
+    },
+    {
+      "cell": "D41",
+      "value": "=D40-$C$36",
+      "color": "00000000"
+    },
+    {
+      "cell": "E41",
+      "value": "=E40-$C$36",
+      "color": "00000000"
+    },
+    {
+      "cell": "B42",
+      "value": "Redução de emissões",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C42",
+      "value": "=(C40-$C$36)/C40",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "D42",
+      "value": "=(D40-$C$36)/D40",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E42",
+      "value": "=(E40-$C$36)/E40",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B43",
+      "value": "Possíveis créditos elegíveis (CBIOs)\nConsiderando usina de médio porte com produção anual de 10.000 Ton",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C43",
+      "value": "=IFERROR(ROUNDDOWN(VLOOKUP(EngS_BioCalc!$E$33,'Dados auxiliares'!$B$7:$D$12,3,0)*(10000*(SUMIF(C41,\">0\",C41))),0),\"\")",
+      "color": "00000000"
+    },
+    {
+      "cell": "D43",
+      "value": "=IFERROR(ROUNDDOWN(VLOOKUP(EngS_BioCalc!$E$33,'Dados auxiliares'!$B$7:$D$12,3,0)*(10000*(SUMIF(D41,\">0\",D41))),0),\"\")",
+      "color": "00000000"
+    },
+    {
+      "cell": "E43",
+      "value": "=IFERROR(ROUNDDOWN(VLOOKUP(EngS_BioCalc!$E$33,'Dados auxiliares'!$B$7:$D$12,3,0)*(10000*(SUMIF(E41,\">0\",E41))),0),\"\")",
+      "color": "00000000"
+    }
+  ]
+}

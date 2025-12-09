@@ -1,0 +1,1217 @@
+[
+  {
+    "cell": "C4",
+    "formula": "=C5+C6+C7",
+    "result": "=C5+C6+C7"
+  },
+  {
+    "cell": "E4",
+    "formula": "=E5+E6+E7",
+    "result": "=E5+E6+E7"
+  },
+  {
+    "cell": "C5",
+    "formula": "=($H$67-$H$17)",
+    "result": "=($H$67-$H$17)"
+  },
+  {
+    "cell": "D5",
+    "formula": "=C5/$C$4",
+    "result": "=C5/$C$4"
+  },
+  {
+    "cell": "E5",
+    "formula": "=($I$67-$I$17)",
+    "result": "=($I$67-$I$17)"
+  },
+  {
+    "cell": "F5",
+    "formula": "=E5/$E$4",
+    "result": "=E5/$E$4"
+  },
+  {
+    "cell": "C6",
+    "formula": "=$D$97",
+    "result": "=$D$97"
+  },
+  {
+    "cell": "D6",
+    "formula": "=C6/$C$4",
+    "result": "=C6/$C$4"
+  },
+  {
+    "cell": "E6",
+    "formula": "=$E$97",
+    "result": "=$E$97"
+  },
+  {
+    "cell": "F6",
+    "formula": "=E6/$E$4",
+    "result": "=E6/$E$4"
+  },
+  {
+    "cell": "C7",
+    "formula": "='_QUEIMACOMB_RENOVACALC'!$I$7",
+    "result": "='_QUEIMACOMB_RENOVACALC'!$I$7"
+  },
+  {
+    "cell": "D7",
+    "formula": "=C7/$C$4",
+    "result": "=C7/$C$4"
+  },
+  {
+    "cell": "E7",
+    "formula": "='_QUEIMACOMB_RENOVACALC'!$I$8",
+    "result": "='_QUEIMACOMB_RENOVACALC'!$I$8"
+  },
+  {
+    "cell": "F7",
+    "formula": "=E7/$E$4",
+    "result": "=E7/$E$4"
+  },
+  {
+    "cell": "D13",
+    "formula": "='RENOVACALC Solidos'!#REF!*_DADOSAUXILIARES!$D$15",
+    "result": "='RENOVACALC Solidos'!#REF!*_DADOSAUXILIARES!$D$15"
+  },
+  {
+    "cell": "E13",
+    "formula": "=D13*'_DADOSAUXILIARES'!$F$15",
+    "result": "=D13*'_DADOSAUXILIARES'!$F$15"
+  },
+  {
+    "cell": "F13",
+    "formula": "=E13/SUM($E$13:$E$15)",
+    "result": "=E13/SUM($E$13:$E$15)"
+  },
+  {
+    "cell": "D14",
+    "formula": "='RENOVACALC Solidos'!#REF!*_DADOSAUXILIARES!$D$16",
+    "result": "='RENOVACALC Solidos'!#REF!*_DADOSAUXILIARES!$D$16"
+  },
+  {
+    "cell": "E14",
+    "formula": "=D14*'_DADOSAUXILIARES'!$F$16",
+    "result": "=D14*'_DADOSAUXILIARES'!$F$16"
+  },
+  {
+    "cell": "F14",
+    "formula": "=E14/SUM($E$13:$E$15)",
+    "result": "=E14/SUM($E$13:$E$15)"
+  },
+  {
+    "cell": "D15",
+    "formula": "='RENOVACALC Solidos'!#REF!",
+    "result": "='RENOVACALC Solidos'!#REF!"
+  },
+  {
+    "cell": "E15",
+    "formula": "=CONVERT(D15,\"kWh\",\"MJ\")",
+    "result": "=CONVERT(D15,\"kWh\",\"MJ\")"
+  },
+  {
+    "cell": "F15",
+    "formula": "=E15/SUM($E$13:$E$15)",
+    "result": "=E15/SUM($E$13:$E$15)"
+  },
+  {
+    "cell": "H17",
+    "formula": "=(F17/$E$13)*$F$13",
+    "result": "=(F17/$E$13)*$F$13"
+  },
+  {
+    "cell": "I17",
+    "formula": "=(F17/$E$14)*$F$14",
+    "result": "=(F17/$E$14)*$F$14"
+  },
+  {
+    "cell": "D18",
+    "formula": "=('RENOVACALC Solidos'!$D$35*1-'RENOVACALC Solidos'!#REF!)*1000/'RENOVACALC Solidos'!#REF!",
+    "result": "=('RENOVACALC Solidos'!$D$35*1-'RENOVACALC Solidos'!#REF!)*1000/'RENOVACALC Solidos'!#REF!"
+  },
+  {
+    "cell": "H18",
+    "formula": "=(F18/$E$13)*$F$13",
+    "result": "=(F18/$E$13)*$F$13"
+  },
+  {
+    "cell": "I18",
+    "formula": "=(F18/$E$14)*$F$14",
+    "result": "=(F18/$E$14)*$F$14"
+  },
+  {
+    "cell": "D19",
+    "formula": "=D18/1000*#REF!",
+    "result": "=D18/1000*#REF!"
+  },
+  {
+    "cell": "F19",
+    "formula": "=D19*'_DADOSAUXILIARES'!$H$131",
+    "result": "=D19*'_DADOSAUXILIARES'!$H$131"
+  },
+  {
+    "cell": "H19",
+    "formula": "=(F19/$E$13)*$F$13",
+    "result": "=(F19/$E$13)*$F$13"
+  },
+  {
+    "cell": "I19",
+    "formula": "=(F19/$E$14)*$F$14",
+    "result": "=(F19/$E$14)*$F$14"
+  },
+  {
+    "cell": "D20",
+    "formula": "='RENOVACALC Solidos'!$D$43*1000/'RENOVACALC Solidos'!#REF!",
+    "result": "='RENOVACALC Solidos'!$D$43*1000/'RENOVACALC Solidos'!#REF!"
+  },
+  {
+    "cell": "F20",
+    "formula": "=D20*'_DADOSAUXILIARES'!$H$78",
+    "result": "=D20*'_DADOSAUXILIARES'!$H$78"
+  },
+  {
+    "cell": "H20",
+    "formula": "=(F20/$E$13)*$F$13",
+    "result": "=(F20/$E$13)*$F$13"
+  },
+  {
+    "cell": "I20",
+    "formula": "=(F20/$E$14)*$F$14",
+    "result": "=(F20/$E$14)*$F$14"
+  },
+  {
+    "cell": "D21",
+    "formula": "=D20/1000*#REF!",
+    "result": "=D20/1000*#REF!"
+  },
+  {
+    "cell": "F21",
+    "formula": "=D21*'_DADOSAUXILIARES'!$H$131",
+    "result": "=D21*'_DADOSAUXILIARES'!$H$131"
+  },
+  {
+    "cell": "H21",
+    "formula": "=(F21/$E$13)*$F$13",
+    "result": "=(F21/$E$13)*$F$13"
+  },
+  {
+    "cell": "I21",
+    "formula": "=(F21/$E$14)*$F$14",
+    "result": "=(F21/$E$14)*$F$14"
+  },
+  {
+    "cell": "F22",
+    "formula": "=D22*'_DADOSAUXILIARES'!$H$83",
+    "result": "=D22*'_DADOSAUXILIARES'!$H$83"
+  },
+  {
+    "cell": "H22",
+    "formula": "=(F22/$E$13)*$F$13",
+    "result": "=(F22/$E$13)*$F$13"
+  },
+  {
+    "cell": "I22",
+    "formula": "=(F22/$E$14)*$F$14",
+    "result": "=(F22/$E$14)*$F$14"
+  },
+  {
+    "cell": "F23",
+    "formula": "=D23*'_DADOSAUXILIARES'!$H$88",
+    "result": "=D23*'_DADOSAUXILIARES'!$H$88"
+  },
+  {
+    "cell": "H23",
+    "formula": "=(F23/$E$13)*$F$13",
+    "result": "=(F23/$E$13)*$F$13"
+  },
+  {
+    "cell": "I23",
+    "formula": "=(F23/$E$14)*$F$14",
+    "result": "=(F23/$E$14)*$F$14"
+  },
+  {
+    "cell": "F24",
+    "formula": "=D24*'_DADOSAUXILIARES'!$H$95",
+    "result": "=D24*'_DADOSAUXILIARES'!$H$95"
+  },
+  {
+    "cell": "H24",
+    "formula": "=(F24/$E$13)*$F$13",
+    "result": "=(F24/$E$13)*$F$13"
+  },
+  {
+    "cell": "I24",
+    "formula": "=(F24/$E$14)*$F$14",
+    "result": "=(F24/$E$14)*$F$14"
+  },
+  {
+    "cell": "F25",
+    "formula": "=D25*'_DADOSAUXILIARES'!$H$92",
+    "result": "=D25*'_DADOSAUXILIARES'!$H$92"
+  },
+  {
+    "cell": "H25",
+    "formula": "=(F25/$E$13)*$F$13",
+    "result": "=(F25/$E$13)*$F$13"
+  },
+  {
+    "cell": "I25",
+    "formula": "=(F25/$E$14)*$F$14",
+    "result": "=(F25/$E$14)*$F$14"
+  },
+  {
+    "cell": "D26",
+    "formula": "=(0.4464/1000)*D13",
+    "result": "=(0.4464/1000)*D13"
+  },
+  {
+    "cell": "F26",
+    "formula": "=D26*'_DADOSAUXILIARES'!$H$94",
+    "result": "=D26*'_DADOSAUXILIARES'!$H$94"
+  },
+  {
+    "cell": "H26",
+    "formula": "=(F26/$E$13)*$F$13",
+    "result": "=(F26/$E$13)*$F$13"
+  },
+  {
+    "cell": "I26",
+    "formula": "=(F26/$E$14)*$F$14",
+    "result": "=(F26/$E$14)*$F$14"
+  },
+  {
+    "cell": "D27",
+    "formula": "='RENOVACALC Solidos'!#REF!",
+    "result": "='RENOVACALC Solidos'!#REF!"
+  },
+  {
+    "cell": "F27",
+    "formula": "=D27*'_DADOSAUXILIARES'!$H$99",
+    "result": "=D27*'_DADOSAUXILIARES'!$H$99"
+  },
+  {
+    "cell": "H27",
+    "formula": "=(F27/$E$13)*$F$13",
+    "result": "=(F27/$E$13)*$F$13"
+  },
+  {
+    "cell": "I27",
+    "formula": "=(F27/$E$14)*$F$14",
+    "result": "=(F27/$E$14)*$F$14"
+  },
+  {
+    "cell": "D28",
+    "formula": "='RENOVACALC Solidos'!#REF!",
+    "result": "='RENOVACALC Solidos'!#REF!"
+  },
+  {
+    "cell": "F28",
+    "formula": "=D28*'_DADOSAUXILIARES'!$H$88",
+    "result": "=D28*'_DADOSAUXILIARES'!$H$88"
+  },
+  {
+    "cell": "H28",
+    "formula": "=(F28/$E$13)*$F$13",
+    "result": "=(F28/$E$13)*$F$13"
+  },
+  {
+    "cell": "I28",
+    "formula": "=(F28/$E$14)*$F$14",
+    "result": "=(F28/$E$14)*$F$14"
+  },
+  {
+    "cell": "D29",
+    "formula": "='RENOVACALC Solidos'!#REF!",
+    "result": "='RENOVACALC Solidos'!#REF!"
+  },
+  {
+    "cell": "F29",
+    "formula": "=D29*'_DADOSAUXILIARES'!$H$95",
+    "result": "=D29*'_DADOSAUXILIARES'!$H$95"
+  },
+  {
+    "cell": "H29",
+    "formula": "=(F29/$E$13)*$F$13",
+    "result": "=(F29/$E$13)*$F$13"
+  },
+  {
+    "cell": "I29",
+    "formula": "=(F29/$E$14)*$F$14",
+    "result": "=(F29/$E$14)*$F$14"
+  },
+  {
+    "cell": "D30",
+    "formula": "='RENOVACALC Solidos'!#REF!",
+    "result": "='RENOVACALC Solidos'!#REF!"
+  },
+  {
+    "cell": "F30",
+    "formula": "=D30*'_DADOSAUXILIARES'!$H$97",
+    "result": "=D30*'_DADOSAUXILIARES'!$H$97"
+  },
+  {
+    "cell": "H30",
+    "formula": "=(F30/$E$13)*$F$13",
+    "result": "=(F30/$E$13)*$F$13"
+  },
+  {
+    "cell": "I30",
+    "formula": "=(F30/$E$14)*$F$14",
+    "result": "=(F30/$E$14)*$F$14"
+  },
+  {
+    "cell": "D32",
+    "formula": "='RENOVACALC Solidos'!#REF!*(1-'RENOVACALC Solidos'!#REF!)",
+    "result": "='RENOVACALC Solidos'!#REF!*(1-'RENOVACALC Solidos'!#REF!)"
+  },
+  {
+    "cell": "H32",
+    "formula": "=(F32/$E$13)*$F$13",
+    "result": "=(F32/$E$13)*$F$13"
+  },
+  {
+    "cell": "I32",
+    "formula": "=(F32/$E$14)*$F$14",
+    "result": "=(F32/$E$14)*$F$14"
+  },
+  {
+    "cell": "D33",
+    "formula": "=((D32/1000)*'RENOVACALC Solidos'!#REF!)",
+    "result": "=((D32/1000)*'RENOVACALC Solidos'!#REF!)"
+  },
+  {
+    "cell": "F33",
+    "formula": "=D33*'_DADOSAUXILIARES'!$H$131",
+    "result": "=D33*'_DADOSAUXILIARES'!$H$131"
+  },
+  {
+    "cell": "H33",
+    "formula": "=(F33/$E$13)*$F$13",
+    "result": "=(F33/$E$13)*$F$13"
+  },
+  {
+    "cell": "I33",
+    "formula": "=(F33/$E$14)*$F$14",
+    "result": "=(F33/$E$14)*$F$14"
+  },
+  {
+    "cell": "D34",
+    "formula": "='RENOVACALC Solidos'!#REF!*(1-'RENOVACALC Solidos'!#REF!)",
+    "result": "='RENOVACALC Solidos'!#REF!*(1-'RENOVACALC Solidos'!#REF!)"
+  },
+  {
+    "cell": "F34",
+    "formula": "=D34*'_DADOSAUXILIARES'!$H$78",
+    "result": "=D34*'_DADOSAUXILIARES'!$H$78"
+  },
+  {
+    "cell": "H34",
+    "formula": "=(F34/$E$13)*$F$13",
+    "result": "=(F34/$E$13)*$F$13"
+  },
+  {
+    "cell": "I34",
+    "formula": "=(F34/$E$14)*$F$14",
+    "result": "=(F34/$E$14)*$F$14"
+  },
+  {
+    "cell": "D35",
+    "formula": "=((D34/1000)*'RENOVACALC Solidos'!#REF!)",
+    "result": "=((D34/1000)*'RENOVACALC Solidos'!#REF!)"
+  },
+  {
+    "cell": "F35",
+    "formula": "=D35*'_DADOSAUXILIARES'!$H$131",
+    "result": "=D35*'_DADOSAUXILIARES'!$H$131"
+  },
+  {
+    "cell": "H35",
+    "formula": "=(F35/$E$13)*$F$13",
+    "result": "=(F35/$E$13)*$F$13"
+  },
+  {
+    "cell": "I35",
+    "formula": "=(F35/$E$14)*$F$14",
+    "result": "=(F35/$E$14)*$F$14"
+  },
+  {
+    "cell": "D36",
+    "formula": "='RENOVACALC Solidos'!#REF!*(1-'RENOVACALC Solidos'!#REF!)",
+    "result": "='RENOVACALC Solidos'!#REF!*(1-'RENOVACALC Solidos'!#REF!)"
+  },
+  {
+    "cell": "F36",
+    "formula": "=D36*'_DADOSAUXILIARES'!$H$123",
+    "result": "=D36*'_DADOSAUXILIARES'!$H$123"
+  },
+  {
+    "cell": "H36",
+    "formula": "=(F36/$E$13)*$F$13",
+    "result": "=(F36/$E$13)*$F$13"
+  },
+  {
+    "cell": "I36",
+    "formula": "=(F36/$E$14)*$F$14",
+    "result": "=(F36/$E$14)*$F$14"
+  },
+  {
+    "cell": "D37",
+    "formula": "=((D36/1000)*'RENOVACALC Solidos'!#REF!)",
+    "result": "=((D36/1000)*'RENOVACALC Solidos'!#REF!)"
+  },
+  {
+    "cell": "F37",
+    "formula": "=D37*'_DADOSAUXILIARES'!$H$131",
+    "result": "=D37*'_DADOSAUXILIARES'!$H$131"
+  },
+  {
+    "cell": "H37",
+    "formula": "=(F37/$E$13)*$F$13",
+    "result": "=(F37/$E$13)*$F$13"
+  },
+  {
+    "cell": "I37",
+    "formula": "=(F37/$E$14)*$F$14",
+    "result": "=(F37/$E$14)*$F$14"
+  },
+  {
+    "cell": "D38",
+    "formula": "='RENOVACALC Solidos'!#REF!*(1-'RENOVACALC Solidos'!#REF!)",
+    "result": "='RENOVACALC Solidos'!#REF!*(1-'RENOVACALC Solidos'!#REF!)"
+  },
+  {
+    "cell": "F38",
+    "formula": "=D38*'_DADOSAUXILIARES'!$H$124",
+    "result": "=D38*'_DADOSAUXILIARES'!$H$124"
+  },
+  {
+    "cell": "H38",
+    "formula": "=(F38/$E$13)*$F$13",
+    "result": "=(F38/$E$13)*$F$13"
+  },
+  {
+    "cell": "I38",
+    "formula": "=(F38/$E$14)*$F$14",
+    "result": "=(F38/$E$14)*$F$14"
+  },
+  {
+    "cell": "D39",
+    "formula": "=((D38/1000)*'RENOVACALC Solidos'!#REF!)",
+    "result": "=((D38/1000)*'RENOVACALC Solidos'!#REF!)"
+  },
+  {
+    "cell": "F39",
+    "formula": "=D39*'_DADOSAUXILIARES'!$H$131",
+    "result": "=D39*'_DADOSAUXILIARES'!$H$131"
+  },
+  {
+    "cell": "H39",
+    "formula": "=(F39/$E$13)*$F$13",
+    "result": "=(F39/$E$13)*$F$13"
+  },
+  {
+    "cell": "I39",
+    "formula": "=(F39/$E$14)*$F$14",
+    "result": "=(F39/$E$14)*$F$14"
+  },
+  {
+    "cell": "D40",
+    "formula": "='RENOVACALC Solidos'!#REF!*(1-'RENOVACALC Solidos'!#REF!)",
+    "result": "='RENOVACALC Solidos'!#REF!*(1-'RENOVACALC Solidos'!#REF!)"
+  },
+  {
+    "cell": "H40",
+    "formula": "=(F40/$E$13)*$F$13",
+    "result": "=(F40/$E$13)*$F$13"
+  },
+  {
+    "cell": "I40",
+    "formula": "=(F40/$E$14)*$F$14",
+    "result": "=(F40/$E$14)*$F$14"
+  },
+  {
+    "cell": "D41",
+    "formula": "=((D40/1000)*'RENOVACALC Solidos'!#REF!)",
+    "result": "=((D40/1000)*'RENOVACALC Solidos'!#REF!)"
+  },
+  {
+    "cell": "F41",
+    "formula": "=D41*'_DADOSAUXILIARES'!$H$131",
+    "result": "=D41*'_DADOSAUXILIARES'!$H$131"
+  },
+  {
+    "cell": "H41",
+    "formula": "=(F41/$E$13)*$F$13",
+    "result": "=(F41/$E$13)*$F$13"
+  },
+  {
+    "cell": "I41",
+    "formula": "=(F41/$E$14)*$F$14",
+    "result": "=(F41/$E$14)*$F$14"
+  },
+  {
+    "cell": "D42",
+    "formula": "='RENOVACALC Solidos'!#REF!*_DADOSAUXILIARES!$D$30",
+    "result": "='RENOVACALC Solidos'!#REF!*_DADOSAUXILIARES!$D$30"
+  },
+  {
+    "cell": "F42",
+    "formula": "=D42*'_DADOSAUXILIARES'!$H$126",
+    "result": "=D42*'_DADOSAUXILIARES'!$H$126"
+  },
+  {
+    "cell": "H42",
+    "formula": "=(F42/$E$13)*$F$13",
+    "result": "=(F42/$E$13)*$F$13"
+  },
+  {
+    "cell": "I42",
+    "formula": "=(F42/$E$14)*$F$14",
+    "result": "=(F42/$E$14)*$F$14"
+  },
+  {
+    "cell": "D43",
+    "formula": "='RENOVACALC Solidos'!#REF!",
+    "result": "='RENOVACALC Solidos'!#REF!"
+  },
+  {
+    "cell": "F43",
+    "formula": "=D43*'RENOVACALC Solidos'!#REF!*_DADOSAUXILIARES!$H$125",
+    "result": "=D43*'RENOVACALC Solidos'!#REF!*_DADOSAUXILIARES!$H$125"
+  },
+  {
+    "cell": "H43",
+    "formula": "=(F43/$E$13)*$F$13",
+    "result": "=(F43/$E$13)*$F$13"
+  },
+  {
+    "cell": "I43",
+    "formula": "=(F43/$E$14)*$F$14",
+    "result": "=(F43/$E$14)*$F$14"
+  },
+  {
+    "cell": "D44",
+    "formula": "='RENOVACALC Solidos'!#REF!",
+    "result": "='RENOVACALC Solidos'!#REF!"
+  },
+  {
+    "cell": "F44",
+    "formula": "=D44*'_DADOSAUXILIARES'!$H$107",
+    "result": "=D44*'_DADOSAUXILIARES'!$H$107"
+  },
+  {
+    "cell": "H44",
+    "formula": "=(F44/$E$13)*$F$13",
+    "result": "=(F44/$E$13)*$F$13"
+  },
+  {
+    "cell": "I44",
+    "formula": "=(F44/$E$14)*$F$14",
+    "result": "=(F44/$E$14)*$F$14"
+  },
+  {
+    "cell": "D45",
+    "formula": "='RENOVACALC Solidos'!#REF!",
+    "result": "='RENOVACALC Solidos'!#REF!"
+  },
+  {
+    "cell": "F45",
+    "formula": "=D45*'_DADOSAUXILIARES'!$H$108",
+    "result": "=D45*'_DADOSAUXILIARES'!$H$108"
+  },
+  {
+    "cell": "H45",
+    "formula": "=(F45/$E$13)*$F$13",
+    "result": "=(F45/$E$13)*$F$13"
+  },
+  {
+    "cell": "I45",
+    "formula": "=(F45/$E$14)*$F$14",
+    "result": "=(F45/$E$14)*$F$14"
+  },
+  {
+    "cell": "D46",
+    "formula": "='RENOVACALC Solidos'!#REF!",
+    "result": "='RENOVACALC Solidos'!#REF!"
+  },
+  {
+    "cell": "F46",
+    "formula": "=D46*'_DADOSAUXILIARES'!$H$109",
+    "result": "=D46*'_DADOSAUXILIARES'!$H$109"
+  },
+  {
+    "cell": "H46",
+    "formula": "=(F46/$E$13)*$F$13",
+    "result": "=(F46/$E$13)*$F$13"
+  },
+  {
+    "cell": "I46",
+    "formula": "=(F46/$E$14)*$F$14",
+    "result": "=(F46/$E$14)*$F$14"
+  },
+  {
+    "cell": "D47",
+    "formula": "='RENOVACALC Solidos'!#REF!",
+    "result": "='RENOVACALC Solidos'!#REF!"
+  },
+  {
+    "cell": "F47",
+    "formula": "=D47*'_DADOSAUXILIARES'!$H$110",
+    "result": "=D47*'_DADOSAUXILIARES'!$H$110"
+  },
+  {
+    "cell": "H47",
+    "formula": "=(F47/$E$13)*$F$13",
+    "result": "=(F47/$E$13)*$F$13"
+  },
+  {
+    "cell": "I47",
+    "formula": "=(F47/$E$14)*$F$14",
+    "result": "=(F47/$E$14)*$F$14"
+  },
+  {
+    "cell": "D48",
+    "formula": "='RENOVACALC Solidos'!#REF!",
+    "result": "='RENOVACALC Solidos'!#REF!"
+  },
+  {
+    "cell": "F48",
+    "formula": "=D48*'_DADOSAUXILIARES'!$H$111",
+    "result": "=D48*'_DADOSAUXILIARES'!$H$111"
+  },
+  {
+    "cell": "H48",
+    "formula": "=(F48/$E$13)*$F$13",
+    "result": "=(F48/$E$13)*$F$13"
+  },
+  {
+    "cell": "I48",
+    "formula": "=(F48/$E$14)*$F$14",
+    "result": "=(F48/$E$14)*$F$14"
+  },
+  {
+    "cell": "D49",
+    "formula": "=('RENOVACALC Solidos'!#REF!*(1-0.1)+'RENOVACALC Solidos'!#REF!*(1-0.11)+'RENOVACALC Solidos'!#REF!*(1-0.15)+'RENOVACALC Solidos'!#REF!*(1-'RENOVACALC Solidos'!#REF!)+'RENOVACALC Solidos'!#REF!*(1-0.2)+'RENOVACALC Solidos'!#REF!*(1-0.3)+'RENOVACALC Solidos'!#REF!*(1-1))*_DADOSAUXILIARES!$D$26",
+    "result": "=('RENOVACALC Solidos'!#REF!*(1-0.1)+'RENOVACALC Solidos'!#REF!*(1-0.11)+'RENOVACALC Solidos'!#REF!*(1-0.15)+'RENOVACALC Solidos'!#REF!*(1-'RENOVACALC Solidos'!#REF!)+'RENOVACALC Solidos'!#REF!*(1-0.2)+'RENOVACALC Solidos'!#REF!*(1-0.3)+'RENOVACALC Solidos'!#REF!*(1-1))*_DADOSAUXILIARES!$D$26"
+  },
+  {
+    "cell": "F49",
+    "formula": "=D49*'_DADOSAUXILIARES'!H116",
+    "result": "=D49*'_DADOSAUXILIARES'!H116"
+  },
+  {
+    "cell": "H49",
+    "formula": "=(F49/$E$13)*$F$13",
+    "result": "=(F49/$E$13)*$F$13"
+  },
+  {
+    "cell": "I49",
+    "formula": "=(F49/$E$14)*$F$14",
+    "result": "=(F49/$E$14)*$F$14"
+  },
+  {
+    "cell": "D50",
+    "formula": "=('RENOVACALC Solidos'!#REF!*0.1+'RENOVACALC Solidos'!#REF!*0.11+'RENOVACALC Solidos'!#REF!*0.15+'RENOVACALC Solidos'!#REF!*'RENOVACALC Solidos'!#REF!+'RENOVACALC Solidos'!#REF!*0.2+'RENOVACALC Solidos'!#REF!*0.3+'RENOVACALC Solidos'!#REF!*1)*_DADOSAUXILIARES!$D$17",
+    "result": "=('RENOVACALC Solidos'!#REF!*0.1+'RENOVACALC Solidos'!#REF!*0.11+'RENOVACALC Solidos'!#REF!*0.15+'RENOVACALC Solidos'!#REF!*'RENOVACALC Solidos'!#REF!+'RENOVACALC Solidos'!#REF!*0.2+'RENOVACALC Solidos'!#REF!*0.3+'RENOVACALC Solidos'!#REF!*1)*_DADOSAUXILIARES!$D$17"
+  },
+  {
+    "cell": "F50",
+    "formula": "=D50*'_DADOSAUXILIARES'!H117",
+    "result": "=D50*'_DADOSAUXILIARES'!H117"
+  },
+  {
+    "cell": "H50",
+    "formula": "=(F50/$E$13)*$F$13",
+    "result": "=(F50/$E$13)*$F$13"
+  },
+  {
+    "cell": "I50",
+    "formula": "=(F50/$E$14)*$F$14",
+    "result": "=(F50/$E$14)*$F$14"
+  },
+  {
+    "cell": "D52",
+    "formula": "=$D$32*'_QUEIMACOMB_RENOVACALC'!$I$36/1000",
+    "result": "=$D$32*'_QUEIMACOMB_RENOVACALC'!$I$36/1000"
+  },
+  {
+    "cell": "F52",
+    "formula": "=D52*1000",
+    "result": "=D52*1000"
+  },
+  {
+    "cell": "H52",
+    "formula": "=(F52/$E$13)*$F$13",
+    "result": "=(F52/$E$13)*$F$13"
+  },
+  {
+    "cell": "I52",
+    "formula": "=(F52/$E$14)*$F$14",
+    "result": "=(F52/$E$14)*$F$14"
+  },
+  {
+    "cell": "D53",
+    "formula": "=$D$34*'_QUEIMACOMB_RENOVACALC'!$I$37/1000",
+    "result": "=$D$34*'_QUEIMACOMB_RENOVACALC'!$I$37/1000"
+  },
+  {
+    "cell": "F53",
+    "formula": "=D53*1000",
+    "result": "=D53*1000"
+  },
+  {
+    "cell": "H53",
+    "formula": "=(F53/$E$13)*$F$13",
+    "result": "=(F53/$E$13)*$F$13"
+  },
+  {
+    "cell": "I53",
+    "formula": "=(F53/$E$14)*$F$14",
+    "result": "=(F53/$E$14)*$F$14"
+  },
+  {
+    "cell": "D54",
+    "formula": "=$D$36*'_QUEIMACOMB_RENOVACALC'!$I$38/1000",
+    "result": "=$D$36*'_QUEIMACOMB_RENOVACALC'!$I$38/1000"
+  },
+  {
+    "cell": "F54",
+    "formula": "=D54*1000",
+    "result": "=D54*1000"
+  },
+  {
+    "cell": "H54",
+    "formula": "=(F54/$E$13)*$F$13",
+    "result": "=(F54/$E$13)*$F$13"
+  },
+  {
+    "cell": "I54",
+    "formula": "=(F54/$E$14)*$F$14",
+    "result": "=(F54/$E$14)*$F$14"
+  },
+  {
+    "cell": "D55",
+    "formula": "=$D$38*'_QUEIMACOMB_RENOVACALC'!$I$39/1000",
+    "result": "=$D$38*'_QUEIMACOMB_RENOVACALC'!$I$39/1000"
+  },
+  {
+    "cell": "F55",
+    "formula": "=D55*1000",
+    "result": "=D55*1000"
+  },
+  {
+    "cell": "H55",
+    "formula": "=(F55/$E$13)*$F$13",
+    "result": "=(F55/$E$13)*$F$13"
+  },
+  {
+    "cell": "I55",
+    "formula": "=(F55/$E$14)*$F$14",
+    "result": "=(F55/$E$14)*$F$14"
+  },
+  {
+    "cell": "D56",
+    "formula": "=$D$40*'_QUEIMACOMB_RENOVACALC'!$I$40/1000",
+    "result": "=$D$40*'_QUEIMACOMB_RENOVACALC'!$I$40/1000"
+  },
+  {
+    "cell": "F56",
+    "formula": "=D56*1000",
+    "result": "=D56*1000"
+  },
+  {
+    "cell": "H56",
+    "formula": "=(F56/$E$13)*$F$13",
+    "result": "=(F56/$E$13)*$F$13"
+  },
+  {
+    "cell": "I56",
+    "formula": "=(F56/$E$14)*$F$14",
+    "result": "=(F56/$E$14)*$F$14"
+  },
+  {
+    "cell": "D57",
+    "formula": "=D42*'_QUEIMACOMB_RENOVACALC'!$I$53/1000",
+    "result": "=D42*'_QUEIMACOMB_RENOVACALC'!$I$53/1000"
+  },
+  {
+    "cell": "F57",
+    "formula": "=D57*1000",
+    "result": "=D57*1000"
+  },
+  {
+    "cell": "H57",
+    "formula": "=(F57/$E$13)*$F$13",
+    "result": "=(F57/$E$13)*$F$13"
+  },
+  {
+    "cell": "I57",
+    "formula": "=(F57/$E$14)*$F$14",
+    "result": "=(F57/$E$14)*$F$14"
+  },
+  {
+    "cell": "D58",
+    "formula": "='RENOVACALC Solidos'!#REF!*_DADOSAUXILIARES!$D$16*_QUEIMACOMB_RENOVACALC!$I$57/1000",
+    "result": "='RENOVACALC Solidos'!#REF!*_DADOSAUXILIARES!$D$16*_QUEIMACOMB_RENOVACALC!$I$57/1000"
+  },
+  {
+    "cell": "F58",
+    "formula": "=D58*1000",
+    "result": "=D58*1000"
+  },
+  {
+    "cell": "H58",
+    "formula": "=(F58/$E$13)*$F$13",
+    "result": "=(F58/$E$13)*$F$13"
+  },
+  {
+    "cell": "I58",
+    "formula": "=(F58/$E$14)*$F$14",
+    "result": "=(F58/$E$14)*$F$14"
+  },
+  {
+    "cell": "D59",
+    "formula": "='RENOVACALC Solidos'!#REF!*_DADOSAUXILIARES!$D$15*_QUEIMACOMB_RENOVACALC!$I$55/1000",
+    "result": "='RENOVACALC Solidos'!#REF!*_DADOSAUXILIARES!$D$15*_QUEIMACOMB_RENOVACALC!$I$55/1000"
+  },
+  {
+    "cell": "F59",
+    "formula": "=D59*1000",
+    "result": "=D59*1000"
+  },
+  {
+    "cell": "H59",
+    "formula": "=(F59/$E$13)*$F$13",
+    "result": "=(F59/$E$13)*$F$13"
+  },
+  {
+    "cell": "I59",
+    "formula": "=(F59/$E$14)*$F$14",
+    "result": "=(F59/$E$14)*$F$14"
+  },
+  {
+    "cell": "D60",
+    "formula": "='RENOVACALC Solidos'!#REF!*'RENOVACALC Solidos'!#REF!*_QUEIMACOMB_RENOVACALC!$I$41/1000",
+    "result": "='RENOVACALC Solidos'!#REF!*'RENOVACALC Solidos'!#REF!*_QUEIMACOMB_RENOVACALC!$I$41/1000"
+  },
+  {
+    "cell": "F60",
+    "formula": "=D60*1000",
+    "result": "=D60*1000"
+  },
+  {
+    "cell": "H60",
+    "formula": "=(F60/$E$13)*$F$13",
+    "result": "=(F60/$E$13)*$F$13"
+  },
+  {
+    "cell": "I60",
+    "formula": "=(F60/$E$14)*$F$14",
+    "result": "=(F60/$E$14)*$F$14"
+  },
+  {
+    "cell": "D61",
+    "formula": "='RENOVACALC Solidos'!#REF!*'RENOVACALC Solidos'!#REF!*_QUEIMACOMB_RENOVACALC!$I$41/1000",
+    "result": "='RENOVACALC Solidos'!#REF!*'RENOVACALC Solidos'!#REF!*_QUEIMACOMB_RENOVACALC!$I$41/1000"
+  },
+  {
+    "cell": "F61",
+    "formula": "=D61*1000",
+    "result": "=D61*1000"
+  },
+  {
+    "cell": "H61",
+    "formula": "=(F61/$E$13)*$F$13",
+    "result": "=(F61/$E$13)*$F$13"
+  },
+  {
+    "cell": "I61",
+    "formula": "=(F61/$E$14)*$F$14",
+    "result": "=(F61/$E$14)*$F$14"
+  },
+  {
+    "cell": "D62",
+    "formula": "=D49*'_QUEIMACOMB_RENOVACALC'!$I$50/1000",
+    "result": "=D49*'_QUEIMACOMB_RENOVACALC'!$I$50/1000"
+  },
+  {
+    "cell": "F62",
+    "formula": "=D62*1000",
+    "result": "=D62*1000"
+  },
+  {
+    "cell": "H62",
+    "formula": "=(F62/$E$13)*$F$13",
+    "result": "=(F62/$E$13)*$F$13"
+  },
+  {
+    "cell": "I62",
+    "formula": "=(F62/$E$14)*$F$14",
+    "result": "=(F62/$E$14)*$F$14"
+  },
+  {
+    "cell": "D63",
+    "formula": "=D50*'_QUEIMACOMB_RENOVACALC'!$I$51/1000",
+    "result": "=D50*'_QUEIMACOMB_RENOVACALC'!$I$51/1000"
+  },
+  {
+    "cell": "F63",
+    "formula": "=D63*1000",
+    "result": "=D63*1000"
+  },
+  {
+    "cell": "H63",
+    "formula": "=(F63/$E$13)*$F$13",
+    "result": "=(F63/$E$13)*$F$13"
+  },
+  {
+    "cell": "I63",
+    "formula": "=(F63/$E$14)*$F$14",
+    "result": "=(F63/$E$14)*$F$14"
+  },
+  {
+    "cell": "F65",
+    "formula": "=SUM(F52:F63)",
+    "result": "=SUM(F52:F63)"
+  },
+  {
+    "cell": "H65",
+    "formula": "=(F65/$E$13)*$F$13",
+    "result": "=(F65/$E$13)*$F$13"
+  },
+  {
+    "cell": "I65",
+    "formula": "=(F65/$E$14)*$F$14",
+    "result": "=(F65/$E$14)*$F$14"
+  },
+  {
+    "cell": "F66",
+    "formula": "=SUM(F17:F50)",
+    "result": "=SUM(F17:F50)"
+  },
+  {
+    "cell": "H66",
+    "formula": "=(F66/$E$13)*$F$13",
+    "result": "=(F66/$E$13)*$F$13"
+  },
+  {
+    "cell": "I66",
+    "formula": "=(F66/$E$14)*$F$14",
+    "result": "=(F66/$E$14)*$F$14"
+  },
+  {
+    "cell": "F67",
+    "formula": "=F65+F66",
+    "result": "=F65+F66"
+  },
+  {
+    "cell": "H67",
+    "formula": "=(F67/$E$13)*$F$13",
+    "result": "=(F67/$E$13)*$F$13"
+  },
+  {
+    "cell": "I67",
+    "formula": "=(F67/$E$14)*$F$14",
+    "result": "=(F67/$E$14)*$F$14"
+  },
+  {
+    "cell": "D73",
+    "formula": "=$D$13*'RENOVACALC Solidos'!#REF!",
+    "result": "=$D$13*'RENOVACALC Solidos'!#REF!"
+  },
+  {
+    "cell": "E73",
+    "formula": "=$D$14*'RENOVACALC Solidos'!#REF!",
+    "result": "=$D$14*'RENOVACALC Solidos'!#REF!"
+  },
+  {
+    "cell": "D74",
+    "formula": "='_DADOSAUXILIARES'!C155",
+    "result": "='_DADOSAUXILIARES'!C155"
+  },
+  {
+    "cell": "E74",
+    "formula": "='_DADOSAUXILIARES'!C155",
+    "result": "='_DADOSAUXILIARES'!C155"
+  },
+  {
+    "cell": "D75",
+    "formula": "=D73/1000*D74",
+    "result": "=D73/1000*D74"
+  },
+  {
+    "cell": "E75",
+    "formula": "=E73/1000*E74",
+    "result": "=E73/1000*E74"
+  },
+  {
+    "cell": "D76",
+    "formula": "=D75*'_DADOSAUXILIARES'!$H$132",
+    "result": "=D75*'_DADOSAUXILIARES'!$H$132"
+  },
+  {
+    "cell": "E76",
+    "formula": "=E75*'_DADOSAUXILIARES'!$H$132",
+    "result": "=E75*'_DADOSAUXILIARES'!$H$132"
+  },
+  {
+    "cell": "D77",
+    "formula": "=D76/$E$13",
+    "result": "=D76/$E$13"
+  },
+  {
+    "cell": "E77",
+    "formula": "=E76/$E$14",
+    "result": "=E76/$E$14"
+  },
+  {
+    "cell": "D80",
+    "formula": "=$D$13*'RENOVACALC Solidos'!#REF!",
+    "result": "=$D$13*'RENOVACALC Solidos'!#REF!"
+  },
+  {
+    "cell": "E80",
+    "formula": "=$D$14*'RENOVACALC Solidos'!#REF!",
+    "result": "=$D$14*'RENOVACALC Solidos'!#REF!"
+  },
+  {
+    "cell": "D81",
+    "formula": "='_DADOSAUXILIARES'!E155",
+    "result": "='_DADOSAUXILIARES'!E155"
+  },
+  {
+    "cell": "E81",
+    "formula": "='_DADOSAUXILIARES'!E155",
+    "result": "='_DADOSAUXILIARES'!E155"
+  },
+  {
+    "cell": "D82",
+    "formula": "=D80/1000*D81",
+    "result": "=D80/1000*D81"
+  },
+  {
+    "cell": "E82",
+    "formula": "=E80/1000*E81",
+    "result": "=E80/1000*E81"
+  },
+  {
+    "cell": "D83",
+    "formula": "='_DADOSAUXILIARES'!D155",
+    "result": "='_DADOSAUXILIARES'!D155"
+  },
+  {
+    "cell": "E83",
+    "formula": "='_DADOSAUXILIARES'!D155",
+    "result": "='_DADOSAUXILIARES'!D155"
+  },
+  {
+    "cell": "D84",
+    "formula": "=D80/1000*D83",
+    "result": "=D80/1000*D83"
+  },
+  {
+    "cell": "E84",
+    "formula": "=E80/1000*E83",
+    "result": "=E80/1000*E83"
+  },
+  {
+    "cell": "D85",
+    "formula": "=D82*'_DADOSAUXILIARES'!$H$132+D84*'_DADOSAUXILIARES'!$H$136",
+    "result": "=D82*'_DADOSAUXILIARES'!$H$132+D84*'_DADOSAUXILIARES'!$H$136"
+  },
+  {
+    "cell": "E85",
+    "formula": "=E82*'_DADOSAUXILIARES'!$H$132+E84*'_DADOSAUXILIARES'!$H$136",
+    "result": "=E82*'_DADOSAUXILIARES'!$H$132+E84*'_DADOSAUXILIARES'!$H$136"
+  },
+  {
+    "cell": "D86",
+    "formula": "=D85/$E$13",
+    "result": "=D85/$E$13"
+  },
+  {
+    "cell": "E86",
+    "formula": "=E85/$E$14",
+    "result": "=E85/$E$14"
+  },
+  {
+    "cell": "D89",
+    "formula": "=$D$13*'RENOVACALC Solidos'!#REF!",
+    "result": "=$D$13*'RENOVACALC Solidos'!#REF!"
+  },
+  {
+    "cell": "E89",
+    "formula": "=$D$14*'RENOVACALC Solidos'!#REF!",
+    "result": "=$D$14*'RENOVACALC Solidos'!#REF!"
+  },
+  {
+    "cell": "D90",
+    "formula": "='_DADOSAUXILIARES'!G155",
+    "result": "='_DADOSAUXILIARES'!G155"
+  },
+  {
+    "cell": "E90",
+    "formula": "='_DADOSAUXILIARES'!G155",
+    "result": "='_DADOSAUXILIARES'!G155"
+  },
+  {
+    "cell": "D91",
+    "formula": "=D89/1000*D90",
+    "result": "=D89/1000*D90"
+  },
+  {
+    "cell": "E91",
+    "formula": "=E89/1000*E90",
+    "result": "=E89/1000*E90"
+  },
+  {
+    "cell": "D92",
+    "formula": "='_DADOSAUXILIARES'!F155",
+    "result": "='_DADOSAUXILIARES'!F155"
+  },
+  {
+    "cell": "E92",
+    "formula": "='_DADOSAUXILIARES'!F155",
+    "result": "='_DADOSAUXILIARES'!F155"
+  },
+  {
+    "cell": "D93",
+    "formula": "=D89/1000*D92",
+    "result": "=D89/1000*D92"
+  },
+  {
+    "cell": "E93",
+    "formula": "=E89/1000*E92",
+    "result": "=E89/1000*E92"
+  },
+  {
+    "cell": "D94",
+    "formula": "=D91*'_DADOSAUXILIARES'!$H$132+D93*'_DADOSAUXILIARES'!$H$135",
+    "result": "=D91*'_DADOSAUXILIARES'!$H$132+D93*'_DADOSAUXILIARES'!$H$135"
+  },
+  {
+    "cell": "E94",
+    "formula": "=E91*'_DADOSAUXILIARES'!$H$132+E93*'_DADOSAUXILIARES'!$H$135",
+    "result": "=E91*'_DADOSAUXILIARES'!$H$132+E93*'_DADOSAUXILIARES'!$H$135"
+  },
+  {
+    "cell": "D95",
+    "formula": "=D94/$E$13",
+    "result": "=D94/$E$13"
+  },
+  {
+    "cell": "E95",
+    "formula": "=E94/$E$14",
+    "result": "=E94/$E$14"
+  },
+  {
+    "cell": "D97",
+    "formula": "=D77+D86+D95",
+    "result": "=D77+D86+D95"
+  },
+  {
+    "cell": "E97",
+    "formula": "=E77+E86+E95",
+    "result": "=E77+E86+E95"
+  }
+]

@@ -1,0 +1,49 @@
+================================================================================
+RELATÓRIO DE EXTRAÇÃO - BioCalc_EngS.xlsx
+================================================================================
+
+Total de abas: 8
+
+Aba: Instruções
+  Dimensões: AB13 (13 linhas x 28 colunas)
+  Fórmulas encontradas: 0
+
+Aba: EngS_BioCalc
+  Dimensões: AA991 (991 linhas x 27 colunas)
+  Fórmulas encontradas: 39
+
+Aba: Dados auxiliares
+  Dimensões: AE201 (201 linhas x 31 colunas)
+  Fórmulas encontradas: 342
+
+Aba: CFF
+  Dimensões: AD1000 (1000 linhas x 30 colunas)
+  Fórmulas encontradas: 6
+
+Aba: Resultados
+  Dimensões: AD43 (43 linhas x 30 colunas)
+  Fórmulas encontradas: 54
+
+Aba: Referências
+  Dimensões: AE14 (14 linhas x 31 colunas)
+  Fórmulas encontradas: 0
+
+Aba: _E2G
+  Dimensões: Z1000 (1000 linhas x 26 colunas)
+  Fórmulas encontradas: 243
+
+Aba: _EMISSOES_AGRICOLAS_RENOVACALC
+  Dimensões: Z1000 (1000 linhas x 26 colunas)
+  Fórmulas encontradas: 12
+
+================================================================================
+ARQUIVOS GERADOS:
+================================================================================
+
+1. sheets_info.json - Informações gerais de todas as abas
+2. sheet_*_data.json - Dados completos de cada aba
+3. sheet_*_formulas.json/csv - Fórmulas de cada aba
+4. sheet_*_tables.json - Tabelas identificadas
+5. sheet_*_colored_cells.json - Células coloridas (inputs/cálculos)
+
+================================================================================

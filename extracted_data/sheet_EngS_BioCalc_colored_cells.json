@@ -1,0 +1,1101 @@
+{
+  "green_cells": [],
+  "blue_cells": [],
+  "other_colors": [
+    {
+      "cell": "A1",
+      "value": "BioCalc\nCalculadora para contabilização de Eficiência Energético-Ambiental para biocombustíveis sólidos (Pellets ou Briquetes)\n\nChamada CNPq nº 26/2021 \n401237/2022-2",
+      "color": "00000000"
+    },
+    {
+      "cell": "B2",
+      "value": "Calculadora para contabilização de Eficiência Energético-Ambiental para biocombustíveis sólidos (Pellets ou Briquetes)",
+      "color": "FFB2B2B2"
+    },
+    {
+      "cell": "J2",
+      "value": "v.1",
+      "color": "FFB2B2B2"
+    },
+    {
+      "cell": "B4",
+      "value": "Nome da Empresa:",
+      "color": "00000000"
+    },
+    {
+      "cell": "B6",
+      "value": "CNPJ:",
+      "color": "00000000"
+    },
+    {
+      "cell": "B8",
+      "value": "Estado:",
+      "color": "00000000"
+    },
+    {
+      "cell": "B10",
+      "value": "Cidade:",
+      "color": "00000000"
+    },
+    {
+      "cell": "B12",
+      "value": "Responsável pelo preenchimento:",
+      "color": "00000000"
+    },
+    {
+      "cell": "B14",
+      "value": "Telefone:",
+      "color": "00000000"
+    },
+    {
+      "cell": "B16",
+      "value": "E-mail:  ",
+      "color": "00000000"
+    },
+    {
+      "cell": "B19",
+      "value": "Biocombustível Sólido (Pellet ou Briquette)",
+      "color": "FFFFFFFF"
+    },
+    {
+      "cell": "G19",
+      "value": "Geração de CBIOs",
+      "color": "FFFFFFFF"
+    },
+    {
+      "cell": "J19",
+      "value": "Fóssil substituto: Diesel A, Gasolina A e GNV (Média ponderada)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "J20",
+      "value": "0.0867",
+      "color": "FFCFE2F3"
+    },
+    {
+      "cell": "B21",
+      "value": "Intensidade de Carbono\n(kg CO₂eq/MJ)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C21",
+      "value": "=SUM(C23:C26)",
+      "color": "FF265EAA"
+    },
+    {
+      "cell": "G21",
+      "value": "Volume de produção elegível (em Toneladas de biocombustível)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H21",
+      "value": "12000.0",
+      "color": "FFB6D7A8"
+    },
+    {
+      "cell": "B23",
+      "value": "agrícola",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C23",
+      "value": "=IFERROR(SUM(E40,E47,E53),0)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B24",
+      "value": "industrial",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C24",
+      "value": "=IFERROR((SUM(E69,E81,E85,E91)),0)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G24",
+      "value": "Possíveis créditos elegíveis (CBIOs)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H24",
+      "value": "=IFERROR(ROUNDDOWN(VLOOKUP(E33,'Dados auxiliares'!B7:D12,3,0)*(H21*(SUMIF(C27,\">0\",C27))),0),\"\")",
+      "color": "FF265EAA"
+    },
+    {
+      "cell": "B25",
+      "value": "transporte",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C25",
+      "value": "=IFERROR(SUM(E104,E117),\" \")",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B26",
+      "value": "Uso",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C26",
+      "value": "=IFERROR(VLOOKUP(E33,'Dados auxiliares'!B7:E12,4,0), \" \")",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B27",
+      "value": "Nota de Eficiência Energético-Ambiental \n(kg CO₂eq/MJ)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C27",
+      "value": "=J20-C21",
+      "color": "FF265EAA"
+    },
+    {
+      "cell": "E27",
+      "value": "Resultado negativo representa impacto superior ao fóssil substituto",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G27",
+      "value": "Valor de mercado do CBIO:B3 hoje:\nConsultar em: cbio.datagro.com/cbio/",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H27",
+      "value": "78.07",
+      "color": "FFB6D7A8"
+    },
+    {
+      "cell": "B29",
+      "value": "Redução de emissões",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C29",
+      "value": "=(J20-C21)/J20",
+      "color": "FF265EAA"
+    },
+    {
+      "cell": "E29",
+      "value": "Resultado negativo representa impacto superior ao fóssil substituto",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G29",
+      "value": "Remuneração aproximada R$",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "H29",
+      "value": "=H24*H27",
+      "color": "FF265EAA"
+    },
+    {
+      "cell": "B31",
+      "value": "Fase Agricola e transporte da biomassa até a fábrica",
+      "color": "FF93C47D"
+    },
+    {
+      "cell": "B32",
+      "value": "Produção de biomassa",
+      "color": "Values must be of type <class 'str'>"
+    },
+    {
+      "cell": "C33",
+      "value": "Tipo de Biomassa (Ex. Pinus, Casca de amendoim, etc.)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G33",
+      "value": "Selecionar na lista suspensa",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C34",
+      "value": "Possui informação sobre o consumo de Biomassa (em kg de biomassa por kg de biocombustivel)?",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G34",
+      "value": "Selecionar na lista suspensa",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C35",
+      "value": "Entrada de biomassa - dado especifico \n(se não possuir a informação, não preencher, será considerado o dado padrão)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G35",
+      "value": "kg de biomassa / kg de biocombustível",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C36",
+      "value": "Fator de impacto da biomassa selecionada (preenchimento automático)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E36",
+      "value": "=IFERROR(VLOOKUP(EngS_BioCalc!E33,'Dados auxiliares'!B26:G32,6,0),\" \")",
+      "color": "FFCFE2F3"
+    },
+    {
+      "cell": "G36",
+      "value": "kg CO2 eq./ kg biomassa",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C37",
+      "value": "Poder calorífico da biomassa selecionada (preenchimento automático)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E37",
+      "value": "=IFERROR(VLOOKUP(E33,'Dados auxiliares'!B7:C12,2,0)/1000, \" \")",
+      "color": "FFCFE2F3"
+    },
+    {
+      "cell": "G37",
+      "value": "kg / MJ de biocombustível",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C38",
+      "value": "Entrada de amido de milho",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G38",
+      "value": "kg / MJ de biocombustível",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C39",
+      "value": "Impacto associado ao consumo de amido de milho (preenchimento automático)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E39",
+      "value": "=IFERROR((E38*'Dados auxiliares'!D32), \" \")",
+      "color": "FFCFE2F3"
+    },
+    {
+      "cell": "G39",
+      "value": "kg CO2 eq / MJ",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C40",
+      "value": "Impacto da produção de biomassa",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E40",
+      "value": "=IFERROR(IFS(E34=\"Não\", ((E37*E36)+E39) , E34=\"Sim\", ((E35*E37*E36)+E39)), \" \")",
+      "color": "FF3D85C6"
+    },
+    {
+      "cell": "G40",
+      "value": "kg CO2 eq. / MJ de biocombustível",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B41",
+      "value": "Mudança de Uso da Terra",
+      "color": "Values must be of type <class 'str'>"
+    },
+    {
+      "cell": "C42",
+      "value": "Estado da produção da Biomassa",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G42",
+      "value": "Selecionar na lista suspensa",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C43",
+      "value": "Cultivo agrícola (preenchimento automático)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E43",
+      "value": "=IFERROR(VLOOKUP(E33,'Dados auxiliares'!B26:H31,7,0), \" \")",
+      "color": "FFCFE2F3"
+    },
+    {
+      "cell": "G43",
+      "value": "-",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C44",
+      "value": "Se resíduo de madeira, informe qual etapa do ciclo de vida da madeira os resíduos foram obtidos",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G44",
+      "value": "Selecionar na lista suspensa",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C45",
+      "value": "Fator de impacto do MUT (preenchimento automático)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E45",
+      "value": "=IFERROR(IFS(E43=\"Pinus\", ((VLOOKUP(E42,'Dados auxiliares'!B95:N124,5,0))*1000), E43=\"Eucalipto\", ((VLOOKUP(E42,'Dados auxiliares'!B95:N124,9,0))*1000), E43=\"Amendoin\", ((VLOOKUP(E42,'Dados auxiliares'!B95:N124,13,0))*1000)), \" \")",
+      "color": "FFCFE2F3"
+    },
+    {
+      "cell": "G45",
+      "value": "kg CO2 eq./ kg biomassa",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C46",
+      "value": "Percentual de alocação da biomassa (preenchimento automático)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E46",
+      "value": "=IFERROR(VLOOKUP((E33&E44),'Dados auxiliares'!D78:J92,7,0), \" \")",
+      "color": "FFCFE2F3"
+    },
+    {
+      "cell": "G46",
+      "value": "%",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C47",
+      "value": "Impacto MUT",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E47",
+      "value": "=IFERROR((E37*(E45*E46)), \" \")",
+      "color": "FF3D85C6"
+    },
+    {
+      "cell": "G47",
+      "value": "kg CO2 eq. / MJ de biocombustivel",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B48",
+      "value": "Transporte da biomassa até a planta industrial",
+      "color": "Values must be of type <class 'str'>"
+    },
+    {
+      "cell": "C49",
+      "value": "Distância de transporte da biomassa até a fábrica",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G49",
+      "value": "km",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C50",
+      "value": "Tipo de veículo usado no transporte",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G50",
+      "value": "Selecionar na lista suspensa",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C51",
+      "value": "Quantidade média de Biomassa transportada por veículo (preenchimento automático)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E51",
+      "value": "=IFERROR(VLOOKUP(E33,'Dados auxiliares'!B7:C12,2,0)/1000000, \" \")",
+      "color": "FFCFE2F3"
+    },
+    {
+      "cell": "G51",
+      "value": "tonelada",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C52",
+      "value": "Demanda de transporte (preenchimento automático)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E52",
+      "value": "=IFERROR((E49*E51), \" \")",
+      "color": "FFCFE2F3"
+    },
+    {
+      "cell": "G52",
+      "value": "t.km",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C53",
+      "value": "Impacto do transporte da biomassa",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E53",
+      "value": "=IFERROR((E52*VLOOKUP(E50,'Dados auxiliares'!B70:F76,3,0)),\" \")",
+      "color": "FF3D85C6"
+    },
+    {
+      "cell": "G53",
+      "value": "kg CO2 eq. / MJ de biocombustivel",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B55",
+      "value": "Fase Industrial - Processamento (Secagem e Densificação da biomassa)",
+      "color": "FF93C47D"
+    },
+    {
+      "cell": "B56",
+      "value": "Informações sobre os elementos envolvidos na fase de produção do Biocombustível - Inserir os dados referentes ao consumo anual da unidade de fabricação\n(Caso o elemento não seja utilizado, deixar em branco)",
+      "color": "FFFFFFFF"
+    },
+    {
+      "cell": "B57",
+      "value": "Dados do sistema",
+      "color": "Values must be of type <class 'str'>"
+    },
+    {
+      "cell": "B58",
+      "value": "Existe co-geração de energia (aproveitamento da biomassa na geração de energia)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C59",
+      "value": "Quantidade de biomassa processada \n(não considerar a biomassa usada na co-geração, se houver)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G59",
+      "value": "kg/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C60",
+      "value": "Quantidade de biomassa consumida na co-geração?\n(Considerando a mesma biomassa obtida na fase agricola)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G60",
+      "value": "kg/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B61",
+      "value": "Energia - Eletricidade",
+      "color": "Values must be of type <class 'str'>"
+    },
+    {
+      "cell": "C62",
+      "value": "Eletricidade da rede - mix média voltagem",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G62",
+      "value": "kWh/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C63",
+      "value": "Eletricidade da rede - mix alta voltagem",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G63",
+      "value": "kWh/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C64",
+      "value": "Eletricidade - PCH",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G64",
+      "value": "kWh/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C65",
+      "value": "Eletricidade - biomassa",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G65",
+      "value": "kWh/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C66",
+      "value": "Eletricidade - eólica",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G66",
+      "value": "kWh/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C67",
+      "value": "Eletricidade - solar",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G67",
+      "value": "kWh/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C68",
+      "value": "Impacto do consumo de eletricidade (preenchimento automático)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E68",
+      "value": "=IFERROR(SUMPRODUCT(E62:E67,'Dados auxiliares'!G41:G46), \" \")",
+      "color": "FFCFE2F3"
+    },
+    {
+      "cell": "G68",
+      "value": "kg CO2/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C69",
+      "value": "Impacto do consumo de eletricidade",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E69",
+      "value": "=IFERROR(E68*(1/E59)*E37, \" \")",
+      "color": "FF3D85C6"
+    },
+    {
+      "cell": "G69",
+      "value": "kg CO2/MJ",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B70",
+      "value": "Energia - Combustível",
+      "color": "Values must be of type <class 'str'>"
+    },
+    {
+      "cell": "C71",
+      "value": "Diesel",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G71",
+      "value": "Litros/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C72",
+      "value": "Gás natural",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G72",
+      "value": "Nm³/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C73",
+      "value": "GLP",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G73",
+      "value": "kg/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C74",
+      "value": "Gasolina A",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G74",
+      "value": "Litros/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C75",
+      "value": "Etanol anidro",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G75",
+      "value": "Litros/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C76",
+      "value": "Etanol hidratado",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G76",
+      "value": "Litros/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C77",
+      "value": "Cavaco de madeira",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G77",
+      "value": "kg/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C78",
+      "value": "Lenha",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G78",
+      "value": "kg/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C79",
+      "value": "Impacto da produção de combustível (preenchimento automático)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E79",
+      "value": "=IFERROR(SUMPRODUCT(E71:E78,'Dados auxiliares'!G48:G55), \" \")",
+      "color": "FFCFE2F3"
+    },
+    {
+      "cell": "G79",
+      "value": "kg CO2/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C80",
+      "value": "Impacto da combustão estacionária (preenchimento automático)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E80",
+      "value": "=IFERROR(SUMPRODUCT(E71:E78,'Dados auxiliares'!G57:G64), \" \")",
+      "color": "FFCFE2F3"
+    },
+    {
+      "cell": "G80",
+      "value": "kg CO2/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C81",
+      "value": "Impacto do consumo de combustível",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E81",
+      "value": "=IFERROR((E79+E80)*(1/E59)*E37, \" \")",
+      "color": "FF3D85C6"
+    },
+    {
+      "cell": "G81",
+      "value": "kg CO2/MJ",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B82",
+      "value": "Co-geração (Aproveitamento energético)",
+      "color": "Values must be of type <class 'str'>"
+    },
+    {
+      "cell": "C83",
+      "value": "Fator de emissão da combustão da biomassa",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E83",
+      "value": "=IFERROR((VLOOKUP(E33,'Dados auxiliares'!B33:G39,6,0)),0)",
+      "color": "FFCFE2F3"
+    },
+    {
+      "cell": "G83",
+      "value": "kg CO2/ kg de biomassa queimada",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C84",
+      "value": "Impacto da combustão da biomassa (preenchimento automático)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E84",
+      "value": "=IFERROR((E60*E83),\" ')\")",
+      "color": "FFCFE2F3"
+    },
+    {
+      "cell": "G84",
+      "value": "kg CO2/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C85",
+      "value": "Impacto da combustão da biomassa",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E85",
+      "value": "=IFERROR((E84)*(1/E59)*E37, \" \")",
+      "color": "FF3D85C6"
+    },
+    {
+      "cell": "G85",
+      "value": "kg CO2/MJ",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B86",
+      "value": "Insumos de manufatura",
+      "color": "Values must be of type <class 'str'>"
+    },
+    {
+      "cell": "C87",
+      "value": "Água",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G87",
+      "value": "litros/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C88",
+      "value": "Óleo lubrificante",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G88",
+      "value": "kg/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C89",
+      "value": "Areia de silica",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G89",
+      "value": "kg/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C90",
+      "value": "Impacto da fase industrial",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E90",
+      "value": "=IFERROR(SUMPRODUCT(E87:E89,'Dados auxiliares'!G66:G68), \" \")",
+      "color": "FFCFE2F3"
+    },
+    {
+      "cell": "G90",
+      "value": "kg CO2 eq./ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C91",
+      "value": "Impacto da fase industrial",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E91",
+      "value": "=IFERROR(E90*(1/E59)*E37, \" \")",
+      "color": "FF3D85C6"
+    },
+    {
+      "cell": "G91",
+      "value": "kg CO2 eq. / MJ ",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B93",
+      "value": "Fase de Distribuição",
+      "color": "FF93C47D"
+    },
+    {
+      "cell": "B94",
+      "value": "Forneça a distancia do produto final até o mercado consumidor doméstico e o seu respectivo modal de transporte em percentual (caso seja modal único, preencher como 100%)\n(Deixar em branco quando não aplicável)",
+      "color": "FFFFFFFF"
+    },
+    {
+      "cell": "B95",
+      "value": "Mercado doméstico",
+      "color": "Values must be of type <class 'str'>"
+    },
+    {
+      "cell": "C96",
+      "value": "Quantidade de biomassa transportada no mercado doméstico",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G96",
+      "value": "tonelada",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C97",
+      "value": "Distância de transporte do produto final até o mercado consumidor doméstico",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G97",
+      "value": "km",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C98",
+      "value": "Ferroviário\nRefere-se ao percentual da distância mensal do biocombustível comercializado que é distribuido exclusivamente por via ferroviária",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G98",
+      "value": "%",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C99",
+      "value": "Hidroviário\nRefere-se ao percentual da distância mensal do biocombustível comercializado que é distribuido exclusivamente por via hidroviária",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G99",
+      "value": "%",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C100",
+      "value": "Rodoviário\nRefere-se ao percentual da distância mensal do biocombustível comercializado que é distribuido exclusivamente por via rodoviária",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E100",
+      "value": "=1-SUM(E98:E99)",
+      "color": "FFCFE2F3"
+    },
+    {
+      "cell": "G100",
+      "value": "%",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C101",
+      "value": "Tipo de veículo usado no transporte rodoviário",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C102",
+      "value": "Impacto da fase de distribuição no mercado doméstico (preenchimento automático)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E102",
+      "value": "=IFERROR(((E96*(E97*E98)*'Dados auxiliares'!G76)+(E96*(E97*E99)*'Dados auxiliares'!G75)+(E96*(E97*E100)*VLOOKUP(E101,'Dados auxiliares'!B70:G76,6,0))),0)",
+      "color": "FFCFE2F3"
+    },
+    {
+      "cell": "G102",
+      "value": "kg CO2 eq./ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C103",
+      "value": "MJ transportado anualmente",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E103",
+      "value": "=IFERROR(E96*1000*(1/E37),\" \")",
+      "color": "FFCFE2F3"
+    },
+    {
+      "cell": "G103",
+      "value": "MJ/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C104",
+      "value": "Impacto da distribuição no mercado doméstico",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E104",
+      "value": "=IFERROR(E102/E103,\"\")",
+      "color": "FF3D85C6"
+    },
+    {
+      "cell": "G104",
+      "value": "kg CO2 eq. / MJ transportado",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "B105",
+      "value": "Exportação - via container marítimo",
+      "color": "Values must be of type <class 'str'>"
+    },
+    {
+      "cell": "B106",
+      "value": "Caso tenha interesse em saber o impacto da exportação do seu produto, preencha os dados abaixo:\n(Deixar em branco quando não aplicável)",
+      "color": "00000000"
+    },
+    {
+      "cell": "C107",
+      "value": "Quantidade de biocombustível sólido exportado via container marítimo",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G107",
+      "value": "tonelada(s)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C108",
+      "value": "Distância da fabrica ao porto hidroviário mais próximo\nConsulta pode ser efetuada no site: gov.br ",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G108",
+      "value": "km",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C109",
+      "value": "Ferroviário\nRefere-se ao percentual da distância até o porto hidroviário distribuido exclusivamente por via ferroviária",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G109",
+      "value": "%",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C110",
+      "value": "Hidroviário\nRefere-se ao percentual da distância até o porto hidroviário distribuido exclusivamente por via hidroviária",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G110",
+      "value": "%",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C111",
+      "value": "Rodoviário\nRefere-se ao percentual da distância até o porto hidroviário distribuido exclusivamente por via rodoviária",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E111",
+      "value": "=1-SUM(E109:E110)",
+      "color": "FFCFE2F3"
+    },
+    {
+      "cell": "G111",
+      "value": "%",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C112",
+      "value": "Tipo de veículo usado no transporte rodoviário até o porto",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C113",
+      "value": "Distância do porto hidroviário ao mercado consumidor final\nConsulta pode ser efetuada no site: searates.com",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "G113",
+      "value": "km",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C114",
+      "value": "Impacto da fase de distribuição no mercado externo (trecho fabrica-porto)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E114",
+      "value": "=(E107*(E108*E109)*'Dados auxiliares'!G76)+(E107*(E108*E110)*'Dados auxiliares'!G75)+(E107*(E108*E111)*VLOOKUP(E112,'Dados auxiliares'!B70:G76,6,0))",
+      "color": "FFCFE2F3"
+    },
+    {
+      "cell": "G114",
+      "value": "kg CO2 eq./ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C115",
+      "value": "Impacto da fase de distribuição no mercado externo (trecho porto - mercado consumidor final)",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E115",
+      "value": "=E107*E113*'Dados auxiliares'!G74",
+      "color": "FFCFE2F3"
+    },
+    {
+      "cell": "G115",
+      "value": "kg CO2 eq./ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C116",
+      "value": "MJ exportado por ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E116",
+      "value": "=E107*1000*(1/E37)",
+      "color": "FFCFE2F3"
+    },
+    {
+      "cell": "G116",
+      "value": "MJ/ano",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "C117",
+      "value": "Impacto da exportação",
+      "color": "FFF0F1F2"
+    },
+    {
+      "cell": "E117",
+      "value": "=IFERROR((E114+E115)/E116,\" \")",
+      "color": "FF3D85C6"
+    },
+    {
+      "cell": "G117",
+      "value": "kg CO2 eq. / MJ transportado",
+      "color": "FFF0F1F2"
+    }
+  ]
+}

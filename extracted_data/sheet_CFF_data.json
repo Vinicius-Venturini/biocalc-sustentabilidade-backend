@@ -1,0 +1,824 @@
+[
+  {
+    "cell": "A1",
+    "row": 1,
+    "col": 1,
+    "value": "CFF Mat",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "B1",
+    "row": 1,
+    "col": 2,
+    "value": "CFF Energy",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "C1",
+    "row": 1,
+    "col": 3,
+    "value": "CFF Disposal",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "D1",
+    "row": 1,
+    "col": 4,
+    "value": "CFF Total",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "A2",
+    "row": 2,
+    "col": 1,
+    "value": "=(((1-$L$17)*$L$15)+$L$17*(($L$10*SUM(EngS_BioCalc!C23:C24)+((1-$L$10)*$L$15)*(VLOOKUP(EngS_BioCalc!E33,'Dados auxiliares'!B7:H12,3,0)/VLOOKUP(EngS_BioCalc!E33,'Dados auxiliares'!B7:H12,7,0)))+((1-$L$10)*$L$18*($L$14-(SUM(EngS_BioCalc!C23:C24)*($L$22/VLOOKUP(EngS_BioCalc!E33,'Dados auxiliares'!B7:H12,3,0)))))))",
+    "type": "f",
+    "fill_color": "00000000",
+    "formula": "=(((1-$L$17)*$L$15)+$L$17*(($L$10*SUM(EngS_BioCalc!C23:C24)+((1-$L$10)*$L$15)*(VLOOKUP(EngS_BioCalc!E33,'Dados auxiliares'!B7:H12,3,0)/VLOOKUP(EngS_BioCalc!E33,'Dados auxiliares'!B7:H12,7,0)))+((1-$L$10)*$L$18*($L$14-(SUM(EngS_BioCalc!C23:C24)*($L$22/VLOOKUP(EngS_BioCalc!E33,'Dados auxiliares'!B7:H12,3,0)))))))"
+  },
+  {
+    "cell": "B2",
+    "row": 2,
+    "col": 2,
+    "value": "=((1-$L$24)*$L$25)*((EngS_BioCalc!C21-VLOOKUP(EngS_BioCalc!E33,'Dados auxiliares'!B7:H12,7,0)*$L$29)*(EngS_BioCalc!E53+EngS_BioCalc!E40+EngS_BioCalc!C24))",
+    "type": "f",
+    "fill_color": "00000000",
+    "formula": "=((1-$L$24)*$L$25)*((EngS_BioCalc!C21-VLOOKUP(EngS_BioCalc!E33,'Dados auxiliares'!B7:H12,7,0)*$L$29)*(EngS_BioCalc!E53+EngS_BioCalc!E40+EngS_BioCalc!C24))"
+  },
+  {
+    "cell": "C2",
+    "row": 2,
+    "col": 3,
+    "value": "=(1-$L$18-$L$25)*($L$11*(VLOOKUP(EngS_BioCalc!E33,'Dados auxiliares'!B7:H12,7,0)))",
+    "type": "f",
+    "fill_color": "00000000",
+    "formula": "=(1-$L$18-$L$25)*($L$11*(VLOOKUP(EngS_BioCalc!E33,'Dados auxiliares'!B7:H12,7,0)))"
+  },
+  {
+    "cell": "D2",
+    "row": 2,
+    "col": 4,
+    "value": "=SUM(A2:C2)+EngS_BioCalc!C21",
+    "type": "f",
+    "fill_color": "00000000",
+    "formula": "=SUM(A2:C2)+EngS_BioCalc!C21"
+  },
+  {
+    "cell": "A4",
+    "row": 4,
+    "col": 1,
+    "value": "Material",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "B4",
+    "row": 4,
+    "col": 2,
+    "value": "(1-R1) x Ev + R1 x (A x Erin + (1-A) x Ev x Qsin/Qp) + (1-A) x R2 x (Eout - Ev* x (QSout/QP)",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "A5",
+    "row": 5,
+    "col": 1,
+    "value": "Energy",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "B5",
+    "row": 5,
+    "col": 2,
+    "value": "(1-B) x R3 x (Eer - LHV x Xerheat x Eseheat - LHV x Xerelec x Eseelec)",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "A6",
+    "row": 6,
+    "col": 1,
+    "value": "Disposal",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "B6",
+    "row": 6,
+    "col": 2,
+    "value": "(1-R2-R3) x Ed",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "A8",
+    "row": 8,
+    "col": 1,
+    "value": "Full Circular Footprint Formula (F-CFF) ",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "A9",
+    "row": 9,
+    "col": 1,
+    "value": "E= (1-R1) x Ev + R1 x (A x Erin + (1-A) x Ev x Qsin/Qp) + (1-A) x R2 x (Eout - Ev* x (QSout/QP)+ (1-B) x R3 x (Eer - LHV x Xerheat x Eseheat - LHV x Xerelec x Eseelec) + (1-R2-R3) x Ed ",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K10",
+    "row": 10,
+    "col": 11,
+    "value": "Factor A",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L10",
+    "row": 10,
+    "col": 12,
+    "value": "0.5",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "M10",
+    "row": 10,
+    "col": 13,
+    "value": "A balance between supply and demand for recycled material [0.2-0.8]",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K11",
+    "row": 11,
+    "col": 11,
+    "value": "Ed",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L11",
+    "row": 11,
+    "col": 12,
+    "value": "0.4903",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "M11",
+    "row": 11,
+    "col": 13,
+    "value": "is the environmental burdens of the waste disposal",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "B12",
+    "row": 12,
+    "col": 2,
+    "value": "=((1-$L$24)*$L$25)*VLOOKUP(EngS_BioCalc!E33,'Dados auxiliares'!B7:H12,7,0)-(VLOOKUP(EngS_BioCalc!E33,'Dados auxiliares'!B7:H12,7,0)*L29*L30)-(VLOOKUP(EngS_BioCalc!E33,'Dados auxiliares'!B7:H12,7,0)*L31*L32)",
+    "type": "f",
+    "fill_color": "00000000",
+    "formula": "=((1-$L$24)*$L$25)*VLOOKUP(EngS_BioCalc!E33,'Dados auxiliares'!B7:H12,7,0)-(VLOOKUP(EngS_BioCalc!E33,'Dados auxiliares'!B7:H12,7,0)*L29*L30)-(VLOOKUP(EngS_BioCalc!E33,'Dados auxiliares'!B7:H12,7,0)*L31*L32)"
+  },
+  {
+    "cell": "D12",
+    "row": 12,
+    "col": 4,
+    "value": "=EngS_BioCalc!C21+B12",
+    "type": "f",
+    "fill_color": "00000000",
+    "formula": "=EngS_BioCalc!C21+B12"
+  },
+  {
+    "cell": "K12",
+    "row": 12,
+    "col": 11,
+    "value": "Ed*",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "M12",
+    "row": 12,
+    "col": 13,
+    "value": "indicates Ed is avoided through recycling",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K13",
+    "row": 13,
+    "col": 11,
+    "value": "Erin",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L13",
+    "row": 13,
+    "col": 12,
+    "value": "0.0",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "M13",
+    "row": 13,
+    "col": 13,
+    "value": "is the environmental burdens of the recycling process supplying recycled material to the product",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K14",
+    "row": 14,
+    "col": 11,
+    "value": "Erout",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L14",
+    "row": 14,
+    "col": 12,
+    "value": "0.0",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "M14",
+    "row": 14,
+    "col": 13,
+    "value": "is the environmental burdens of the recycling process accepting materials from the produc",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K15",
+    "row": 15,
+    "col": 11,
+    "value": "Ev",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L15",
+    "row": 15,
+    "col": 12,
+    "value": "0.0",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "M15",
+    "row": 15,
+    "col": 13,
+    "value": "is the environmental burdens of virgin material production",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K16",
+    "row": 16,
+    "col": 11,
+    "value": "Ev*",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L16",
+    "row": 16,
+    "col": 12,
+    "value": "0.0",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "M16",
+    "row": 16,
+    "col": 13,
+    "value": "indicates Ev is avoided through recycling",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K17",
+    "row": 17,
+    "col": 11,
+    "value": "R1",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L17",
+    "row": 17,
+    "col": 12,
+    "value": "0.0",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "M17",
+    "row": 17,
+    "col": 13,
+    "value": "Share of recycled material [0-1]",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K18",
+    "row": 18,
+    "col": 11,
+    "value": "R2",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L18",
+    "row": 18,
+    "col": 12,
+    "value": "0.0",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "M18",
+    "row": 18,
+    "col": 13,
+    "value": "the rate of recycling of material after use in the product [0-1]",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K19",
+    "row": 19,
+    "col": 11,
+    "value": "Qp",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L19",
+    "row": 19,
+    "col": 12,
+    "value": "1.0",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "M19",
+    "row": 19,
+    "col": 13,
+    "value": "is the quality of the material delivered by the primary production [0-1]",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K20",
+    "row": 20,
+    "col": 11,
+    "value": "Qs",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L20",
+    "row": 20,
+    "col": 12,
+    "value": "1.0",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "M20",
+    "row": 20,
+    "col": 13,
+    "value": "quality of material recycled from the investigated product [0-1]",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K21",
+    "row": 21,
+    "col": 11,
+    "value": "Qsin",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L21",
+    "row": 21,
+    "col": 12,
+    "value": "1.0",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "M21",
+    "row": 21,
+    "col": 13,
+    "value": "the quality of recycled material entering the life cycle [0-1]",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K22",
+    "row": 22,
+    "col": 11,
+    "value": "Qsout",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L22",
+    "row": 22,
+    "col": 12,
+    "value": "0.0",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "M22",
+    "row": 22,
+    "col": 13,
+    "value": "the quality of recycled material leaving the life cycle [0-1]",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K23",
+    "row": 23,
+    "col": 11,
+    "value": "S",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L23",
+    "row": 23,
+    "col": 12,
+    "value": "1.0",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "M23",
+    "row": 23,
+    "col": 13,
+    "value": "the quality of the recycled material divided by the quality of virgin material [0-1]",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K24",
+    "row": 24,
+    "col": 11,
+    "value": "B",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L24",
+    "row": 24,
+    "col": 12,
+    "value": "0.0",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "M24",
+    "row": 24,
+    "col": 13,
+    "value": "allocation factor of energy recovery processes: it applies both to burdens and credits - Equalqs to 0 as default",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K25",
+    "row": 25,
+    "col": 11,
+    "value": "R3",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L25",
+    "row": 25,
+    "col": 12,
+    "value": "1.0",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "M25",
+    "row": 25,
+    "col": 13,
+    "value": "it is the proportion of the material in the product that is used for energy recovery at EoL",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K26",
+    "row": 26,
+    "col": 11,
+    "value": "Eer",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L26",
+    "row": 26,
+    "col": 12,
+    "value": "0.0",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "M26",
+    "row": 26,
+    "col": 13,
+    "value": "specific emissions and resources consumed (per functional unit) arising from the energy recovery process (e.g. incineration with energy recovery, landfill with energy recovery, …)",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K27",
+    "row": 27,
+    "col": 11,
+    "value": "LHV (Biomass)",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L27",
+    "row": 27,
+    "col": 12,
+    "value": "12.1417",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "M27",
+    "row": 27,
+    "col": 13,
+    "value": "lower heating value for Biomass[MJ/kg]",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K28",
+    "row": 28,
+    "col": 11,
+    "value": "LHV (Biofuel)",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L28",
+    "row": 28,
+    "col": 12,
+    "value": "6.1852",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "M28",
+    "row": 28,
+    "col": 13,
+    "value": "lower heating value for densified Biofuel[MJ/kg]",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K29",
+    "row": 29,
+    "col": 11,
+    "value": "Xerheat",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L29",
+    "row": 29,
+    "col": 12,
+    "value": "1.0",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "M29",
+    "row": 29,
+    "col": 13,
+    "value": "the efficiency of the energy recovery process for heat",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K30",
+    "row": 30,
+    "col": 11,
+    "value": "Eseheat (GWP)",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L30",
+    "row": 30,
+    "col": 12,
+    "value": "0.85",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "M30",
+    "row": 30,
+    "col": 13,
+    "value": "specific emissions and resources consumed (per functional unit) that would have arisen from the specific substituted energy source. For this case, heat",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "AD30",
+    "row": 30,
+    "col": 30,
+    "value": "Eseheat (Impact/MJ) =  results (per MJ of Eucalyptus) / LHV (Briquettes) ",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K31",
+    "row": 31,
+    "col": 11,
+    "value": "Xerelec",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L31",
+    "row": 31,
+    "col": 12,
+    "value": "0.0",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "M31",
+    "row": 31,
+    "col": 13,
+    "value": "the efficiency of the energy recovery process for elec",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K32",
+    "row": 32,
+    "col": 11,
+    "value": "Eseelec",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L32",
+    "row": 32,
+    "col": 12,
+    "value": "0.35",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "M32",
+    "row": 32,
+    "col": 13,
+    "value": "specific emissions and resources consumed (per functional unit) that would have arisen from the specific substituted energy source. For this case, electricity",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "P36",
+    "row": 36,
+    "col": 16,
+    "value": "Xerheat",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "Q36",
+    "row": 36,
+    "col": 17,
+    "value": "1.0",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "P37",
+    "row": 37,
+    "col": 16,
+    "value": "Eseheat (GWP)",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K38",
+    "row": 38,
+    "col": 11,
+    "value": "Xerheat",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L38",
+    "row": 38,
+    "col": 12,
+    "value": "1.0",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "P38",
+    "row": 38,
+    "col": 16,
+    "value": "Xerelec",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "Q38",
+    "row": 38,
+    "col": 17,
+    "value": "1.0",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K39",
+    "row": 39,
+    "col": 11,
+    "value": "Eseheat (GWP)",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L39",
+    "row": 39,
+    "col": 12,
+    "value": "0.85",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "P39",
+    "row": 39,
+    "col": 16,
+    "value": "Eseelec",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "Q39",
+    "row": 39,
+    "col": 17,
+    "value": "0.0",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K40",
+    "row": 40,
+    "col": 11,
+    "value": "Xerelec",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L40",
+    "row": 40,
+    "col": 12,
+    "value": "0.0",
+    "type": "n",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "K41",
+    "row": 41,
+    "col": 11,
+    "value": "Eseelec",
+    "type": "s",
+    "fill_color": "00000000"
+  },
+  {
+    "cell": "L41",
+    "row": 41,
+    "col": 12,
+    "value": "0.35",
+    "type": "n",
+    "fill_color": "00000000"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "cell": "C72",
+    "formula": "=C34*C32*C40",
+    "result": "=C34*C32*C40"
+  },
+  {
+    "cell": "D72",
+    "formula": "=D34*D32*D40",
+    "result": "=D34*D32*D40"
+  },
+  {
+    "cell": "E72",
+    "formula": "=E34*E32*E40",
+    "result": "=E34*E32*E40"
+  },
+  {
+    "cell": "C73",
+    "formula": "=C72*$C$69",
+    "result": "=C72*$C$69"
+  },
+  {
+    "cell": "D73",
+    "formula": "=D72*$C$69",
+    "result": "=D72*$C$69"
+  },
+  {
+    "cell": "E73",
+    "formula": "=E72*$C$69",
+    "result": "=E72*$C$69"
+  },
+  {
+    "cell": "C74",
+    "formula": "=C72*$C$70",
+    "result": "=C72*$C$70"
+  },
+  {
+    "cell": "D74",
+    "formula": "=D72*$C$70",
+    "result": "=D72*$C$70"
+  },
+  {
+    "cell": "E74",
+    "formula": "=E72*$C$70",
+    "result": "=E72*$C$70"
+  },
+  {
+    "cell": "E79",
+    "formula": "=C79*(44/12)",
+    "result": "=C79*(44/12)"
+  },
+  {
+    "cell": "E80",
+    "formula": "=C80*(44/12)",
+    "result": "=C80*(44/12)"
+  },
+  {
+    "cell": "E81",
+    "formula": "=C81*(44/12)/0.47",
+    "result": "=C81*(44/12)/0.47"
+  }
+]

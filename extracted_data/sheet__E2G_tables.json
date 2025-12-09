@@ -1,0 +1,27 @@
+[
+  {
+    "start_row": 3,
+    "end_row": 30,
+    "num_rows": 25
+  },
+  {
+    "start_row": 32,
+    "end_row": 67,
+    "num_rows": 35
+  },
+  {
+    "start_row": 72,
+    "end_row": 77,
+    "num_rows": 6
+  },
+  {
+    "start_row": 79,
+    "end_row": 86,
+    "num_rows": 8
+  },
+  {
+    "start_row": 88,
+    "end_row": 97,
+    "num_rows": 9
+  }
+]
