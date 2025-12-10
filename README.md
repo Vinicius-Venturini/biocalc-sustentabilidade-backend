@@ -2,7 +2,7 @@
 
 Backend modular em FastAPI para replicar as fórmulas da planilha BioCalc (cálculo de emissões por ACV em biocombustíveis sólidos).
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - ✅ **Autenticação JWT** - Registro e login de usuários
 - ✅ **Cálculo de Emissões** - Implementação completa das fórmulas BioCalc
@@ -21,7 +21,7 @@ Backend modular em FastAPI para replicar as fórmulas da planilha BioCalc (cálc
 - ✅ **API RESTful** - Documentação automática com Swagger/OpenAPI
 - ✅ **Persistência** - PostgreSQL com SQLAlchemy
 
-## 🚀 Início Rápido com Docker
+##  Início Rápido com Docker
 
 A maneira mais rápida de executar o BioCalc Backend:
 
@@ -38,17 +38,17 @@ docker-compose up -d
 
 Pronto! O banco de dados PostgreSQL e a API FastAPI estão rodando com dados auxiliares já populados.
 
-> 📖 **Documentação completa do Docker**: [DOCKER.md](DOCKER.md)
+>  **Documentação completa do Docker**: [DOCKER.md](DOCKER.md)
 
 ---
 
-## 📋 Pré-requisitos (Instalação Local)
+##  Pré-requisitos (Instalação Local)
 
-- Python 3.10+
+- Python 3.11+ (recomendado 3.11 ou superior)
 - PostgreSQL 12+
 - pip
 
-## 🔧 Instalação
+## Instalação
 
 ### 1. Clone o repositório
 
@@ -105,7 +105,7 @@ DATABASE_URL=postgresql://biocalc_user:your_password@localhost:5432/biocalc_db
 SECRET_KEY=your-super-secret-key-here-change-in-production
 ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=30
-CORS_ORIGINS=http://localhost:5173,http://localhost:3000
+CORS_ORIGINS=["http://localhost:5173","http://localhost:3000"]
 ```
 
 **IMPORTANTE:** Gere uma SECRET_KEY segura:
@@ -122,13 +122,17 @@ python scripts/seed_database.py
 
 Este script irá:
 - Criar todas as tabelas do banco de dados
-- Popular com 6 tipos de biomassa
-- Adicionar 4 fatores GWP
+- Popular com 6 tipos de biomassa e suas propriedades
+- Adicionar 4 fatores GWP (AR6 IPCC 2021)
 - Inserir fatores de emissão de veículos
 - Adicionar fatores de transporte por modal
 - Inserir fatores de emissão de insumos industriais
+- Popular fatores de emissão de produção de biomassa
+- Adicionar fatores MUT (Mudança de Uso da Terra) por estado e cultura
+- Inserir alocações de MUT por biomassa e estágio do ciclo de vida
+- Popular fatores de combustão estacionária
 
-## 🚀 Executando o Servidor
+##  Executando o Servidor
 
 ### Modo de desenvolvimento (com auto-reload)
 
@@ -144,14 +148,14 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000
 
 O servidor estará disponível em: **http://localhost:8000**
 
-## 📚 Documentação da API
+##  Documentação da API
 
 Após iniciar o servidor, acesse:
 
 - **Swagger UI (interativa)**: http://localhost:8000/docs
 - **ReDoc**: http://localhost:8000/redoc
 
-## 🔑 Endpoints Principais
+##  Endpoints Principais
 
 ### Autenticação
 
@@ -196,7 +200,7 @@ O sistema de criação de projetos foi dividido em **10 steps** que espelham a e
 - `GET /auxiliary/vehicle-emission-factors` - Listar fatores de emissão de veículos
 - `GET /auxiliary/gwp-factors` - Listar fatores GWP
 
-## 📊 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 biocalc-sustentabilidade-backend/
@@ -208,15 +212,20 @@ biocalc-sustentabilidade-backend/
 │   │   ├── user.py
 │   │   ├── project.py
 │   │   ├── biomass_property.py
+│   │   ├── biomass_mut_allocation.py
+│   │   ├── mut_factor.py
 │   │   ├── vehicle_emission_factor.py
+│   │   ├── stationary_combustion.py
 │   │   └── auxiliary.py
 │   ├── schemas/               # Schemas Pydantic
 │   │   ├── user.py
 │   │   ├── project.py
+│   │   ├── project_steps.py
 │   │   └── auxiliary.py
 │   ├── services/              # Lógica de negócio
 │   │   ├── auth_service.py
 │   │   ├── project_service.py
+│   │   ├── project_step_service.py
 │   │   └── calculation_service.py  # ⭐ Fórmulas BioCalc
 │   ├── routers/               # Endpoints da API
 │   │   ├── auth.py
@@ -224,16 +233,25 @@ biocalc-sustentabilidade-backend/
 │   │   └── auxiliary.py
 │   └── main.py                # Aplicação FastAPI principal
 ├── scripts/
+│   ├── data_source.py         # Fonte de dados extraídos
 │   ├── extract_excel_info.py  # Extração de dados da planilha
-│   └── seed_database.py       # Popular banco de dados
+│   ├── extract_seed_data.py   # Extração de dados de seed
+│   ├── seed_database.py       # Popular banco de dados
+│   ├── verify_seed.py         # Verificar dados populados
+│   └── README_EXTRACAO.md     # Documentação da extração
 ├── docs/
+│   ├── API_STEPS_GUIDE.md     # Guia completo dos steps
 │   └── ESTRUTURA_PLANILHA.md  # Documentação da planilha
+├── extracted_data/            # Dados extraídos da planilha
 ├── requirements.txt
 ├── .env.example
+├── docker-compose.yml
+├── Dockerfile
+├── DOCKER.md
 └── README.md
 ```
 
-## 🧮 Fórmulas Implementadas
+## Fórmulas Implementadas
 
 O serviço de cálculo (`app/services/calculation_service.py`) implementa todas as fórmulas da planilha BioCalc:
 
@@ -275,7 +293,7 @@ C29 = (Fóssil Substituto - Intensidade de Carbono) / Fóssil Substituto
 H24 = PCI * Volume de Produção * Nota de Eficiência (se > 0)
 ```
 
-## 🧪 Testando a API
+##  Testando a API
 
 ### 1. Registrar um usuário
 
@@ -285,7 +303,7 @@ curl -X POST "http://localhost:8000/auth/register" \
   -d '{
     "name": "João Silva",
     "email": "joao@example.com",
-    "password": "senha123",
+    "password": "senha12345",
     "company_name": "BioEnergia S.A.",
     "cnpj": "12.345.678/0001-90"
   }'
@@ -295,8 +313,11 @@ curl -X POST "http://localhost:8000/auth/register" \
 
 ```bash
 curl -X POST "http://localhost:8000/auth/login" \
-  -H "Content-Type: application/x-www-form-urlencoded" \
-  -d "username=joao@example.com&password=senha123"
+  -H "Content-Type: application/json" \
+  -d '{
+    "email": "joao@example.com",
+    "password": "senha12345"
+  }'
 ```
 
 Resposta:
@@ -388,7 +409,7 @@ curl -X POST "http://localhost:8000/projects/1/calculate" \
 
 A resposta incluirá todos os resultados calculados automaticamente!
 
-## 🔄 Integração com Frontend
+## Integração com Frontend
 
 O backend está configurado para aceitar requisições do frontend React (CORS habilitado).
 
@@ -413,7 +434,7 @@ console.log('Intensidade de Carbono:', result.carbon_intensity);
 console.log('CBIOs:', result.cbios);
 ```
 
-## 📝 Dados Auxiliares Disponíveis
+## Dados Auxiliares Disponíveis
 
 ### Biomassas
 1. Resíduo de Pinus (18.8 MJ/kg)
@@ -435,19 +456,17 @@ console.log('CBIOs:', result.cbios);
 - VUC: 0.089 kg CO₂eq/t.km
 - Trem: 0.022 kg CO₂eq/t.km
 
-## 🛠️ Desenvolvimento
+## Desenvolvimento
 
 ### Adicionar novas biomassas
 
-Edite `scripts/seed_database.py` e adicione na lista `biomasses`:
+Edite `scripts/data_source.py` e adicione na lista `BIOMASS_PROPERTIES_DATA`:
 
 ```python
 {
     "biomass_name": "Nova Biomassa",
     "pci_mj_kg": 16.5,
-    "combustion_emission": 0.0,
-    "source": "Sua Referência",
-    "biofuel_pci": 16.5
+    "combustion_emission": 0.0
 }
 ```
 
@@ -457,15 +476,15 @@ Execute novamente: `python scripts/seed_database.py`
 
 Edite `app/services/calculation_service.py` e modifique os métodos de cálculo.
 
-## 📄 Licença
+## Licença
 
 Este projeto foi desenvolvido para a Chamada CNPq nº 26/2021 - 401237/2022-2.
 
-## 👥 Autores
+## Autores
 
 Desenvolvido para o projeto BioCalc - UFSCar
 
-## 🆘 Suporte
+## Suporte
 
 Para dúvidas ou problemas:
 1. Verifique a documentação da API em `/docs`
@@ -475,4 +494,4 @@ Para dúvidas ou problemas:
 
 ---
 
-**Status**: ✅ Backend funcional e pronto para integração com o frontend!
+**Status**: Backend funcional e pronto para integração com o frontend!
