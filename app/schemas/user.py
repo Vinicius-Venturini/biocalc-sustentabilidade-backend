@@ -19,9 +19,9 @@ class UserCreate(UserBase):
     def validate_password(cls, v: str) -> str:
         """Validate password meets requirements"""
         if len(v) < 8:
-            raise ValueError('Password must be at least 8 characters long')
+            raise ValueError('A senha deve ter pelo menos 8 caracteres')
         if len(v) > 72:
-            raise ValueError('Password cannot be longer than 72 characters')
+            raise ValueError('A senha não pode ter mais de 72 caracteres')
         return v
 
 
@@ -39,9 +39,9 @@ class UserUpdate(BaseModel):
         if v is None:
             return v
         if len(v) < 8:
-            raise ValueError('Password must be at least 8 characters long')
+            raise ValueError('A senha deve ter pelo menos 8 caracteres')
         if len(v) > 72:
-            raise ValueError('Password cannot be longer than 72 characters')
+            raise ValueError('A senha não pode ter mais de 72 caracteres')
         return v
 
 
@@ -81,7 +81,7 @@ class PasswordReset(BaseModel):
     @classmethod
     def validate_password(cls, v: str) -> str:
         if len(v) < 8:
-            raise ValueError('Password must be at least 8 characters long')
+            raise ValueError('')
         if len(v) > 72:
-            raise ValueError('Password cannot be longer than 72 characters')
+            raise ValueError('A senha não pode ter mais de 72 caracteres')
         return v
