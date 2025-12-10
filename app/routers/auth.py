@@ -6,13 +6,25 @@ from datetime import timedelta
 from app.core.database import get_db
 from app.core.config import settings
 from app.models import User
-from app.schemas.user import UserCreate, UserLogin, UserResponse, Token
+from app.schemas.user import (
+    UserCreate, 
+    UserLogin, 
+    UserResponse, 
+    Token, 
+    PasswordResetRequest, 
+    PasswordReset
+)
 from app.services.auth_service import (
     get_password_hash,
     authenticate_user,
     create_access_token,
-    get_current_user_email
+    get_current_user_email,
+    create_password_reset_token,
+    verify_password_reset_token
 )
+
+
+from app.services.email_service import EmailService
 
 router = APIRouter(prefix="/auth", tags=["Authentication"])
 
@@ -104,3 +116,58 @@ def logout(current_user: User = Depends(get_current_user)):
         "message": "Successfully logged out",
         "user": current_user.email
     }
+
+@router.post("/forgot-password")
+def forgot_password(
+    request: PasswordResetRequest,
+    db: Session = Depends(get_db)
+):
+    """Request password reset"""
+    user = db.query(User).filter(User.email == request.email).first()
+    
+    # Sempre retorna sucesso por segurança (não revela se email existe)
+    if not user:
+        return {"message": "If the email exists, a password reset link has been sent"}
+    
+    # Create reset token
+    reset_token = create_password_reset_token(user.email)
+    
+    # Send email
+    email_sent = EmailService.send_password_reset_email(user.email, reset_token)
+    
+    if not email_sent:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail="Error sending email. Please try again later."
+        )
+    
+    return {"message": "If the email exists, a password reset link has been sent"}
+
+
+@router.post("/reset-password")
+def reset_password(
+    request: PasswordReset,
+    db: Session = Depends(get_db)
+):
+    """Reset password with token"""
+    email = verify_password_reset_token(request.token)
+    
+    if not email:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Invalid or expired token"
+        )
+    
+    user = db.query(User).filter(User.email == email).first()
+    
+    if not user:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="User not found"
+        )
+    
+    # Update password
+    user.hashed_password = get_password_hash(request.new_password)
+    db.commit()
+    
+    return {"message": "Password successfully reset"}

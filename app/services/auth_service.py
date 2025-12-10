@@ -55,3 +55,25 @@ def get_current_user_email(token: str) -> Optional[str]:
         return email
     except JWTError:
         return None
+
+def create_password_reset_token(email: str) -> str:
+    """Create password reset token"""
+    expire = datetime.utcnow() + timedelta(minutes=settings.PASSWORD_RESET_TOKEN_EXPIRE_MINUTES)
+    to_encode = {"sub": email, "exp": expire, "type": "password_reset"}
+    encoded_jwt = jwt.encode(to_encode, settings.SECRET_KEY, algorithm=settings.ALGORITHM)
+    return encoded_jwt
+
+
+def verify_password_reset_token(token: str) -> str | None:
+    """Verify password reset token and return email"""
+    try:
+        payload = jwt.decode(token, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])
+        email: str = payload.get("sub")
+        token_type: str = payload.get("type")
+        
+        if email is None or token_type != "password_reset":
+            return None
+        
+        return email
+    except JWTError:
+        return None
