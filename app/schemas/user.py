@@ -25,6 +25,26 @@ class UserCreate(UserBase):
         return v
 
 
+class UserUpdate(BaseModel):
+    """Schema for updating user information"""
+    name: Optional[str] = Field(None, min_length=1, max_length=100)
+    company_name: Optional[str] = Field(None, max_length=200)
+    cnpj: Optional[str] = Field(None, max_length=18)
+    password: Optional[str] = Field(None, min_length=8, max_length=72)
+    
+    @field_validator('password')
+    @classmethod
+    def validate_password(cls, v: Optional[str]) -> Optional[str]:
+        """Validate password meets requirements if provided"""
+        if v is None:
+            return v
+        if len(v) < 8:
+            raise ValueError('Password must be at least 8 characters long')
+        if len(v) > 72:
+            raise ValueError('Password cannot be longer than 72 characters')
+        return v
+
+
 class UserLogin(BaseModel):
     email: EmailStr
     password: str
