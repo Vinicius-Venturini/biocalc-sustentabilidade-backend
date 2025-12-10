@@ -4,22 +4,22 @@ Backend modular em FastAPI para replicar as fórmulas da planilha BioCalc (cálc
 
 ## Funcionalidades
 
-- ✅ **Autenticação JWT** - Registro e login de usuários
-- ✅ **Cálculo de Emissões** - Implementação completa das fórmulas BioCalc
-- ✅ **Fases de Cálculo**:
+- **Autenticação JWT** - Registro e login de usuários
+- **Cálculo de Emissões** - Implementação completa das fórmulas BioCalc
+- **Fases de Cálculo**:
   - Agrícola (produção de biomassa + MUT + transporte)
   - Industrial (eletricidade + combustíveis + água + insumos)
   - Transporte (doméstico + exportação)
   - Uso (combustão)
-- ✅ **Resultados**:
+- **Resultados**:
   - Intensidade de Carbono (kg CO₂eq/MJ)
   - Nota de Eficiência vs Fóssil
   - Redução de Emissões (%)
   - CBIOs Gerados
   - Remuneração Estimada
-- ✅ **Dados Auxiliares** - Tabelas de referência (biomassas, veículos, GWP, etc.)
-- ✅ **API RESTful** - Documentação automática com Swagger/OpenAPI
-- ✅ **Persistência** - PostgreSQL com SQLAlchemy
+- **Dados Auxiliares** - Tabelas de referência (biomassas, veículos, GWP, etc.)
+- **API RESTful** - Documentação automática com Swagger/OpenAPI
+- **Persistência** - PostgreSQL com SQLAlchemy
 
 ## Início Rápido com Docker (Recomendado)
 
@@ -43,7 +43,7 @@ docker-compose up -d
 
 ---
 
-## 📋 Pré-requisitos
+## Pré-requisitos
 
 - Docker
 - Docker Compose
@@ -114,28 +114,42 @@ biocalc-sustentabilidade-backend/
 │   │   ├── user.py
 │   │   ├── project.py
 │   │   ├── biomass_property.py
+│   │   ├── biomass_mut_allocation.py
+│   │   ├── mut_factor.py
 │   │   ├── vehicle_emission_factor.py
+│   │   ├── stationary_combustion.py
 │   │   └── auxiliary.py
 │   ├── schemas/               # Schemas Pydantic
 │   │   ├── user.py
 │   │   ├── project.py
+│   │   ├── project_steps.py
 │   │   └── auxiliary.py
 │   ├── services/              # Lógica de negócio
 │   │   ├── auth_service.py
 │   │   ├── project_service.py
-│   │   └── calculation_service.py  # ⭐ Fórmulas BioCalc
+│   │   ├── project_step_service.py
+│   │   └── calculation_service.py  # Fórmulas BioCalc
 │   ├── routers/               # Endpoints da API
 │   │   ├── auth.py
 │   │   ├── projects.py
 │   │   └── auxiliary.py
 │   └── main.py                # Aplicação FastAPI principal
 ├── scripts/
+│   ├── data_source.py         # Fonte de dados extraídos
 │   ├── extract_excel_info.py  # Extração de dados da planilha
-│   └── seed_database.py       # Popular banco de dados
+│   ├── extract_seed_data.py   # Extração de dados de seed
+│   ├── seed_database.py       # Popular banco de dados
+│   ├── verify_seed.py         # Verificar dados populados
+│   └── README_EXTRACAO.md     # Documentação da extração
 ├── docs/
+│   ├── API_STEPS_GUIDE.md     # Guia completo dos steps
 │   └── ESTRUTURA_PLANILHA.md  # Documentação da planilha
+├── extracted_data/            # Dados extraídos da planilha
 ├── requirements.txt
 ├── .env.example
+├── docker-compose.yml
+├── Dockerfile
+├── DOCKER.md
 └── README.md
 ```
 
@@ -191,7 +205,7 @@ curl -X POST "http://localhost:8000/auth/register" \
   -d '{
     "name": "João Silva",
     "email": "joao@example.com",
-    "password": "senha123",
+    "password": "senha12345",
     "company_name": "BioEnergia S.A.",
     "cnpj": "12.345.678/0001-90"
   }'
@@ -201,8 +215,11 @@ curl -X POST "http://localhost:8000/auth/register" \
 
 ```bash
 curl -X POST "http://localhost:8000/auth/login" \
-  -H "Content-Type: application/x-www-form-urlencoded" \
-  -d "username=joao@example.com&password=senha123"
+  -H "Content-Type: application/json" \
+  -d '{
+    "email": "joao@example.com",
+    "password": "senha12345"
+  }'
 ```
 
 Resposta:
@@ -341,19 +358,17 @@ console.log('CBIOs:', result.cbios);
 - VUC: 0.089 kg CO₂eq/t.km
 - Trem: 0.022 kg CO₂eq/t.km
 
-## 🛠️ Desenvolvimento
+## Desenvolvimento
 
 ### Adicionar novas biomassas
 
-Edite `scripts/seed_database.py` e adicione na lista `biomasses`:
+Edite `scripts/data_source.py` e adicione na lista `BIOMASS_PROPERTIES_DATA`:
 
 ```python
 {
     "biomass_name": "Nova Biomassa",
     "pci_mj_kg": 16.5,
-    "combustion_emission": 0.0,
-    "source": "Sua Referência",
-    "biofuel_pci": 16.5
+    "combustion_emission": 0.0
 }
 ```
 
@@ -363,7 +378,7 @@ Execute novamente: `python scripts/seed_database.py`
 
 Edite `app/services/calculation_service.py` e modifique os métodos de cálculo.
 
-##  Licença
+## Licença
 
 Este projeto foi desenvolvido para a Chamada CNPq nº 26/2021 - 401237/2022-2.
 
@@ -371,7 +386,7 @@ Este projeto foi desenvolvido para a Chamada CNPq nº 26/2021 - 401237/2022-2.
 
 Desenvolvido para o projeto BioCalc - UFSCar
 
-##  Suporte
+## Suporte
 
 Para dúvidas ou problemas:
 1. Verifique a documentação da API em `/docs`
@@ -381,4 +396,4 @@ Para dúvidas ou problemas:
 
 ---
 
-**Status**:  Backend funcional e pronto para integração com o frontend!
+**Status**: Backend funcional e pronto para integração com o frontend!
