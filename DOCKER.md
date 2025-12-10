@@ -1,35 +1,25 @@
-# BioCalc Backend - FastAPI + PostgreSQL
+# Guia de Instalação com Docker
 
-Backend modular em FastAPI para replicar as fórmulas da planilha BioCalc (cálculo de emissões por ACV em biocombustíveis sólidos).
+Este guia descreve como executar o BioCalc Backend usando Docker e Docker Compose.
 
-## Funcionalidades
+## Por que usar Docker?
 
-- **Autenticação JWT** - Registro e login de usuários
-- **Cálculo de Emissões** - Implementação completa das fórmulas BioCalc
-- **Fases de Cálculo**:
-  - Agrícola (produção de biomassa + MUT + transporte)
-  - Industrial (eletricidade + combustíveis + água + insumos)
-  - Transporte (doméstico + exportação)
-  - Uso (combustão)
-- **Resultados**:
-  - Intensidade de Carbono (kg CO₂eq/MJ)
-  - Nota de Eficiência vs Fóssil
-  - Redução de Emissões (%)
-  - CBIOs Gerados
-  - Remuneração Estimada
-- **Dados Auxiliares** - Tabelas de referência (biomassas, veículos, GWP, etc.)
-- **API RESTful** - Documentação automática com Swagger/OpenAPI
-- **Persistência** - PostgreSQL com SQLAlchemy
+- Não precisa instalar Python, PostgreSQL ou dependências manualmente
+- Ambiente padronizado e isolado
+- Configuração automática do banco de dados
+- População automática de dados auxiliares
+- Pronto para produção
 
-## Início Rápido com Docker (Recomendado)
+## Início Rápido
 
-A maneira mais rápida e fácil de executar o BioCalc Backend:
+## Início Rápido
 
 ```bash
 # 1. Clone o repositório
+git clone https://github.com/Vinicius-Venturini/biocalc-sustentabilidade-backend.git
 cd biocalc-sustentabilidade-backend
 
-# 2. Inicie com Docker Compose
+# 2. Inicie os containers
 docker-compose up -d
 
 # 3. Acesse a API
@@ -37,363 +27,252 @@ docker-compose up -d
 # ReDoc: http://localhost:8000/redoc
 ```
 
- **Pronto!** O banco de dados PostgreSQL e a API FastAPI estão rodando com dados auxiliares já populados automaticamente.
-
-> **Documentação completa do Docker**: [DOCKER.md](DOCKER.md)
+**Pronto!** A API está rodando com banco de dados PostgreSQL e dados auxiliares populados.
 
 ---
 
 ## Pré-requisitos
 
-- Docker
-- Docker Compose
-
-> **Nota:** Não é necessário instalar Python, PostgreSQL ou configurar ambiente virtual. O Docker gerencia tudo automaticamente!
-
-## Documentação da API
-
-Após iniciar o servidor, acesse:
-
-- **Swagger UI (interativa)**: http://localhost:8000/docs
-- **ReDoc**: http://localhost:8000/redoc
-
-## Endpoints Principais
-
-### Autenticação
-
-- `POST /auth/register` - Registrar novo usuário
-- `POST /auth/login` - Login (retorna JWT token)
-- `GET /auth/me` - Obter usuário atual
-
-### Projetos - Sistema de Steps Progressivos
-
-O sistema de criação de projetos foi dividido em **10 steps** que espelham a estrutura da planilha BioCalc:
-
-**Step 0: Identificação**
-- `POST /projects` - Criar projeto inicial
-
-**Steps 1-10: Rota Dinâmica Unificada**
-- `PUT /projects/{id}/step/{step}` - Atualizar qualquer step (1-10)
-  - Step 1: Produção de Biomassa
-  - Step 2: Mudança de Uso da Terra (MUT)
-  - Step 3: Transporte da Biomassa
-  - Step 4: Dados do Sistema Industrial
-  - Step 5: Consumo de Eletricidade
-  - Step 6: Consumo de Combustíveis
-  - Step 7: Outros Insumos
-  - Step 8: Transporte Doméstico
-  - Step 9: Transporte Exportação (Opcional)
-  - Step 10: Volume de Produção
-
-**Finalização**
-- `POST /projects/{id}/calculate` - Calcular emissões e CBIOs
-
-**Consultas**
-- `GET /projects/{id}/progress` - Progresso do projeto (0-10)
-- `GET /projects` - Listar todos os projetos
-- `GET /projects/{id}` - Detalhes de um projeto
-- `DELETE /projects/{id}` - Deletar projeto
-
-> **Guia Completo:** Veja [docs/API_STEPS_GUIDE.md](docs/API_STEPS_GUIDE.md) para exemplos detalhados de cada step
-
-### Dados Auxiliares
-
-- `GET /auxiliary/biomass-properties` - Listar propriedades de biomassas
-- `GET /auxiliary/vehicle-emission-factors` - Listar fatores de emissão de veículos
-- `GET /auxiliary/gwp-factors` - Listar fatores GWP
-
-## Estrutura do Projeto
-
-```
-biocalc-sustentabilidade-backend/
-├── app/
-│   ├── core/
-│   │   ├── config.py          # Configurações centralizadas
-│   │   └── database.py        # Configuração do banco de dados
-│   ├── models/                # Modelos SQLAlchemy
-│   │   ├── user.py
-│   │   ├── project.py
-│   │   ├── biomass_property.py
-│   │   ├── biomass_mut_allocation.py
-│   │   ├── mut_factor.py
-│   │   ├── vehicle_emission_factor.py
-│   │   ├── stationary_combustion.py
-│   │   └── auxiliary.py
-│   ├── schemas/               # Schemas Pydantic
-│   │   ├── user.py
-│   │   ├── project.py
-│   │   ├── project_steps.py
-│   │   └── auxiliary.py
-│   ├── services/              # Lógica de negócio
-│   │   ├── auth_service.py
-│   │   ├── project_service.py
-│   │   ├── project_step_service.py
-│   │   └── calculation_service.py  # Fórmulas BioCalc
-│   ├── routers/               # Endpoints da API
-│   │   ├── auth.py
-│   │   ├── projects.py
-│   │   └── auxiliary.py
-│   └── main.py                # Aplicação FastAPI principal
-├── scripts/
-│   ├── data_source.py         # Fonte de dados extraídos
-│   ├── extract_excel_info.py  # Extração de dados da planilha
-│   ├── extract_seed_data.py   # Extração de dados de seed
-│   ├── seed_database.py       # Popular banco de dados
-│   ├── verify_seed.py         # Verificar dados populados
-│   └── README_EXTRACAO.md     # Documentação da extração
-├── docs/
-│   ├── API_STEPS_GUIDE.md     # Guia completo dos steps
-│   └── ESTRUTURA_PLANILHA.md  # Documentação da planilha
-├── extracted_data/            # Dados extraídos da planilha
-├── requirements.txt
-├── .env.example
-├── docker-compose.yml
-├── Dockerfile
-├── DOCKER.md
-└── README.md
-```
-
-## Fórmulas Implementadas
-
-O serviço de cálculo (`app/services/calculation_service.py`) implementa todas as fórmulas da planilha BioCalc:
-
-### Intensidade de Carbono
-```
-C21 = SUM(C23:C26)
-= Emissões Agrícolas + Industriais + Transporte + Uso
-```
-
-### Emissões Agrícolas
-```
-C23 = Produção de Biomassa + MUT + Transporte até Fábrica
-```
-
-### Emissões Industriais
-```
-C24 = Eletricidade + Combustíveis + Água + Outros Insumos
-```
-
-### Emissões de Transporte
-```
-C25 = Transporte Doméstico + Transporte Exportação
-```
-
-### Nota de Eficiência
-```
-C27 = Fóssil Substituto - Intensidade de Carbono
-= 0.0867 - C21
-```
-
-### Redução de Emissões
-```
-C29 = (Fóssil Substituto - Intensidade de Carbono) / Fóssil Substituto
-= (0.0867 - C21) / 0.0867
-```
-
-### CBIOs
-```
-H24 = PCI * Volume de Produção * Nota de Eficiência (se > 0)
-```
-
-## Testando a API
-
-### 1. Registrar um usuário
-
-```bash
-curl -X POST "http://localhost:8000/auth/register" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "name": "João Silva",
-    "email": "joao@example.com",
-    "password": "senha12345",
-    "company_name": "BioEnergia S.A.",
-    "cnpj": "12.345.678/0001-90"
-  }'
-```
-
-### 2. Fazer login
-
-```bash
-curl -X POST "http://localhost:8000/auth/login" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "email": "joao@example.com",
-    "password": "senha12345"
-  }'
-```
-
-Resposta:
-```json
-{
-  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
-  "token_type": "bearer"
-}
-```
-
-### 3. Criar projeto (Step 0)
-
-```bash
-curl -X POST "http://localhost:8000/projects" \
-  -H "Authorization: Bearer SEU_TOKEN_AQUI" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "name": "Projeto Pinus 2024",
-    "state": "SP",
-    "city": "São Carlos"
-  }'
-```
-
-Resposta:
-```json
-{
-  "id": 1,
-  "name": "Projeto Pinus 2024",
-  "status": "Em Rascunho",
-  "current_step": 0,
-  "message": "Projeto criado com sucesso! Prossiga para o Step 1."
-}
-```
-
-### 4. Preencher Step 1 (Produção de Biomassa)
-
-```bash
-curl -X PUT "http://localhost:8000/projects/1/step/1" \
-  -H "Authorization: Bearer SEU_TOKEN_AQUI" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "biomass_type": "Resíduo de Pinus",
-    "biomass_consumption_known": "Não"
-  }'
-```
-
-### 5. Preencher Step 5 (Eletricidade) - exemplo de navegação
-
-```bash
-curl -X PUT "http://localhost:8000/projects/1/step/5" \
-  -H "Authorization: Bearer SEU_TOKEN_AQUI" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "elec_grid": 50000,
-    "elec_solar": 10000,
-    "elec_wind": 0,
-    "elec_hydro": 0,
-    "elec_biomass": 5000,
-    "elec_other": 0
-  }'
-```
-
-### 6. Consultar progresso
-
-```bash
-curl -X GET "http://localhost:8000/projects/1/progress" \
-  -H "Authorization: Bearer SEU_TOKEN_AQUI"
-```
-
-Resposta:
-```json
-{
-  "id": 1,
-  "name": "Projeto Pinus 2024",
-  "status": "Em Rascunho",
-  "current_step": 5,
-  "total_steps": 10,
-  "progress_percentage": 50.0,
-  "can_calculate": false
-}
-```
-
-### 7. Após completar todos os steps (1-10), calcular resultados
-
-```bash
-curl -X POST "http://localhost:8000/projects/1/calculate" \
-  -H "Authorization: Bearer SEU_TOKEN_AQUI"
-```
-
-A resposta incluirá todos os resultados calculados automaticamente!
-
-## Integração com Frontend
-
-O backend está configurado para aceitar requisições do frontend React (CORS habilitado).
-
-Endpoints para o frontend:
-- Base URL: `http://localhost:8000`
-- Autenticação: JWT Bearer Token no header `Authorization`
-
-Exemplo de chamada do frontend:
-
-```typescript
-const response = await fetch('http://localhost:8000/projects', {
-  method: 'POST',
-  headers: {
-    'Authorization': `Bearer ${token}`,
-    'Content-Type': 'application/json'
-  },
-  body: JSON.stringify(projectData)
-});
-
-const result = await response.json();
-console.log('Intensidade de Carbono:', result.carbon_intensity);
-console.log('CBIOs:', result.cbios);
-```
-
-## Dados Auxiliares Disponíveis
-
-### Biomassas
-1. Resíduo de Pinus (18.8 MJ/kg)
-2. Resíduo de Eucaliptus (15.8 MJ/kg)
-3. Carvão vegetal de eucalipto (15.8 MJ/kg)
-4. Casca de Amendoin (17.1 MJ/kg)
-5. Eucaliptus Virgem (15.8 MJ/kg)
-6. Pinus Virgem (18.8 MJ/kg)
-
-### Fatores GWP (AR6 IPCC 2021)
-- CO₂ Fóssil: 1.0
-- CH₄ Fóssil: 29.8
-- CH₄ Biogênico: 27.2
-- N₂O: 273.0
-
-### Veículos
-- Caminhão Toco/Semipesado: 0.062 kg CO₂eq/t.km
-- Carreta/Pesado: 0.062 kg CO₂eq/t.km
-- VUC: 0.089 kg CO₂eq/t.km
-- Trem: 0.022 kg CO₂eq/t.km
-
-## Desenvolvimento
-
-### Adicionar novas biomassas
-
-Edite `scripts/data_source.py` e adicione na lista `BIOMASS_PROPERTIES_DATA`:
-
-```python
-{
-    "biomass_name": "Nova Biomassa",
-    "pci_mj_kg": 16.5,
-    "combustion_emission": 0.0
-}
-```
-
-Execute novamente: `python scripts/seed_database.py`
-
-### Ajustar fórmulas de cálculo
-
-Edite `app/services/calculation_service.py` e modifique os métodos de cálculo.
-
-## Licença
-
-Este projeto foi desenvolvido para a Chamada CNPq nº 26/2021 - 401237/2022-2.
-
-## Autores
-
-Desenvolvido para o projeto BioCalc - UFSCar
-
-## Suporte
-
-Para dúvidas ou problemas:
-1. Verifique a documentação da API em `/docs`
-2. Consulte os logs do servidor
-3. Revise as configurações do `.env`
-4. Verifique a conexão com o PostgreSQL
+- [Docker](https://docs.docker.com/get-docker/) 20.10+
+- [Docker Compose](https://docs.docker.com/compose/install/) 1.29+
 
 ---
 
-**Status**: Backend funcional e pronto para integração com o frontend!
+## Estrutura Docker
+
+### Serviços
+
+O `docker-compose.yml` define 2 serviços:
+
+#### 1. Database (PostgreSQL)
+- **Image**: `postgres:15-alpine`
+- **Container**: `biocalc_db`
+- **Porta**: `5432:5432`
+- **Volume**: `postgres_data` (persistência dos dados)
+- **Healthcheck**: Verifica se o banco está pronto
+
+#### 2. API (FastAPI)
+- **Build**: Dockerfile local
+- **Container**: `biocalc_api`
+- **Porta**: `8000:8000`
+- **Depende de**: Database (aguarda healthcheck)
+- **Auto-reload**: Código sincronizado com volume
+
+### Variáveis de Ambiente
+
+O docker-compose usa as seguintes variáveis:
+
+```yaml
+DATABASE_URL: postgresql://biocalc_user:biocalc_password@db:5432/biocalc_db
+SECRET_KEY: ${SECRET_KEY:-change-this-secret-key-in-production}
+ALGORITHM: HS256
+ACCESS_TOKEN_EXPIRE_MINUTES: 30
+CORS_ORIGINS: '["http://localhost:5173","http://localhost:3000"]'
+DEBUG: ${DEBUG:-True}
+```
+
+---
+
+## Comandos Úteis
+
+### Iniciar containers
+
+```bash
+docker-compose up -d
+```
+
+### Ver logs
+
+```bash
+# Todos os serviços
+docker-compose logs -f
+
+# Apenas API
+docker-compose logs -f api
+
+# Apenas Database
+docker-compose logs -f db
+```
+
+### Parar containers
+
+```bash
+docker-compose stop
+```
+
+### Parar e remover containers
+
+```bash
+docker-compose down
+```
+
+### Parar e remover containers + volumes (apaga banco de dados)
+
+```bash
+docker-compose down -v
+```
+
+### Reconstruir imagens
+
+```bash
+docker-compose build --no-cache
+docker-compose up -d
+```
+
+### Acessar shell do container da API
+
+```bash
+docker exec -it biocalc_api sh
+```
+
+### Acessar PostgreSQL
+
+```bash
+docker exec -it biocalc_db psql -U biocalc_user -d biocalc_db
+```
+
+---
+
+## Desenvolvimento com Docker
+
+### Hot Reload
+
+O código fonte está montado como volume, então mudanças no código local são refletidas automaticamente no container (uvicorn com `--reload`).
+
+```yaml
+volumes:
+  - ./app:/app/app
+  - ./scripts:/app/scripts
+```
+
+### Popular banco de dados novamente
+
+```bash
+docker exec -it biocalc_api python scripts/seed_database.py
+```
+
+### Executar testes dentro do container
+
+```bash
+docker exec -it biocalc_api pytest
+```
+
+---
+
+## Variáveis de Ambiente Customizadas
+
+Crie um arquivo `.env` na raiz do projeto:
+
+```env
+SECRET_KEY=sua-chave-secreta-super-segura
+DEBUG=False
+```
+
+O docker-compose usará automaticamente essas variáveis.
+
+---
+
+## Troubleshooting
+
+### Porta 5432 já está em uso
+
+Se você tem PostgreSQL rodando localmente:
+
+```bash
+# Opção 1: Parar PostgreSQL local
+sudo systemctl stop postgresql
+
+# Opção 2: Mudar a porta no docker-compose.yml
+ports:
+  - "5433:5432"  # Usar 5433 no host
+```
+
+### Porta 8000 já está em uso
+
+```bash
+# Mudar a porta no docker-compose.yml
+ports:
+  - "8001:8000"  # Usar 8001 no host
+```
+
+### Container da API não inicia
+
+```bash
+# Ver logs detalhados
+docker-compose logs api
+
+# Reconstruir imagem
+docker-compose build --no-cache api
+docker-compose up -d
+```
+
+### Banco de dados não popula
+
+```bash
+# Popular manualmente
+docker exec -it biocalc_api python scripts/seed_database.py
+
+# Verificar dados
+docker exec -it biocalc_api python scripts/verify_seed.py
+```
+
+### Limpar tudo e recomeçar
+
+```bash
+docker-compose down -v
+docker-compose build --no-cache
+docker-compose up -d
+```
+
+---
+
+## Produção
+
+### Usar SECRET_KEY segura
+
+```bash
+# Gerar chave
+python -c "import secrets; print(secrets.token_urlsafe(32))"
+
+# Adicionar ao .env
+echo "SECRET_KEY=sua_chave_gerada" > .env
+```
+
+### Desabilitar DEBUG
+
+```env
+DEBUG=False
+```
+
+### Remover volume de código fonte
+
+Edite `docker-compose.yml` e remova:
+
+```yaml
+volumes:
+  - ./app:/app/app  # Remover esta linha
+  - ./scripts:/app/scripts  # Remover esta linha
+```
+
+### Usar proxy reverso (Nginx)
+
+```nginx
+server {
+    listen 80;
+    server_name api.exemplo.com;
+
+    location / {
+        proxy_pass http://localhost:8000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+}
+```
+
+---
+
+## Mais Informações
+
+- **API Documentation**: Consulte o [README.md](README.md) principal
+- **Endpoints e Uso**: Veja [docs/API_STEPS_GUIDE.md](docs/API_STEPS_GUIDE.md)
+- **Estrutura da Planilha**: Confira [docs/ESTRUTURA_PLANILHA.md](docs/ESTRUTURA_PLANILHA.md)
