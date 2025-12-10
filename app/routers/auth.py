@@ -102,3 +102,11 @@ def login(
 def get_current_user_info(current_user: User = Depends(get_current_user)):
     """Get current user information"""
     return current_user
+
+@router.post("/logout", status_code=status.HTTP_200_OK)
+def logout(current_user: User = Depends(get_current_user)):
+    """Logout user (client-side token removal)"""
+    return {
+        "message": "Successfully logged out",
+        "user": current_user.email
+    }
